@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+
+<assemblage audience="instructor"><title>Overview</title>
+<p>In this Lesson we introduce the basic notation and terminology for functions. Students have already seen many examples of functions in their study of linear and quadratic equations, so point out that this lesson is more about a new language than about new ideas.</p>
+
+<p>This might be a good time to review the process of reading the Lesson. Ask students to bring their textbook to class, and go over the reading with them. Point out the sub-heads for each section, and the summary boxes. Go over the Reading Questions and each Exercise with the class. There will probably be some confusion about whether a table represents a function: is it allowed to have two different inputs with the same output?</p>
+
+<p>Then go over Activity 2. You could ask the class to hand in either or both of Activities 1 and 3, perhaps as a group project. Students usually find this material relatively easy after the units on quadratic models.</p>
+
+<p>GOALS</p>
+  <p><ul>
+    <li><p>Recognizing functions</p></li>
+    <li><p>Evaluating functions defined by tables, graphs, or equations</p></li> 
+    <li><p>Using function notation</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-1-2-1"><title>Epidemics</title>
+
+<introduction><p>A contagious disease whose spread is unchecked can devastate a confined population. For example, in the early sixteenth century Spanish troops introduced smallpox into the Aztec population in Central America, and the resulting epidemic contributed significantly to the fall of Montezuma's empire.</p>
+  
+  <p>Suppose that an outbreak of cholera follows severe flooding in an isolated town of 5000 people. Initially (on Day 1), 40 people are infected. Every day after that, 25% of those still healthy fall ill.</p></introduction>
+
+<p><ol marker="a.">
+  <li><sidebyside><stack><p>At the start of the second day (Day 2), how many people are still healthy?</p>    
+    <p>How many fall ill during Day 2?</p>  
+    <p>What is the total number of people infected at the end of Day 2?</p>    
+    <p>How many people are still healthy at the end of Day 2?</p>
+  <p>Record your answers in the table.</p></stack>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Day</cell>
+                    <cell><line>New</line> <line>Patients</line></cell>
+                    <cell><line>Total</line> <line>Infected</line></cell>
+                    <cell><line>Number</line> <line>Healthy</line></cell></row>
+                <row><cell>1</cell>
+                    <cell>40</cell>
+                    <cell>40</cell>
+                    <cell>4960</cell></row>
+                <row><cell>2</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>3</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>4</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>5</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>6</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>7</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>8</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>9</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>10</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></sidebyside>
+
+            <aside component="instructor"><p>1(a). You may need to get students started filling in the table correctly.</p></aside></li>
+
+  <li><p>Fill in the rest of the table for ten days. Round off decimal results to the nearest whole number.</p></li>
+  
+  <li><p>Use the third column of the table to plot the total number of infected residents, <m>I</m>, against time, <m>t</m>. Connect your data points with a smooth curve.</p>
+    <image source="act-5-1-1.png" width="50%"><description>grid [0,15]x[0,5000]</description></image>
+
+        <aside audience="instructor"><p>Check students' graphs before going over the remaining questions. A few arithmetic mistakes can make for very inaccurate graphs! The class usually finds the questions easy once their graphs are correct.</p></aside></li>
+  
+  <li><p>Do the values of <m>I</m> approach some largest value? Draw a dotted horizontal line at that value of <m>I</m>. Will the values of <m>I</m> ever exceed that value? Why or why not?</p></li>
+  
+  <li><p>What is the first day on which at least 50% of the population is infected?</p></li>
+  
+  <li><p>Look back at the table. What is happening to the number of new infected residents each day as time goes on? How is this phenomenon reflected in the graph? How would your graph look if the number of new patients every day were a constant?</p></li>
+  
+  <li><p>Summarize your work: In your own words, describe how the number of residents infected with cholera changes with time.  Include a description of your graph.  Is <m>I</m> a function of <m>t</m>?  Why or why not?</p></li>
+</ol></p>
+</activity>
+
+<activity><title>Function Notation</title>
+
+        <aside component="instructor"><p>When discussing function notation, emphasize that in the equation <m>y=f(x)</m>, <m>f</m> is not a variable, the parentheses in <m>f(x)</m> do not indicate a product, and <m>f(x)</m> is the output variable, or another name for <m>y</m>.</p></aside>
+
+<introduction><p>Data indicate that U.S. women in the 20th century delayed having children longer than their counterparts 50 years before. The table shows <m>P=f(t)</m>, the percent of 20-24 year old women in year <m>t</m> who had not yet had children.</p> 
+
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Year, <m>t</m></cell>
+                    <cell>1960</cell>
+                    <cell>1965</cell>
+                    <cell>1970</cell>
+                    <cell>1975</cell>
+                    <cell>1980</cell>
+                    <cell>1985</cell>
+                    <cell>1990</cell>
+                    <cell>1995</cell>
+                    <cell>2000</cell></row>
+                <row><cell>% of Women, <m>P</m></cell>
+                    <cell>47.5</cell>
+                    <cell>51.4</cell>
+                    <cell>47.0</cell>
+                    <cell>62.5</cell>
+                    <cell>66.2</cell>
+                    <cell>67.7</cell>
+                    <cell>68.3</cell>
+                    <cell>65.5</cell>
+                    <cell>66.0</cell></row>
+            </tabular></introduction>
+
+<p><ol marker="a.">
+<li><p>How does the table support the assumption that <m>P</m> is a function of<m>t</m>? Does this assumption make sense for the context of the problem?</p></li>
+
+<li><p>Evaluate <m>f(1985)</m> and explain what it means.</p></li>
+
+<li><p>Estimate a solution to the equation <m>f(t)=68</m> and explain what it means.</p>
+
+        <aside audience="instructor"><p>You may need to explain that there can be several ways to "estimate" an answer.</p></aside></li>
+
+<li><p>In 1997, 64.9% of 20-24 year old women had not yet had children. Write an equation with function notation that states this fact.</p></li>
+</ol></p>
+</activity>
+
+<activity><title>Functions and Graphs</title>
+
+<introduction><p>The table shows data obtained while heating a solid sample of stearic acid, a waxy solid used in making candles, soap, and some plastics.  Heat was applied at a constant rate throughout the experiment. </p>
+
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Time (min)</cell>
+                    <cell>0</cell>
+                    <cell>0.5</cell>
+                    <cell>1</cell>
+                    <cell>1.5</cell>
+                    <cell>2</cell>
+                    <cell>2.5</cell>
+                    <cell>3</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell>6</cell>
+                    <cell>7</cell>
+                    <cell>8</cell>
+                    <cell>8.5</cell>
+                    <cell>9</cell>
+                    <cell>9.5</cell>
+                    <cell>10</cell></row>
+                <row><cell>Temp (<m>\degree</m>C)</cell>
+                    <cell>19</cell>
+                    <cell>29</cell>
+                    <cell>40</cell>
+                    <cell>48</cell>
+                    <cell>53</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>64</cell>
+                    <cell>70</cell>
+                    <cell>73</cell>
+                    <cell>74</cell></row>
+            </tabular></introduction>
+
+<p><ol marker="a.">
+<li><p>Plot the data with time on the horizontal axis and temperature on the vertical axis. Is temperature a function of time?  Why or why not?</p>
+      <image source="act-5-1-2.png" width="40%"><description>grid [0,10]x[0,75]</description></image></li>
+
+<li><p>Choose variables and use function notation to state that temperature is a function of time.  Label the axes on your graph.</p></li>
+  
+<li><p>Is temperature a linear function of time?  Why or why not?  Describe the temperature as a function of time.</p></li>
+  
+<li><p>Energy (in the form of heat) is required to raise the temperature of a substance, and it is also needed to melt a solid substance to a liquid.  By analyzing the graph, what do you think is the melting point of stearic acid?  How long did it take the sample to melt?</p>
+
+    <aside audience="instructor"> <p>To help them answer this question, remind students to read the problem again.</p></aside></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>In Activity 1, what is the input variable, and what is the output variable?</p></li>                            
+    <li><p>In Activity 2, can you find a formula for <m>P</m> in terms of <m>t</m>? Does this mean that <m>P</m> is not a function of <m>t</m>?  Why or why not?</p></li>
+    <li><p>In Activity 3, is time a function of temperature?  Why or why not?</p></li>
+    <li><p>In Activity 3, how can you estimate the temperature of the sample at times not listed in the table?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>How would you know if a table of values does not come from a function?</p></li>
+    <li><p>What does it mean to evaluate a function?</p></li>
+    <li><p>Do linear equations <m>y=mx+b</m> and quadratic equations <m>y=ax^2+bx+c</m> define functions? Why or why not?</p></li>
+    <li><p>Give an example of a function in which two distinct values of the independent variable correspond to the same value of the dependent variable.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>What distinguishes a function from other variable relationships?</p>
+    <p><ol marker="a.">
+        <li>The variables are related by a formula.</li>
+        <li>The values of the input and output variables must be different.</li>
+        <li>There cannot be two output values for a single input value.</li>
+        <li>There cannot be two input values for a single output value.</li>
+        </ol></p></li>
+    <li><p>Use function notation to write the statement "<m>L</m> defines <m>w</m> as a function of <m>p</m>."</p>
+    <p><ol marker="a.">
+        <li><m>L=w(p)</m></li>    
+        <li><m>w=L(p)</m></li>
+        <li><m>p=L(w)</m></li>    
+        <li><m>L=p(w)</m></li>
+        </ol></p></li>
+    <li><p>Name three ways to describe a function.</p>
+    <p><ol marker="a.">
+        <li>By inputs, outputs, or evaluation</li>
+        <li>By tables, equations, or graphs</li>
+        <li>By the intercepts, the slope, or the vertex</li>
+        <li>By numbers, letters, or diagrams</li>
+        </ol></p></li>
+    <li><p>If <m>n=f(a)</m>, what are the input and output variables?</p>
+    <p><ol marker="a.">
+        <li><m>f</m> is the output and <m>n</m> is the input.</li>
+        <li><m>a</m> is the output and <m>f</m> is the input.</li>
+        <li><m>a</m> is the output and <m>n</m> is the input.</li>
+        <li><m>f(a)</m> is the output and <m>n</m> is the input.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+    
+
+
+</section>

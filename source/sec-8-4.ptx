@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inequalities in Two Variables</title>
+
+<assemblage component="instructor"><p>In this lesson we graph the solutions to linear inequalities in two variables, and to systems of linear inequalities. We also find the vertices of the solution set. These skills are used when solving two-dimensional optimization problems subject to a set of constraints.</p>
+<p>Begin by reviewing how to graph the solution set of a single linear inequality.</p>
+
+<p>GOALS</p>
+<p><ul>
+  <li><p>Graph the solution set for an inequality in two variables</p></li>    
+  <li><p>Graph the solution set for a system of inequalities</p></li>
+  <li><p>Find the vertices of the solution set</p></li>
+</ul></p></assemblage>
+
+<activity><title> Graphing a Linear Inequality</title>
+
+<introduction><p>Graph the solutions to the linear inequality    
+      <me>3x - y \le -2</me></p>
+      
+      <aside component="instructor"><p>Begin by asking the class:  How is an inequality in two variables different from an equation? How are the solutions different? How are their graphs different? (Remember that a graph is just a picture of all the solutions.)</p></aside>
+  
+  <p>The first step is to graph the equation <m>3x - y = -2</m>. This line will be the boundary line for the solution set.</p></introduction>
+
+<p><ol marker="a.">
+  <li><p>Write the equation <m>3x - y = -2</m> in slope-intercept form.</p></li>
+
+  <li><sidebyside widths="40% 50%"><stack>
+    <p>Use the slope-intercept method to graph the line.</p>
+    <p><m>b = </m></p>
+    <p><m>m = \dfrac{\Delta y}{\Delta x} = </m></p></stack>
+    <image source="act-2-5-2.png"><description>10x10 grid</description></image></sidebyside></li>
+
+  <li><p>Next, use a test point to locate the solutions of the inequality. (We can use any point for a test point, as long as it does not lie on the line!) We'll use <m>(1,4)</m>. Label this point on your graph. Use algebra to decide whether <m>(1,4)</m> is a solution of the inequality <m>3x - y \le -2</m>.</p></li>
+
+  <li><p>Which side of the line includes all the solutions of the inequality? Shade that side of the line. Is the line itself included in the solution set?</p>
+
+        <aside component="instructor"><p>1d. Try to make sure students understand that all the solutions lie on one side of the boundary line.</p></aside></li>
+
+  <li><p>Can you suggest an easier test point instead of <m>(1,4)</m>?</p></li>
+
+  <li><p>Graph the solutions to each inequality. (How do you know whether to make your boundary line solid or dashed?)</p>
+    <sidebyside widths="50% 50%">
+    <stack><p>1. <m>~~y - 3x \lt 6</m></p>
+    <p></p>
+    <image source="act-2-5-2.png"><description>10x10 grid</description></image></stack>
+  
+    <stack><p>2. <m>~~y \gt \dfrac{-3}{2} x</m></p>
+    <image source="act-2-5-2.png"><description>10x10 grid</description></image></stack></sidebyside></li>
+</ol></p>
+</activity>
+
+<activity><title>Systems of Inequalities</title>
+
+<introduction><p>To graph the solution set of a system, graph each inequality separately, one at a time. Shade each solution region lightly (or use different colors) so that you can see their intersection.</p></introduction>
+
+      <aside component="instructor"><p>It's important for students to complete the graph of each inequality in the system separately, before going on to the next one. Have students number the inequalities and label each boundary line with its number.</p></aside>
+ 
+<p><ol marker="a."> 
+  <li><sidebyside widths="50% 50%"><p>Graph each inequality in the system:
+    <md><mrow>5x + 4y \lt 40</mrow>
+        <mrow>-3x + 4y \lt 12</mrow>
+        <mrow>x \lt 6,~ y \gt 2</mrow></md></p>
+    <image source="act-2-5-2.png"><description>Grid [-5,10]x[0,15]</description></image></sidebyside>
+    <sidebyside widths="45% 45%"><stack><p>Inequality 1: <m>~~5x + 4y \lt 40</m></p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>y</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular>
+            <p> Test Point:</p></stack>
+    <stack><p>Inequality 2: <m>~~-3x + 4y \lt 12</m></p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>y</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular>
+            <p> Test Point:</p></stack></sidebyside>
+    <sidebyside widths="45% 45%"><stack><p>Inequality 3: <m>~~x \lt 6</m></p>
+          <p>Remember that <m>x=6</m> is a vertical line. Which side should you shade?</p></stack>
+  <stack><p>Inequality 4: <m>~~y \gt 2</m></p>
+          <p>Remember that <m>y=2</m> is a horizontal line. Which side should you shade?</p></stack>
+  </sidebyside></li>
+
+<li><p>Outline the intersection of the four solution sets. Draw dots at the vertices, or corners, of the intersection region. (There are four vertices.)</p></li>
+</ol></p>
+</activity>
+
+<activity><title>Finding the Vertices</title>
+
+<p><ol marker="a.">
+  <li><p>Use a system of equations to find the coordinates of each of the vertices of the solution set in Activity 2.</p>
+        <aside component="instructor"><p>3a. If students numbered the boundary lines in Activity 1, now they can identify quickly which pair of equations yields each vertex.</p></aside> 
+
+    <p>Intersection of Line 1 and Line 2:</p>
+
+    <p>Intersection of Line 1 and Line 3:</p>
+
+    <p>Intersection of Line 2 and Line 4:</p>
+
+    <p>Intersection of Line 3 and Line 4:</p>
+        <aside component="instructor"><p>3a. You may be surprised that many students cannot tell you how to find the intersection point of two lines.</p></aside></li>    
+
+  <li><sidebyside widths="40% 50%"><p>Graph the solutions to the system of inequalities, and find the vertices of the solution set.
+      <md><mrow>2y-x \lt 2</mrow>
+        <mrow>x+y \le 4</mrow></md></p>
+      <image source="act-2-5-2.png"><description>10x10 grid</description>></image></sidebyside></li>
+
+  <li><sidebyside widths="40% 50%"><p>Graph the solutions to the system of inequalities, and find the vertices of the solution set.
+      <md><mrow>2y+3x \ge 6</mrow>
+        <mrow>2y+x \le 10</mrow>
+        <mrow>x \ge 0,~~y \ge 0</mrow></md></p>
+      <image source="act-2-5-2.png"><description>10x10 grid</description></image></sidebyside>
+  <p>How do the last two inequalities affect the solution set?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>When do we include the boundary line when graphing the solutions of an inequality in two variables?</p></li>
+    <li><p>When is it wrong to use <m>(0,0)</m> as a test point? What should you do instead?</p></li>
+    <li><p>What does the word "vertex" mean for a system of inequalities?</p></li>
+    <li><p>What portion of the Cartesian plane is described by the inequalities <m>x \gt 0</m> and <m>y \gt 0</m>?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>What is the difference between the graphs of an equation in two variables and an inequality in two variables?</p></li>
+    <li><p>Why do we shade the intersection of the solution sets when solving a system of inequalities?</p></li>
+    <li><p>How do we find the vertices of a solution set for a system of inequalities?</p></li>
+    <li><p>Give three different ways we have used the word "vertex" in this course, and provide a sketch illustrating each meaning.</p></li>
+</ol></p></assemblage>  
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>The solutions of <m>x \gt -4</m> all lie to which side of the boundary line?</p>
+    <p><ol marker="a.">
+        <li>Above</li>    
+        <li>Below</li>
+        <li>To the left</li>  
+        <li>To the right</li>
+    </ol></p></li>
+    <li><p>Which point would not be a good test point for the inequality <m>y \le \dfrac{2x}{3}</m> ?</p>
+    <p><ol marker="a.">
+        <li><m>(0,0)</m></li>
+        <li><m>(1,1)</m></li>
+        <li><m>(2,3)</m>.</li>
+        <li><m>(-1,-1)</m></li>
+    </ol></p></li>
+    <li><p>To find the vertices of the solution set for a system of inequalities, we </p>
+    <p><ol marker="a.">
+        <li>use a test point.</li> 
+        <li>use a system of inequalities.</li>
+        <li>solve a system of equations.</li>
+        <li>find the <m>x</m>-intercepts.</li>
+    </ol></p></li>
+    <li><p>The first quadrant includes all the solutions of</p>
+    <p><ol marker="a.">
+        <li><m>x+y \gt 0</m>.</li>
+        <li><m>x-y \gt 0</m>.</li>
+        <li><m>xy \gt 0</m>.</li>
+        <li><m>x \gt 0</m>, <m>~y \gt 0</m>.</li>
+      </ol></p></li>
+</ol></p></assemblage>  
+
+</section>

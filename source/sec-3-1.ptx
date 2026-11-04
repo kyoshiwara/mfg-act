@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Variation</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we consider direct and inverse variation, as a precursor to the later study of power functions.  We consider how to identify different forms of variation from a table, a graph, or an equation, and how to model applications with variation equations. </p>
+
+<p>There are more Activities than usual in this Lesson, althought they are short. (For example, you could have the class complete Activities 1, 4, and 7 orally.) It would be nice if you can spend two days on the Lesson, but if not you might want to select just some of them for the class.  </p>
+
+<p>As you work through the Activities, keep a record on the blackboard listing the properties of direct variation, direct variation with a power (for this course, the power is almost always two or at most three), and inverse variation. Include how to recognize variation from a table of values, the form of the equation, and the shape of the graph.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Recognize direct and inverse variation from a table of values</p></li>
+<li><p>Find the constant of variation and write an equation for the function</p></li> 
+<li><p>Sketch the graph of a direct or inverse variation</p></li> 
+<li><p>Use scaling in direct or inverse variation</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-3-1-1"><title>Constant of Variation</title>
+
+<p>Complete the statements about direct variation.</p>
+  <p><ul>  
+    <li><p>Definition: <m>y</m> is proportional to <m>x</m>, or varies directly with <m>x</m>, if the ratio <m>\dfrac{y}{x}</m>
+        is  <fillin/> .</p></li>                               
+    <li><p>From this fact we can write a formula for <m>y</m> in terms of <m>x</m>: <fillin/> .</p></li>                       
+    <li><p>The graph of a direct variation is <fillin/> .</p></li> 
+    <li><p>The constant of variation is just the <fillin/> of the graph.</p></li>
+</ul></p>
+</activity>
+
+<activity xml:id="act-3-1-2"><title>Tax Rate</title>
+  
+<introduction><p>Delbert's credit card statement lists three purchases he made while on a business trip in the Midwest. His company's accountant would like to know the sales tax rate on the purchases.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Price of Item ($)</cell>
+                    <cell>18</cell>
+                    <cell>28</cell>
+                    <cell>12</cell></row>
+                <row><cell>Tax ($)</cell>
+                    <cell>1.17</cell>
+                    <cell>1.82</cell>
+                    <cell>0.78</cell></row>
+                <row><cell>Tax/Price</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+        </tabular></introduction>
+
+<p><ol marker="a.">
+    <li><p>Compute the ratio of the tax to the price of each item. Is the tax proportional to the price? What is the tax rate?</p>  
+            <aside component="instructor"><p>1(a) Point out that the constant of variation is just the constant <m>\dfrac{T}{p}</m>, which is also the slope of the graph.</p></aside></li>
+ 
+    <li><p>Express the tax, <m>T</m>, as a function of the price, <m>p</m>, of the item.</p></li>
+  
+    <li><p>Sketch a graph of the function.</p>
+            <image source="act-5-4-1.png" width="55%"><description>grid [0,30]x[0,2]</description></image></li>
+  
+    <li><p>What is the slope of the graph?</p></li>
+
+    <li><p>Look back at your work above to answer the questions.</p>
+        <p>How can you recognize a direct variation from a table of values?</p>
+        <p>How can you find the constant of variation?</p>
+                <aside component="instructor"><p>1(e) At this point you might give a general strategy for direct variation problems in three steps:</p>
+                    <p><ol>
+                        <li><p>Find the constant of variation.</p></li>
+                        <li><p>Write a fromula for the function.</p></li>
+                        <li><p>Use the formula to answer the questions.</p></li>
+                    </ol></p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-1-3"><title>Weight on the Moon</title>
+
+<introduction><p>The weight of an object on the moon varies directly with its weight on earth. A person who weighs 150 pounds on earth would weigh only 24.75 pounds on the moon.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Find a formula that gives the weight <m>m</m> of an object on the moon in terms of its weight <m>w</m> on earth.</p></li>
+    <li><p>Complete the table.</p>  
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>w</m></cell>
+                    <cell>100</cell>
+                    <cell>150</cell>
+                    <cell>200</cell>
+                    <cell>400</cell></row>
+                <row><cell><m>m</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+        </tabular></li>
+  
+  <li><p>Use technology to graph your function. Make a sketch of the graph and label the scales on the axes.</p></li>
+  <li><p>How much would a person weigh on the moon if she weighs 120 pounds on earth? Label the corresponding point on your graph.</p></li>
+  <li><p>A piece of rock weighs 50 pounds on the moon. How much will it weigh back on earth? Label the corresponding point on your graph.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-1-4"><title>Direct Variation with a Power</title>
+
+<p>Complete the statements about direct variation.</p>
+  <p><ul>  
+        <li><p>The formula for direct variation with a power is  <fillin/> .</p></li>                                    
+        <li><p>From that formula, we see that the ratio <fillin/> is constant.</p></li>
+        <li><p>The graph of a direct variation always passes through <fillin/>. </p></li>
+</ul></p>
+</activity>                         
+
+<activity xml:id="act-3-1-5"><title>Acceleration</title>
+
+<introduction><p>At constant acceleration from rest, the distance traveled by a racecar is proportional to the square of the time elapsed. The highest recorded road-tested acceleration is 0 to 60 miles per hour in 3.07 seconds, which produces the following data.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Time (seconds)</cell>
+                    <cell>2</cell>
+                    <cell>2.5</cell>
+                    <cell>3</cell></row>
+                <row><cell>Distance (feet)</cell>
+                    <cell>57.32</cell>
+                    <cell>89.563</cell>
+                    <cell>128.97</cell></row>
+                <row><cell>Distance/Time<m>^2</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+        </tabular></introduction>
+  <p><ol marker="a.">
+    <li><p>Compute the ratios of the distance traveled to the square of the time elapsed. What is the constant of proportionality?</p>
+                <aside component="instructor"><p>3(a) Point out that a slight discrepancy in the value of <m>k</m> can be explained by round-off error.</p></aside></li>
+
+    <li><p>Express the distance traveled, <m>d</m>, as a function of time in seconds, <m>t</m>.</p></li>
+  
+    <li><p>Sketch a graph of the function.</p>
+          <image source="act-5-4-2.png" width="40%"><description>grid [0,4]x[0,150]</description></image></li>
+
+    <li><p>Look back at your work above to answer the questions.</p>
+        <p>In part (a), you computed the ratio <m>\dfrac{d}{t^2}</m> (not the ratio <m>\dfrac{d}{t}</m>). Why?</p>
+        <p>What sort of graph do you get for the function?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-1-6"><title>Stopping Distance</title>
+
+<introduction><sidebyside widths="50% 40%" valigns="middle middle"><p>The faster a car moves, the more difficult it is to stop. The graph shows the distance, <m>d</m>, required to stop a car as a function of its velocity, <m>v</m>, before the brakes were applied.</p>
+    <image source="act-5-4-3.png" width="45%"><description>half of parabola on [0,50]x[0,15] through (20,2)</description></image></sidebyside></introduction>
+                <aside component="instructor"><p>Values of the variables are not given, but can be read from the graph.</p></aside>
+
+<p><ol marker="a.">
+    <li><p>Find a formula for <m>d</m> as a function of <m>v</m>. Hints:</p>    
+        <p><ul>
+            <li><p>How do you know from the graph that <m>d=kv^2</m> (instead of <m>d=kv</m>) ?</p></li>
+            <li><p>Use a point on the graph to find the value of <m>k</m>, and then write the formula.</p></li>
+        </ul></p></li>
+
+    <li><p>How fast was the car moving if it took 50 meters to stop?</p></li>
+
+    <li><p>What is the stopping distance for a car moving at 100 kilometers per hour?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-1-7"><title>Inverse Variation</title>
+
+<p>Complete the statements about inverse variation.</p>
+<p><ul>  
+  <li><p>The formula for inverse variation is <fillin/> .</p></li>                          
+  <li><p>An inverse variation is an example of a  <fillin/> function.</p></li>
+  <li><p>The graph of an inverse variation has a  <fillin/> at <m>x=0</m> .</p></li>
+  <li><p>If <m>y</m> varies inversely with <m>x</m>, so that <m>y=\dfrac{k}{x}</m>, what is true about the product of the variables?</p></li>
+</ul></p>
+</activity>
+
+<activity xml:id="act-3-1-8"><title>Wrapping Paper</title>
+
+<introduction><p>The marketing department for a paper company is testing wrapping paper rolls in various dimensions to see which shape consumers prefer. All the rolls contain the same amount of wrapping paper.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Width (feet)</cell>
+                    <cell>2</cell>
+                    <cell>2.5</cell>
+                    <cell>3</cell></row>
+                <row><cell>Length (feet)</cell>
+                    <cell>12</cell>
+                    <cell>9.6</cell>
+                    <cell>8</cell></row>
+                <row><cell>Length <m>\cdot</m> Feet</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+    </tabular></introduction>
+            <aside><p>1(a) Point out that not every decreasing function represents inverse variation; we must test for <m>xy=k</m>.</p></aside>
+
+<p><ol marker="a.">
+    <li><p>Compute the product of the length and width for each roll of wrapping paper. What is the constant of inverse proportionality?</p></li>
+
+    <li><p>Express the length, <m>L</m> of the paper as a function of the width, <m>w</m> of the roll.</p></li>
+
+    <li><p>Sketch a graph of the function. Which basic graph does your answer resemble?</p>
+      <image source="act-5-5-1.png" width="35%"><description>grid [0,8]x[0,20]</description></image>
+            <aside component="instructor"><p>1(c) Point out that in direct variation, the graph passes through the origin, but in inverse variation the function is undefined at <m>x=0</m>. The graph has both a vertical and a horizontal asymptote.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-1-9"><title>Ocean Temperature</title>
+
+<introduction><p>The thermocline is a layer of ocean water where the temperature changes rapidly. The table shows the temperature of the water as a function of depth in the thermocline. What is the ocean temperature at a depth of 500 meters?</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Depth (m)</cell>
+                    <cell>200</cell>
+                    <cell>400</cell>
+                    <cell>1000</cell></row>
+                <row><cell>Temperature (<m>\degree</m>C)</cell>
+                    <cell>20</cell>
+                    <cell>10</cell>
+                    <cell>4</cell></row>
+    </tabular></introduction>      
+
+<p><ol marker="a.">
+    <li><p>How do you know from the table that this is an inverse variation?</p></li>
+
+    <li><p>Find a formula for <m>T</m>, temperature, in terms of <m>D</m>, depth.</p></li>
+
+    <li><p>What is the ocean temperature at a depth of 500 meters?</p></li>
+</ol></p>
+</activity>
+
+<activity><title>Sunshine</title>
+<introduction><p>The intensity, <m>I</m>, of radiation from the Sun is inversely proportional to the square of the distance, <m>d</m>, from the Sun. Mercury is about 36 million miles from the Sun and receives radiation intensity of approximately 9000 watts per square meter.</p></introduction>
+<p><ol marker="a.">
+    <li><p>Write a formula for <m>I</m> as a function of <m>d</m>.</p></li>
+
+    <li><p>The distance from the Sun to Earth is about three times the distance from the Sun to Mercury. What level of radiation intensity does Earth receive?</p></li>
+
+    <li><p>What happens to the radiation intensity if the distance from the Sun is quadrupled?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>How can you recognize direct or inverse variation from a graph?</p></li>     
+    <li><p>What ratio should you compute to see if <m>y</m> varies directly with <m>x^3</m>?</p></li>
+    <li><p>Is every decreasing function an inverse variation? Explain.</p></li>
+    <li><p>If you double the velocity of a car, will its stopping distance also double?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain why the function <m>f(x)=4x+1</m> is not an example of direct variation.</p></li>
+    <li><p>What does the constant of variation tell you about the graph of the function?</p></li>
+    <li><p>Where is the vertical asymptote in the graph of an inverse variation?</p></li>
+    <li><p>What should you check to see if a decreasing function describes inverse variation?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>When does a table represent direct variation?</p>
+    <p><ol marker="a.">
+        <li>If it has a constant slope</li>
+        <li>If it includes the point <m>(0,0)</m></li>
+        <li>If the ratio output/input is constant</li>
+        <li>If each output is double the previous one</li>
+    </ol></p></li>
+    <li><p>If <m>y</m> varies directly with <m>x</m>, what does the constant of variation tell us?</p>
+    <p><ol marker="a.">
+        <li>The <m>y</m>-intercept of the graph</li>
+        <li>The slope of the graph</li>
+        <li>What happens to <m>y</m> when you double <m>x</m></li>
+        <li>The size of the input values</li>
+    </ol></p></li>
+    <li><p>How can you test whether a table for represents direct variation with a power?</p>
+    <p><ol marker="a.">
+        <li>Plot the points</li>
+        <li>Check whether <m>y^n</m> is a constant</li>
+        <li>Check whether <m>y/x^n</m> is a constant</li>
+        <li>Check whether <m>y^n/x^n</m> is a constant</li>
+    </ol></p></li>
+    <li><p>How can you test whether a table for <m>y=f(x)</m> represents inverse variation?</p>
+        <p><ol marker="a.">
+            <li>Check whether <m>xy</m> is constant</li>
+            <li>Check whether the function is decreasing</li>
+            <li>Check whether <m>y</m> is the reciprocal of <m>y</m></li>
+            <li>Check whether <m>y/x</m> is constant</li>
+        </ol></p></li>
+    <li><p>The graph of an inverse variation has a(n) <fillin/> at <m>x=0</m> .</p>
+        <p><ol marker="a.">
+            <li>intercept</li>
+            <li>solution</li>
+            <li>asymptote</li>
+            <li>minimum</li>
+        </ol></p></li>
+</ol></p></assemblage>
+
+</section>

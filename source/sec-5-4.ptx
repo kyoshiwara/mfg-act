@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logarithmic Scales</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we look at logarithmic scales and their application to scales such as earthquake magnitude. Students should be able to plot and read values on log scales labeled with powers of 10 or with integer values. They should understand that a difference of <m>k</m> units on a log scale corresponds to an increase in magnitude by a factor of <m>10^k</m>.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Plot and read values on a logarithmic scale</p></li>    
+    <li><p>Solve problems involving log scales such as pH, decibels, and the Richter scale</p></li>
+</ul></p></assemblage> 
+
+<activity xml:id="act-5-4-1"><title>Weights of Animals</title>
+
+<p><ol marker="a.">
+<li><p>The table shows the mass, or weights, of different animals. Try to plot all these values on a number line.  Why is that difficult?</p>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Animal</cell>
+                    <cell>Shrew</cell>
+                    <cell>Cat</cell>
+                    <cell>Wolf</cell>
+                    <cell>Horse</cell>
+                    <cell>Elephant</cell>
+                    <cell>Whale</cell></row>
+                <row><cell>Mass (kg)</cell>
+                    <cell>0.004</cell>
+                    <cell>4</cell>
+                    <cell>80</cell>
+                    <cell>300</cell>
+                    <cell>5400</cell>
+                    <cell>70,000</cell></row>
+    </tabular></li>
+  
+  <li><p>Instead, take the log of each animal's weight, then plot those values:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Animal</cell>
+                    <cell>Shrew</cell>
+                    <cell>Cat</cell>
+                    <cell>Wolf</cell>
+                    <cell>Horse</cell>
+                    <cell>Elephant</cell>
+                    <cell>Whale</cell></row>
+                <row><cell>Mass (kg)</cell>
+                    <cell>0.004</cell>
+                    <cell>4</cell>
+                    <cell>80</cell>
+                    <cell>300</cell>
+                    <cell>5400</cell>
+                    <cell>70,000</cell></row>
+                <row><cell>Log (Mass)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular>
+
+    <p>Number line: </p>
+    <p>This type of graph is called a log scale. </p></li>
+
+  <li><p>Consider another table of weights for some hypothetical animals.</p>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Animal</cell>
+                    <cell><m>\hphantom{0}</m></cell>
+                    <cell><m>\hphantom{0}</m></cell>
+                    <cell><m>\hphantom{0}</m></cell>
+                    <cell><m>\hphantom{0}</m></cell>
+                    <cell><m>\hphantom{0}</m></cell></row>
+                <row><cell>Mass (kg)</cell>
+                    <cell>0.6</cell>
+                    <cell>6</cell>
+                    <cell>60</cell>
+                    <cell>600</cell>
+                    <cell>6000</cell></row>
+                <row><cell>Log (Mass)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular>
+
+                <aside component="instructor"><p>1(c) You might have the class use the table feature on the calculator to evaluate <m>\log x</m> for <m>x = 0.06, 0.6, 6, 60, 600</m>, and <m>6000</m>. To reinforce the conclusion, you might list powers of ten and their logs on the board.</p></aside>
+
+    <p>What do you notice about the weights of these four animals?</p>
+    <p>What do you notice about the logs of their weights?</p>
+    <p>Multiplying by a factor of 10 on a normal scale results in  <fillin/>  on a log scale.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-5-4-2"><title>Richter Scale</title>
+ 
+ <introduction><p>On April 30, 1986, an earthquake in Mexico City measured 7.0 on the Richter scale. On September 21 a second earthquake, measuring 8.1, hit Mexico City. How many times stronger was the September quake than the one in April?</p></introduction>
+
+ <p><ol marker="a.">
+    <li><p> Let <m>A_1</m> denote the amplitude of the April quake, with <m>M_1 = 7.0</m>.</p> 
+        <p>Let <m>A_2</m> denote the amplitude of the September quake, with <m>M_2 = 8.1</m></p> 
+
+        <p>Use the formula for the Richter magnitude <m>M = \log_{10} \left(\dfrac{A}{A_0}\right)</m> to calculate <m>A_1</m> and <m>A_2</m> in terms of <m>A_0</m> (the amplitude of the smallest detectable earthquake):</p>
+
+                <aside component="instructor"><p>2(a) Point out that the value of <m>A_0</m> is not needed in the calculation.</p></aside>
+
+        <p>Solve for <m>A_1</m>:  <m>~~~ M_1 = \log_{10} \left(\dfrac{A_1}{A_0}\right)</m></p>
+        <p>Solve for <m>A_2</m>:  <m>~~~ M_2 = \log_{10} \left(\dfrac{A_2}{A_0}\right)</m></p></li>
+
+   <li><p>Finally, compute the ratio <m>~\dfrac{A_2}{A_1}~</m> and answer the question in the problem.</p></li>
+</ol></p>
+ </activity>
+
+ <subsection><title>Checkpoint</title>
+ <p><ol>
+    <li><p>How does a log scale differ from a linear scale?</p></li>
+    <li><p>What happens to the log of a number when you multiply the number by 10?</p></li>
+    <li><p>Why are log scales useful for displaying data?</p></li>
+    <li><p>In Activity 2(a), what is the first step in solving for <m>A_1</m>?</p></li>
+</ol></p></subsection>
+
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>How does a log scale differ from a linear scale?</p></li>
+<li><p>If <m>B=100 A</m>, the difference between <m>A</m> and <m>B</m> on a log scale is 2 units. Use the properties of logarithms to explain why this is true.</p></li>
+<li><p>Explain what negative values on a log scale mean.</p></li>
+<li><p>How much stronger is a magnitude 6 earthquake than a magnitude 3 earthquake? Explain.</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>What is a log scale used for?</p>
+    <p><ol marker="a.">
+        <li>To find the logarithm of a number.</li>
+        <li>To plot data that covers a wide range of values.</li>
+        <li>To highlight the curvature in the graph of an exponential function.</li>
+        <li>To convert logarithms to base 10.</li>
+    </ol></p></li>
+    <li><p>A value of 5682.7 would be plotted between which two integers on a log scale?</p>
+        <p><ol marker="a.">
+        <li>5682 and 5683</li>
+        <li>5000 and 6000</li>
+        <li>5 and 6</li>
+        <li>3 and 4</li>
+    </ol></p></li>
+    <li><p>How much stronger is magnitude 4 earthquake than a magnitude 2 earthquake?</p>
+        <p><ol marker="a.">
+        <li>Twice as strong.</li>
+        <li>Four times as strong.</li>
+        <li>16 times as strong.</li>
+        <li>100 times as strong.</li>
+    </ol></p></li>
+    <li><p>Which statement is false?</p>
+        <p><ol marker="a.">
+        <li>We use log scales to graph a variable that has a wide range of values.</li>
+        <li>On a log scale, we actually plot exponents.</li>
+        <li>Values less than one appear as negative numbers on a log scale.</li>
+        <li>Equal increments on a log scale correspond to equal differences in value.</li>
+    </ol></p></li>
+</ol></p>
+</assemblage>
+
+</section>

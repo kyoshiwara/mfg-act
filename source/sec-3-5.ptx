@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Joint Variation</title>
+
+<assemblage component="instructor">
+<p>This Lesson gives two examples of joint variation and one instance of Simpson's paradox.</p>
+
+<p>Here is another Simpson's paradox problem:</p>
+
+    <p>A college is being investigated for discrimination against women in its acceptance of students in the two graduate programs.  Records show that a much higher percentage of the men who applied for graduate school were accepted than the corresponding percentage of women who applied.  The table shows the number of men and women candidates who were accepted or denied admission into either the English or Engineering program.</p>
+
+    <tabular top="major" halign="center"  right="minor" left="minor" bottom="minor">
+    <col right="major" halign="right"/><col/><col right="major"/><col/><col right="major"/>
+    <row>
+        <cell bottom="none"></cell><cell colspan="2" halign="center">English Department</cell><cell colspan="2" halign="center">Engineering Department</cell></row>
+    <row>
+        <cell></cell>
+        <cell halign="center">Men</cell><cell halign="center">Women</cell><cell halign="center">Men</cell><cell halign="center">Women</cell></row>
+    <row> 
+        <cell>Accepted</cell>
+        <cell><m>5</m></cell>
+        <cell><m>17</m></cell>
+        <cell><m>63</m></cell>
+        <cell><m>5</m></cell></row>
+    <row> 
+        <cell>Denied</cell>
+        <cell><m>20</m></cell>
+        <cell><m>62</m></cell>
+        <cell><m>7</m></cell>
+        <cell><m>0</m></cell>
+    </row>
+</tabular>
+
+<p><ol marker="a.">
+    <li><p>Determine the total number of men who applied to graduate school at this college and the percentage of men who were accepted.</p></li>
+    <li><p>Determine the total number of women who applied to graduate school at this college and the percentage of women who were accepted.</p></li>
+    <li><p>Of the men who applied to the English program, what percentage were accepted?</p></li>
+    <li><p>Of the women who applied to the English program, what percentage were accepted?</p></li>
+    <li><p>Of the men who applied to the Engineering program, what percentage were accepted?</p></li>
+    <li><p>Of the women who applied to the Engineering program, what percentage were accepted?</p></li>
+    <li><p>Did men or women have a better success rate in each department?  Which group had a better success rate overall?</p></li>
+</ol></p>
+
+<p>GOALS</p>
+<p><ul>
+  <li><p>Use function notation for a function of two variables </p></li>
+  <li><p>Find a formula for joint variation</p></li>
+  <li><p>Analyze joint variation by holding one variable constant</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-3-5-1"><title>Insulation</title>
+
+<introduction><p>The cost, <m>C</m>, of insulating the ceiling in a building depends on both the thickness of the insulation and the area of the ceiling. The table shows values of <m>C=f(t,A)</m> in dollars, where <m>t</m> is the thickness of the insulation and <m>A</m> is the area of the ceiling.</p>
+
+<tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row><cell><m>\hphantom{00}</m></cell>
+                    <cell>100</cell>
+                    <cell>200</cell>
+                    <cell>300</cell>
+                    <cell>400</cell>
+                    <cell>500</cell>
+                    <cell>600</cell></row>
+                <row><cell>4</cell>
+                    <cell>72</cell>
+                    <cell>144</cell>
+                    <cell>216</cell>
+                    <cell>288</cell>
+                    <cell>360</cell>
+                    <cell>432</cell></row>
+                <row><cell>5</cell>
+                    <cell>90</cell>
+                    <cell>180</cell>
+                    <cell>270</cell>
+                    <cell>360</cell>
+                    <cell>450</cell>
+                    <cell>540</cell></row>
+                <row><cell>6</cell>
+                    <cell>108</cell>
+                    <cell>216</cell>
+                    <cell>324</cell>
+                    <cell>432</cell>
+                    <cell>540</cell>
+                    <cell>648</cell></row>
+                <row><cell>7</cell>
+                    <cell>126</cell>
+                    <cell>252</cell>
+                    <cell>378</cell>
+                    <cell>504</cell>
+                    <cell>630</cell>
+                    <cell>756</cell></row>
+                <row><cell>8</cell>
+                    <cell>144</cell>
+                    <cell>288</cell>
+                    <cell>432</cell>
+                    <cell>576</cell>
+                    <cell>720</cell>
+                    <cell>864</cell></row>
+                <row><cell>9</cell>
+                    <cell>162</cell>
+                    <cell>324</cell>
+                    <cell>486</cell>
+                    <cell>648</cell>
+                    <cell>810</cell>
+                    <cell>972</cell></row>
+    </tabular></introduction>
+
+<p><ol marker="a.">
+    <li><p>What does it cost to insulate a ceiling with an area of 500 square meters with 5 centimeter thick insulation? Write your answer in function notation.</p></li>
+
+    <li><p>Solve the equation <m>864 = f(t,600)</m>. What does this tell you about insulation?</p>
+
+        <aside><p>You may need to remind students how to find a constant of variation. </p></aside></li>
+
+    <li><p>Consider the row corresponding to a thickness of 4 cm. How does the cost of insulating the ceiling depend on the area of the ceiling?</p></li>
+
+    <li><p>Consider the column corresponding to an area of 100 square meters. How does the cost depend on the thickness of the insulation?</p></li>
+
+    <li><p>The cost varies jointly with the thickness of the insulation and the area of the ceiling. Write a formula for the cost as a function of the area and thickness of insulation.</p></li>
+
+    <li><p>Use your formula from part (e) to determine the cost of insulating a building with 10 centimeter thick insulation if the area of the ceiling is 800 square meters.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-5-2"><title>Kinetic Energy</title>
+
+<introduction><p>The kinetic energy, <m>K</m>, of a moving object varies jointly with the mass, <m>m</m>, and the square of the velocity, <m>v</m>, of the object. A 1.5-kilogram mass moving at 2 meters per second has a kinetic energy of 3 joules.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Write an equation relating the kinetic energy of an object to its mass and velocity.</p></li>
+
+    <li><p>Use your equation to make a table of kinetic energy values for objects of mass 1.0, 1.5, 2.0, and 2.5 kilograms moving at velocities of 10, 20, 30, and 40 meters per second.</p>
+
+          <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell>1.0</cell>
+                    <cell>2.0</cell>
+                    <cell>3.0</cell>
+                    <cell>4.0</cell></row>
+                <row><cell>1.0</cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell></row>
+                <row><cell>1.5</cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell></row>
+                <row><cell>2.0</cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell></row>
+                <row><cell>2.5</cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell></row>
+    </tabular></li>
+
+    <li><p>Sketch a graph of the kinetic energy of an object moving at 3 meters per second as a function of its mass.</p></li>
+
+    <li><p>Sketch a graph of the kinetic energy of a 2-kilogram mass as a function of its velocity.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-5-3"><title>Simpson's Paradox</title>
+
+<introduction><p>A professional baseball player named Joe wants to negotiate a new contract based on the improvement in his batting performance this season compared with last season. Joe is a switch-hitter, that is, he bats both left- and right-handed. The table shows his hitting record according to season and which side he batted. </p></introduction>
+
+<tabular top="major" halign="center"  right="minor" left="minor" bottom="minor">
+    <col right="major" halign="right"/><col/><col right="major"/><col/><col right="major"/>
+    <row>
+        <cell bottom="none"></cell><cell colspan="2" halign="center">Last Season</cell><cell colspan="2" halign="center">This Season</cell></row>
+    <row>
+        <cell></cell>
+        <cell halign="center">Left-handed</cell><cell halign="center">Right-handed</cell><cell halign="center">Left-handed</cell><cell halign="center">Right-handed</cell></row>
+    <row> 
+        <cell>Hits</cell>
+        <cell><m>26</m></cell>
+        <cell><m>55</m></cell>
+        <cell><m>49</m></cell>
+        <cell><m>22</m></cell></row>
+    <row> 
+        <cell>At-Bats</cell>
+        <cell><m>97</m></cell>
+        <cell><m>218</m></cell>
+        <cell><m>190</m></cell>
+        <cell><m>93</m></cell>
+    </row>
+</tabular>
+
+<p><ol marker="a.">
+    <li><p>Determine Joe's total number of at-bats last season and his batting average. Batting average is the fraction of the number of at-bats that result in hits.</p></li>
+
+    <li><p>Determine Joe's total number of at-bats this season and his batting average.</p></li>
+
+    <li><p>What was Joe's left-handed batting average last season?</p></li>
+
+    <li><p>What was Joe's right-handed batting average last season?</p></li>
+
+    <li><p>What is Joe's left-handed batting average this season?</p></li>
+
+    <li><p>What is Joe's right-handed batting average this season?</p></li>
+
+    <li><p>Has Joe's left-handed batting average improved? His right-handed batting average? His overall batting average?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+  <li><p>How did you solve the equation in Activity 1(b)?</p></li>
+  <li><p>What is the value of the constant of variation in Activity 2(a)?</p></li>
+  <li><p>What is the paradox in Activity 3?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+  <li><p>Explain how to make a table of values for a function of two variables.</p></li>
+  <li><p>Look up the definition of Simpson's paradox, and explain how it applies to Activity 3.</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which of the following statements is true about a function of two variables?</p>
+    <p><ol marker="a.">
+        <li>It has one input and two outputs.</li>
+        <li>It has two inputs and one output.</li>
+        <li>It has two inputs and two outputs.</li>
+        <li>None of the above</li>
+    </ol></p></li>
+    <li><p>We can represent a function of two variables by</p>
+    <p><ol marker="a.">
+        <li>a table of values.</li>
+        <li>a graph in three dimensions.</li>
+        <li>several graphs in two dimensions.</li>
+        <li>all of the above.</li>
+    </ol></p></li>
+    <li><p>Which of the following functions represents joint variation, where  is a constant?</p>
+    <p><ol marker="a.">
+        <li><m>H=kst</m></li>
+        <li><m>L=m+kn</m></li>
+        <li><m>Y=kR^2</m></li>
+        <li><m>Z=k(x+y)</m></li>
+    </ol></p></li>
+</ol></p></assemblage>   
+
+</section>

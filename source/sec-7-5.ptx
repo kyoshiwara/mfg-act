@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Equations with Algebraic Fractions</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we solve equations with algebraic fractions both algebraically and graphically, and consider some applications.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Solve equations involving algebraic fractions</p></li>    
+<li><p>Check for extraneous solutions</p></li>
+<li><p>Solve formulas involving algebraic fractions </p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-7-5-1"><title>Proportions</title>
+
+<introduction><p>Recall that a <term>proportion</term> is a type of equation stating that two ratios are equal.</p>  
+<p>To clear the fractions from a proportion, we multiply each side by both denominators.</p>
+
+            <aside component="instructor"><p>We review solving proportions as a special case of multiplying by the LCD.</p></aside></introduction>
+
+<p><ol marker="a.">
+  <li><p>Clear the denominators from the proportion:  <m>~\dfrac{-3}{4} = \dfrac{y-7}{y+14}</m>
+
+    <md><mrow><fillin/> \cdot \dfrac{-3}{4} \amp = \dfrac{y-7}{y+14} \cdot <fillin/></mrow>
+        <mrow>               \amp =                     </mrow></md></p></li>
+
+  <li><p>What is the name of the short-cut for clearing the denominators?</p>
+
+      <p>This short-cut works only for solving proportions -- do not try to use it on any other equations, or any other fraction problems!</p></li>
+
+  <li><p>Solve  <m>~~\dfrac{3}{r} = \dfrac{20}{r-10}</m></p></li>
+
+  <li><p>The Wildlife Commission tags 30 Canada Geese at one of its migratory feeding grounds. When the geese return, the commission captures 45 geese, of which four are tagged. What is the commission's estimate of the number of geese that use the feeding ground?</p>
+
+            <aside component="instructor"><p>This task illustrates a common method for estimating wildlife populations.</p></aside>
+
+      <p>Follow the steps:</p>
+      <p><ol marker="1.">
+          <li><p>Choose a variable:  what is the unknown quantity?</p></li>
+          <li><p>Set up a proportion:  write two ratios, one for the entire population of geese, and one for the captured geese.</p>
+              <p><m>~~~~\dfrac{\text{tagged geese}}{\text{total geese}}:~~<fillin characters="8"/> = <fillin characters="8"/></m></p>
+              <p><m>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\text{(all geese)} ~~~~~~~~~~~~~~~\text{(captured geese)}</m></p></li>
+          <li><p>Solve the proportion and answer the question in a sentence.</p></li>
+        </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-5-2"><title>Graphical Solution</title>
+
+<introduction><p>A florist finds that she will sell <m>\dfrac{300}{x}</m>  dozen roses per week if she charges <m>x</m> dollars for a dozen. Her suppliers will sell her <m>5x-55</m> dozen roses if she sells them at <m>x</m> dollars per dozen.</p></introduction>
+
+<p><ol marker="a.">
+<li><p>Graph the demand function, <m>~D(x) = \dfrac{300}{x}</m>, and the supply function, <m>~S(x) = 5x-55</m>, for <m>0 \le x \le 30</m>.</p>
+<p>Make a sketch of your graph, and label the axes.</p></li>
+
+<li><p>At what equilibrium price, <m>x</m>, will the florist sell all the roses she purchases?</p>
+
+            <aside component="instructor"><p>2(b) The graphical solution helps students visualize the mathematics, but you will need to help them see how the variables appear in the graph.</p></aside></li>
+
+<li><p> Write and solve an equation to verify the equilibrium price.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-5-3"><title>Equations with Fractions</title>
+
+<p><ol marker="a.">
+  <li><p>If an equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the <fillin/> of the fractions.</p></li>
+
+  <li><p>Follow the steps to solve:  <m>~~ \dfrac{2}{x+1} + \dfrac{1}{3x+3} = \dfrac{1}{6}</m></p>
+      <p><ol marker="1.">
+          <li><p>Find the LCD. First factor each denominator.</p>
+          <p><m>~~~x+1 = </m></p>
+          <p><m>~~~3x+3 = </m></p>
+          <p><m>~~~6 = </m></p>
+          <p><m>~~~LCD = </m></p></li>
+
+        <li><p>Multiply each term of the equation by the LCD. If you write each denominator in its factored form, it will be easier to simplify the terms:
+      <md>\blert{\dfrac{6(x+1)}{1}} \cdot \dfrac{2}{x+1} + \dfrac{1}{3(x+1)} \cdot \blert{\dfrac{6(x+1)}{1}} = \dfrac{1}{6} \cdot \blert{\dfrac{6(x+1)}{1}}</md>      </p></li>
+
+        <li><p>Simplify by reducing each term.</p></li>
+
+        <li><p>Solve.</p></li>
+      </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-5-4"><title>Extraneous Solutions</title>
+
+<p><ol marker="a.">
+<li><p>An apparent solution is extraneous if it causes one or more of the denominators in the equation to be <fillin/> .</p></li>
+
+<li><p>Consider the equation  <m>~~ \dfrac{1}{x-1} + \dfrac{2}{x+1} = \dfrac{x-3}{x^2-1}</m></p>
+    <p>Which values of <m>x</m> cause one or more of the denominators to be zero?</p></li>
+
+<li><p>Follow the steps to solve  <m>~~ \dfrac{1}{x-1} + \dfrac{2}{x+1} = \dfrac{x-3}{x^2-1}</m></p>
+    <p><ol marker="1.">
+        <li><p>Find the LCD. First factor each denominator.</p>
+            <p><m>~~~x-1 = </m></p>
+            <p><m>~~~x+1 = </m></p>
+            <p><m>~~~x^2-1 = </m></p>
+            <p><m>~~~LCD = </m></p></li>
+        <li><p>Multiply each term of the equation by the LCD. If you write each denominator in its factored form, it will be easier to simplify the terms:
+                <md>~~\blert{\dfrac{<fillin/>}{1}} \cdot  \dfrac{1}{x-1} + \dfrac{2}{x+1} \cdot \blert{\dfrac{<fillin/>}{1}}= \dfrac{x-3}{x^2-1} \cdot \blert{\dfrac{<fillin/>}{1}}</md></p></li>
+        <li><p>Simplify by reducing each term:</p></li>
+        <li><p>Solve:</p></li>
+        <li><p>Check:  Are any of the solutions extraneous?</p></li>
+    </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-5-5"><title>Solving Formulas</title>
+
+<p>Follow the steps to solve for <m>B</m>: <me>\dfrac{1}{R} = \dfrac{1}{A} +\dfrac{1}{B}</me> </p>
+
+          <aside component="instructor"><p>Emphasize that we should "get the variable out of the denominator" before we can isolate it. (Students sometimes mistakenly solve for <m>\dfrac{1}{B}</m>, somehow thinking they can ignore the 1 in the numerator.)</p></aside>
+    <p><ol marker="1.">
+        <li><p>Find the LCD of all the fractions in the equation.    <m>LCD = </m></p></li>
+        <li><p>Multiply each term by the LCD:    
+                <me>~~\blert{\dfrac{<fillin/>}{1}} \cdot  \dfrac{1}{R} = \dfrac{1}{A} \cdot \blert{\dfrac{<fillin/>}{1}} +\dfrac{1}{B} \cdot \blert{\dfrac{<fillin/>}{1}}</me></p></li>    
+        <li><p>Simplify. </p></li>  
+        <li><p>Get all terms with <m>B</m> on one side.</p></li>
+        <li><p>Now here is the new part:  If you have two terms containing the variable (<m>B</m> in this case), you should factor out the variable:</p></li>
+        <li><p>Finally, solve for <m>B</m>:</p></li>
+    </ol></p>
+</activity>  
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>What is the first step in solving an equation that includes algebraic fractions?</p></li>
+<li><p>If the equation also contains terms without fractions, should you multiply those terms by the LCD?</p></li>
+<li><p>What is an equilibrium price?</p></li>
+<li><p>If you are solving a formula and two or more terms contain the variable you are solving for, what should you do?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>What are extraneous solutions, and when might they occur?</p></li>
+<li><p>If the variable in an equation appears in the denominator of a fraction, what should you do?</p></li>
+<li><p>Explain how "cross-multiplying" is a special case of using an LCD.</p></li>
+<li><p>Explain how to solve an equation graphically.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>A proportion is</p>
+    <p><ol marker="a.">
+        <li>a type of ratio.</li> 
+        <li>a type of algebraic fraction.</li>
+        <li>a type of equation.</li> 
+        <li>a type of word problem.</li>
+    </ol></p></li>
+    <li><p>We can use cross-multiplying to</p>
+    <p><ol marker="a.">
+        <li>solve proportions.</li>
+        <li>add fractions.</li>
+        <li>multiply fractions.</li>
+        <li>do all of these.</li>
+    </ol></p></li>
+    <li><p>When we solve an equation graphically, the solution is</p>
+    <p><ol marker="a.">
+        <li>the intersection point.</li>
+        <li>the <m>x</m>-coordinate of the intersection point.</li>
+        <li>the <m>y</m>-coordinate of the intersection point.</li>
+        <li>possibly extraneous.</li>
+    </ol></p></li>
+    <li><p>Which of these is the correct first step to solve <m>~\dfrac{1}{x} + \dfrac{1}{2x+1} = 2</m>?</p>
+    <p><ol marker="a.">
+        <li><m>x + 2x+1 = \dfrac{1}{2}</m></li>
+        <li><m>2x+1 + x = 2</m></li>
+        <li><m>2x+1 + x = 2x(2x+1)</m></li>
+        <li><m>\dfrac{2z+1}{x(2x+1)} + \dfrac{x}{x(2x+1)} = 2</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

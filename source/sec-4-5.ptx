@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Models</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we consider doubling time and half-life. Try to get students to understand this fundamental difference between linear and exponential functions: while linear functions increase or decrease by equal amounts over equal time intervals, exponential functions increase or decrease by equal factors over equal time intervals. If possible, it is also desirable for students to understand that there is nothing special about the factor 2; it is merely convenient.</p>
+    
+<p>At this point in their study of exponential functions, students begin to confuse the various parameters. Take a few minutes to review some basic definitions: <m>P(t)</m>  is a variable, but <m>P_0</m> is a constant; <m>r</m> is the percent growth rate and <m>b=1+r</m> is the growth factor; and so on.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Find the doubling time or half-life of an exponential function</p></li>    
+    <li><p>Write exponential functions using doubling time and half-life</p></li>
+    <li><p>Find an exponential function to fit two function values.</p></li>
+</ul></p>
+
+</assemblage>
+
+<activity xml:id="act-4-5-1"><title>Doubling-Time</title>  
+
+<p><ol marker="a.">
+<li><p>Lately the inflation rate in Freedonia has been 8% annually. ("Inflation" means that prices are rising by 8% per year.) Write a formula for the price <m>P</m> of a $5 item as a function of time, <m>t</m>.</p></li> 
+
+<li><p>How long will it take for the price to double from $5 to $10? (Round to the nearest year.)</p>
+
+            <aside component="instructor"><p>1(b) Round the the doubling time to 9 years to simplify the sketch in part (c).</p></aside></li>
+
+<li><p>Use technology to graph your function in the window for  <m>0 \le x \le 100</m>, and sketch the curve on the grid.</p>
+        <image source="act-7-5-1.png" width="45%"><description>grid [0,60]x[0,120]</description></image></li>
+
+<li><p>Use your graph to complete the table below. How long will it take the price to double from $10 to $20? From $20 to $40? (Round to the nearest year.)</p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>40</m></cell></row>
+            </tabular></li>
+
+<li><p>Add the horizontal lines <m>~y=10,~y=20~</m> and <m>~y=40~</m> to your graph. Use the intersect feature to verify that the price doubled from $5 to $10, from $10 to $20, and from $20 to $40 in equal periods of time.</p></li>   
+
+<li><p>Use algebra to answer the question:  What is the doubling time, rounded to four decimal places?</p></li>
+
+<li><p>Compound Interest: If <m>P</m> dollars is invested at an annual interest rate <m>r</m> (expressed as a decimal) compounded <m>n</m> times yearly, the balance of the account <m>A</m> after <m>t</m> years is given by  
+      <md>A = P \left( 1 + \dfrac{r}{n} \right)^{nt}</md></p>
+      <aside component="instructor"><p>1(g) You may need to explain that "quarterly" means four time per year.</p></aside>
+
+    <p>If you invest $1000 at 10% compounded quarterly, how long will it take the balance to double?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-5-2"><title>Half-Life</title>  
+
+<introduction><p>The half-life of a radioactive substance is the time it takes for half of the substance to decay.</p></introduction>
+
+<p><ol marker="a.">
+<li><p>Suppose we have 200 grams of a radioactive substance whose half-life is 6 years. Complete the table and sketch a graph.</p>
+    
+    <aside component="instructor"><p>2(a) Use the graph to emphasize that the substance is not completely gone after two half-lives!</p></aside>
+
+  <sidebyside widths="40% 35%" valigns="middle middle">
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>N(t)</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>6</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>12</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>18</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>24</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+            </tabular> 
+            <image source="act-7-5-2.png"><description>grid [0,24]x[0,200]</description></image></sidebyside></li>
+
+<li><p>Write and solve an equation to find the annual decay factor for the substance in part (a). Then write its decay law.</p></li>
+
+<li><p>What is the annual percent decay rate?</p>
+
+            <aside component="instructor"><p>2(c) Students usually need to see several examples before they can convert easily between decay rate and half-life, or between growth rate and doubling time.</p></aside></li>
+
+<li><p>Radium-226 decays at a rate of 0.4% per year. Write a formula for <m>Q(t)</m>, the amount of radium-226 left after <m>t</m> years, in terms of <m>Q_0</m>.</p></li>
+
+<li><p>Find the half-life, <m>H</m>, of radium-226. (Hint:  You do not need to know the value of <m>Q_0</m>.)</p></li>
+
+<li><p>Use your answer to part (d) and the formula for <m>Q(t)</m> in terms of <m>H</m> to write another formula for <m>Q(t)</m>.</p></li>
+
+<li><p>Show that your formulas in parts (d) and (f) are equivalent.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-5-3"><title>DDT</title>
+
+<introduction><p>DDT (Dichlorodiphenyltrichloroethane) was developed as a pesticide in the 1940's. In 1972, the Environmental Protection Agency banned DDT because of its adverse environmental effects and its potential human health risks. The concentration of DDT residues in Lake Michigan trout was monitored for several years. In 1975 the DDT concentration was 7.50 ppm (parts per million), and in 1979 it was 4.58 ppm. A plot of the data over time suggests that the concentration declined exponentially.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Set <m>t=0</m> in 1972, and follow the steps to find an exponential function <m>C(t)=ab^t</m> that has the given concentration values in 1975 and 1979.</p>
+        <aside component="instructor"><p>3(a-1) Emphasize that this gives a system of equations, but not a linear system.</p></aside>
+    <p><ol marker="(1)">
+        <li><p>Write two equations about <m>a</m> and <m>b</m>.</p></li>
+        <li><p>Divide one equation by the other to eliminate <m>a</m>.</p></li>
+        <li><p>Solve for <m>b</m>.</p></li>
+        <li><p>Substitute <m>b</m> into either equation and solve for <m>a</m>.</p></li>
+    </ol></p>
+
+    <li><p>Check that your formula produces the given values of <m>C(t)</m>.</p></li>
+            <aside component="instructor"><p>3(b) You might point out that if students round their value of <m>b</m>, the formula will not yield the given function values exactly.</p></aside></li>
+
+    <li><p>What was the concentration of DDT in lake trout in 1972?</p></li>
+
+    <li><p>In what year did the concentration fall below 1 ppm?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>Explain how to find the doubling time of an exponential function.</p></li>
+<li><p>Explain how to use the doubling time to sketch the graph of an exponential function.</p></li>
+<li><p><p><ol>
+    <li><p>Write down the steps to solve the equation <m>~1600 = 1000 \left( 1 +\dfrac{r}{4} \right)^{4t}~</m> for <m>r</m> if you know the value of <m>t</m>.</p></li>
+    <li><p>Write down the steps to solve the equation <m>~1600 = 1000 \left( 1 +\dfrac{r}{4} \right)^{4t}~</m> for <m>t</m> if you know the value of <m>r</m>.</p></li></ol></p>
+    </p></li>     
+<li><p>Delbert claims that if the half-life of an isotope is 25 years, it will all decay in 50 years. Is he correct? Why or why not?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain why you don't need to know the initial amount of a radioactive substance in order to calculate its half-life.</p></li>
+<li><p>Explain how to use the half-life to sketch the graph of an exponential function.</p></li>
+<li><p>Explain how to find the growth factor for an exponential function when you know its doubling time.</p></li>
+<li><p>Does an exponential function triple in equal amounts of time? Explain.</p></li>
+<li><p>Explain how to use the elimination method to fit an exponential function through two points.</p></li>
+</ol></p>
+</assemblage> 
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>The half-life of DDT is 15 years. This means that:</p>
+    <p><ol marker="a.">
+        <li>30 pounds of DDT dissolve in one year.</li>
+        <li>100 pounds of DDT dissolve in 30 years.</li>
+        <li>After 30 years, 100 pounds of DDT is reduced to 25 pounds.</li>
+        <li>Each half-pound of DDT takes 15 years to dissolve.</li>
+    </ol></p></li>
+    <li><p>You have written a system of equations to fit an exponential function through two points. What is the next step?</p>
+    <p><ol marker="a.">
+        <li>Calculate the slope.</li>
+        <li>Subtract one equation from the other.</li>
+        <li>Divide one equation by the other.</li>
+        <li>Take the log of both sides.</li>
+    </ol></p></li>
+    <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+        <li>The doubling time of a population depends on its initial value.</li>
+        <li>An increasing exponential function has a constant doubling time.</li>
+        <li>The doubling time is twice the percent growth rate.</li>
+        <li>The doubling time is half the percent growth rate.</li>
+    </ol></p></li>
+    <li><p>The formula <m>P(t)=P_0 2^{t/D}</m> tells us that</p>
+    <p><ol marker="a.">
+        <li><m>P(t)</m> is twice the initial value.</li>
+        <li>After 2 years, <m>P(t)=D</m>.</li>
+        <li>After <m>D</m> years, <m>P(t)=2P_0</m>.</li>
+        <li><m>P(t)</m> grows by a factor of <m>D</m>.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

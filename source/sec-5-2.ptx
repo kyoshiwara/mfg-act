@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logarithmic Functions</title>
+
+<assemblage component="instructor"><p>In Chapter 4 we treated the logarithm as an operation; taking a log was the inverse operation for raising to a power, just as taking a square root is the inverse operation for squaring. Now we investigate the log function as the inverse function for the exponential function. We also solve logarithmic equations using two steps: we use the log properties to combine the logs into one log, then convert to exponential form.</p>
+
+<p>Applications of log functions are not nearly as common as applications of exponential functions, so most students will find that thinking of logarithms as an operation is more useful than using a log function, but the added practice provided by this Lesson will probably be helpful.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Evaluate logarithmic functions</p></li>
+    <li><p>Graph logarithmic functions</p></li>
+    <li><p>Solve logarithmic equations</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-5-2-1"><title> Making a Choice</title>
+
+<introduction><p>Hick's Law says that the time, <m>T</m>, required for a person to make a choice from a list or menu of <m>n</m> items is proportional to <m>\log_2 (n+1)</m>. A classic study measured the amount of time shoppers took to choose a flavor of jam from a display of 6 flavors and from a display of 24 flavors.  Hick's Law is used by restaurants and web-designers in making menus, and by survey companies in designing multiple-choice questionaires.</p></introduction>
+
+    <aside component="instructor"><p>Hick's Law is an interesting logarithmic model from psychology, along with the Weber-Fechner Law. Why logs base 2?  Psychologists hypothesize that the mind divides a list successively into halves.</p></aside>
+
+<p><ol marker="a.">
+    <li><p>Graciela is choosing an AirBnB for her next vacation. If there are <m>n</m> choices available, it will take her <m>T</m> minutes to make her choice, where
+        <md>T=5\log_2 (n+1)</md></p>
+
+    <p>Complete the table and make a graph.</p>
+
+        <aside component="instructor"><p>1(a) Although <m>n=0</m> does not make sense for the application, point out that we can add that point to complete the graph.</p></aside>
+
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>n</m></cell>
+                    <cell>3</cell>
+                    <cell>7</cell>
+                    <cell>15</cell>
+                    <cell>31</cell></row>
+                <row><cell><m>T</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular>
+
+            <image source="act-10-1-7.png" width="60%"><description>grid 0 to 36 by 0 to 36</description></image></li>
+
+    <li><p>If Graciela has 30 minutes to spend choosing an AirBnB, how many can she consider?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-5-2-2"><title>A Log Function</title>
+<introduction><p>In this activity we compare the graphs of <m>y=\sqrt{x}</m> and <m>y=\log_2{x}</m>.</p></introduction>
+
+            <aside component="instructor"><p>The goal of Activity 2 is to demonstrate that logarithmic functions grow very slowly, just as exponential functions grow rapidly.</p></aside>
+
+<p><ol marker="a.">
+<li><p>Use your calculator to complete the table. Use the formula <m>~\log_2{x} = \dfrac{\log{x}}{\log{2}}</m> when needed to evaluate <m>\log_2{x}</m>. Round values to tenths.</p>
+
+<sidebyside widths="40% 55%" valigns="middle middle">
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\sqrt{x}</m></cell>
+                    <cell><m>\log_2{x}</m></cell></row>
+                <row>
+                    <cell>0</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>1</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>2</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>4</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>6</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>8</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>12</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>16</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>20</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>32</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular>
+        <image source="act-10-1-8.png"></image><description>grid 0 to 20 by -2 to 5</description></sidebyside></li>
+
+<li><p>Plot both functions on the grid.</p>
+
+        <aside component="instructor"><p>2(b) The graphs are very close; students will have to be precise in their work. After they have finished their graphs, it might be instructive to display a large version using Desmos or some other graphing facility.</p></aside></li>
+
+<li><p>At which two points do the graphs intersect?</p>
+    <p>Which graph has larger function values in the long run?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-5-2-3"><title>Logarithmic Equations</title>
+
+<p><ol marker="a.">
+<li><p>What is a log equation?</p>
+
+            <aside component="instructor"><p>3(b) We solve simple log equations by converting to exponential form. You may need to review the equivalence with some numerical examples.</p></aside></li>
+
+<li><p>Follow the steps to solve the equation <m>~\log_2 {(3x-1)} = 5</m></p>
+    <p><m>\blert{\text{Convert to exponential form.}}</m></p>
+    <p><m>\blert{\text{Solve the new equation.}}</m></p>
+    <p><m>\blert{\text{Check the solution.}}</m></p></li>
+
+<li><p> To solve more complicated log equations, we first use the log properties to combine any expressions 
+containing logs into a single logarithm.</p>
+
+           <aside component="instructor"><p>3(c) Stress that the first step is to combine the logs into one log, using the log properties.</p></aside>
+
+<p>Follow the steps to solve <m>~~\log_4 {(x+8)} + \log_4 {(x+2)} = 2</m></p>
+  <p><m>\blert{\text{Use log properties to write the left side as a single log.}}</m></p> 
+  <p><m>\blert{\text{Convert the equation to exponential form.}}</m></p>
+  <p><m>\blert{\text{Solve the new equation.}}</m></p>
+  <p><m>\blert{\text{Don't forget to check for extraneous solutions!}}</m></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>If you double the number of choices under Hick's Law in <xref ref="act-5-2-1" text="custom">Activity 1</xref>, approximately how much more time will you need to make your choice?</p></li>
+    <li><p>Suppose you don't have a calculator handy. How can you estimate the value of <m>\log_2 {50}</m>?</p></li>
+    <li><p>How do we check for extraneous solutions when solving a logarithmic equation?</p></li>
+    <li><p>How might you use the properties of logarithms when solving a logarithmic equation?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain why we cannot take the log of a negative number.</p></li>
+    <li><p>Why does the function <m>f(x) = \log{x}</m>  grow so slowly?</p></li>
+    <li><p>Compare the graphs of <m>f(x) = \log{\dfrac{1}{x}}</m>  and <m>g(x) = -\log{x}</m>, and explain.</p></li>
+    <li><p>What is an extraneous solution?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>What is the first step in solving  <m>~\log {x} + \log{x-1} = 2</m>?</p>
+    <p><ol marker="a.">
+        <li><p><m>\log{2x-1}=2</m></p></li>
+        <li><p><m>\log{x} = 2 - \log{x-1}</m></p></li>
+        <li><p><m>\log{x(x-1)} = 2</m></p></li>
+        <li><p><m>x + x-1 = 2^x</m></p></li>
+    </ol></p></li>
+    <li><p>The domain of the function <m>\log_3{x}</m> is</p>
+    <p><ol marker="a.">
+        <li>all real numbers</li>
+        <li>all multiples of 3</li>
+        <li>all non-negative numbers</li>
+        <li>all positive numbers</li>
+    </ol></p></li>
+    <li><p>What is the <m>y</m>-intercept of the graph of <m>f(x) = \log_5{x}</m> ?</p>
+        <p><ol marker="a.">
+        <li><m>(0,1)</m></li>
+        <li><m>(1,0)</m></li>
+        <li><m>(0,5)</m></li>
+        <li>There is none.</li>
+    </ol></p></li>
+    <li><p>If <m>F(x) = \log_2{x}</m>, then <m>F^{-1}(x)</m> is</p>
+        <p><ol marker="a.">
+        <li><m>y=\dfrac{1}{\log_2{x}}</m></li>
+        <li><m>y=2^x</m></li>
+        <li><m>y=\dfrac{1}{2x}</m></li>
+        <li><m>y=\log{\dfrac{1}{2x}}</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

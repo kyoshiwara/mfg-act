@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Inequalities</title>
+
+<assemblage component="instructor">
+<p>In this lesson we solve quadratic inequalities graphically and algebraically, and write their solutions with interval notation. Note that our algebraic technique uses properties of the parabola; we do not use a "sign graph" to solve inequalities.</p>
+
+<p>GOALS</p>
+  <p><ul>
+    <li><p>Write compound inequalities</p></li>
+    <li><p>Use interval notation</p></li> 
+    <li><p>Solve quadratic inequalities graphically</p></li>
+    <li><p>Solve quadratic inequalities algebraically</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-6-5-1"><title>Equal, Less Than, Greater Than</title>
+
+<introduction><p>Here are three copies of the graph of <m>~y=x^2-4</m>.</p>
+
+          <aside component="instructor"><p>You might want to preface this Activity by having students use trial and error to find solutions to  <m>~x^2-4 \lt 0</m>, and plot their solutions on a number line on the board. (Remind them to try both positive and negative values, and fractions.) Then do the same for <m>~x^2-4 \gt 0</m>.</p></aside>
+    <image source="act-4-4-1.png"></image></introduction>
+
+<p><ol>
+  <li><p>On the first graph, we'll solve the equation <m>~x^2-4=0</m>. (Remember that <m>~y=x^2-4</m>.)</p>
+    <p><ol>
+    <li><p>Find two points on the graph with <m>y=0</m>. Put dots there.</p></li>
+    <li><p>What are the <m>x</m>-coordinates of those points?</p></li>
+    <li><p>The solutions are: </p></li>
+  </ol></p></li>
+
+  <li><p>On the second graph, we'll solve the inequality <m>~x^2-4 \lt 0</m>.</p>
+
+            <aside component="instructor"><p>Explain that because the graph shows points for which <m>~y=x^2-4</m>, the solutions to <m>~x^2-4 \lt 0</m> are just the <m>x</m>-coordinates of points on the graph with <m>y \lt 4</m>. You will need to go over this reasoning on every problem.</p></aside>
+  <p><ol>  
+    <li><p>Mark all points on the graph that have <m>y \lt 0</m>.</p></li>
+    <li><p>On the <m>x</m>-axis, mark the <m>x</m>-coordinates of all those points.</p></li>
+    <li><p>Write an inequality to describe the portion of the <m>x</m>-axis marked.</p></li>
+    </ol></p></li>
+
+  <li><p>On the third graph, we'll solve the inequality <m>~x^2-4 \gt 0</m>.</p>   
+  <p><ol>
+    <li><p>Mark all points on the graph that have <m>y \gt 0</m>.</p></li>
+    <li><p>On the <m>x</m>-axis, mark the <m>x</m>-coordinates of all those points.</p></li>
+    <li><p>Write two inequalities to describe the portion of the <m>x</m>-axis marked.</p>
+
+             <aside component="instructor"><p>Emphasize that because the solution set consists of two intervals, we need two inequalities to describe it. Also explain why <m>-2 \gt x \gt 2</m>  is not correct.</p></aside></li> 
+  </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-5-2"><title>Solving Quadratic Inequalities Graphically</title>
+
+<introduction><p>Here are two copies of the graph of <m>~y=175-18x-x^2~</m>.</p>
+    <image source="act-4-4-2.png"></image></introduction>
+
+<p><ol>
+  <li><p>Use the first graph to solve <m>~175-18x-x^2 = 0~</m>.</p>   
+      <p>(Hint: Notice that one of the <m>x</m>-intercepts is <m>25</m>. Think of the factored form of the equation. What is the other factor?)
+          <md>(x+25)(x- <fillin/>)=0</md></p>
+          <aside component="instructor"><p>2(2) Start using the language "between the <m>x</m>-intercepts or outside the <m>x</m>-intercepts" or something similar to describe the choice of which part of the <m>x</m>-axis provides the solutions.</p></aside></li>
+
+<li><p>Use the second graph to solve  <m>~175-18x-x^2 \lt 0~</m>.</p>
+  <p><ol>
+  <li><p>Mark all points on the graph that have <m>y \lt 0</m>.</p></li>
+  <li><p>On the <m>x</m>-axis, mark the <m>x</m>-coordinates of all those points.</p></li>
+  <li><p>Write two inequalities to describe the portion of the <m>x</m>-axis marked.</p></li>
+</ol></p></li>
+
+<li><p>Solve the inequality <m>~20+4x-x^2 \le 8</m>.</p>
+  <p><ol>
+    <li><p>Rewrite the inequality so that the right side is zero.</p>
+            <aside component="instructor"><p>2(3) This problem also provides an opportunity to review graphing a parabola by hand. Notice that the coefficient of <m>x^2</m> is negative, so expect some confusion about finding the <m>x</m>-intercepts versus finding the <m>x</m>-coordinate of the vertex.</p></aside></li>
+
+    <li><p><sidebyside widths="50% 50%"><stack><p>Graph the equation <m>~y=12+4x-x^2</m>.</p>
+          <p><m>y</m>-intercept:</p>
+          <p><m>x</m>-intercepts:</p>  
+            <p>(Solve <m>~~12+4x-x^2=0)</m></p>
+          <p><md><mrow>\text{vertex:}~~~~~~x_v \amp = \dfrac{-b}{2a} = ~~~~~~~~~~~~~~~~</mrow>
+                          <mrow>y_v \amp = ~~~~~~~~~~~~~~~~~</mrow></md></p></stack>
+        <image source="act-4-4-3.png"><description>grid [-4,10]x[-6,26]</description></image></sidebyside></p></li>
+    <li><p>Use the graph to solve the inequality. Write the solution with interval notation.</p>
+        <aside component="instructor"><p>2(3) Take a few minutes to give examples of interval notation. In this Lesson, we use <m>\cup</m> to indicate the union of two intervals, but we do not discuss intersection of sets.</p></aside></li>
+  </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-5-3"><title>Solving Inequalities Algebraically</title>
+
+<introduction><p>To solve a quadratic inequality,
+    <md>ax^2+bx+c \lt 0~~~~\text{or}~~~~ax^2+bx+c \gt 0</md>
+we must answer two questions:<ol>
+  <li><p>What are the <m>x</m>-intercepts of the related graph?</p></li>
+  <li><p>Does the parabola open up or down?</p></li></ol></p>
+<p>Remember that you may need to use extraction of roots or the quadratic formula to find the <m>x</m>-intercepts of a parabola.</p>
+</introduction>
+
+<p><ol>
+  <li><sidebyside widths="30% 45%">
+      <image source="act-4-4-4.png"><description>graph of y=x^2-4x-5 on [-3,7]x[-10,10]</description></image>
+
+    <stack><p>Use the graph to solve <md>~x^2-4x-5 \gt 0~</md> Show the solution on the graph. Write your answer in interval notation.</p>
+
+      <aside component="instructor"><p>3(2) Remind students that once we have found the <m>x</m>-intercepts as boundary points for our solution set, we only need to decide whether the solutions lie between the intercepts or outside them -- we don't need any other information about the parabola (such as the vertex). So we only need to know if the parabola opens up or down.</p></aside></stack>   
+      </sidebyside></li>
+            
+    <li><p>Follow the steps to solve <m>~4x^2+8x-5 \le 0</m>.</p>
+        <sidebyside widths="55% 40%" valigns="middle middle">
+    <p><ol>
+      <li><p>Find the <m>x</m>-intercepts of  <md>~y = 4x^2+8x-5</md>.</p></li>
+      <li><p>Does the graph of <md>~y = 4x^2+8x-5~</md>  open up or down? Make a rough sketch of the graph, and label the <m>x</m>-intercepts.</p></li>  
+      <li><p>Use the graph to solve the inequality. Write your answer in interval notation.</p></li>
+    </ol></p>
+        <image source="act-3-4-6.png"><description>grid [-5,5]x[-10,10]</description></image></sidebyside></li>
+
+  <li><p>Solve the inequality <m>~x^2 \ge 18</m>.</p>
+        <sidebyside widths="50% 40%>">
+    <p><ol>
+      <li><p> Write the inequality in standard form.</p></li>
+      <li><p> Find the <m>x</m>-intercepts of the corresponding graph.</p></li> 
+      <li><p> Make a rough sketch of the graph. Use the graph to solve the inequality. Write your answer with interval notation.</p></li>
+    </ol></p>
+    <image source="act-4-4-6.png"><description>grid [-6,6]x[-20,4]</description></image></sidebyside>
+            <aside component="instructor"><p>Problems (3) and (4) point out that sometimes we have to use extraction of roots or the quadratic formula to find the <m>x</m>-intercepts.</p></aside></li>
+
+  <li><p>Solve the inequality <m>~10-8x+x^2 \gt 4</m>.</p>
+        <sidebyside widths="50% 45%>">
+    <p><ol>
+      <li><p>Write the inequality in standard form.</p></li>
+      <li><p>Find the  <m>x</m>-intercepts of the corresponding graph. (Use the quadratic formula.)</p></li>
+      <li><p>Make a rough sketch of the graph. Use the graph to solve the inequality. Write your answer with interval notation.</p></li>
+    </ol></p>
+      <image source="act-2-2-2.png"><description>10x10 grid</description></image></sidebyside></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>Activity 1, we saw that for any value of <m>x</m>, the value of <m>x^2-4</m> is either <fillin/>, <fillin/>, or <fillin/>.</p></li>
+<li><p>Suppose you have a point <m>P</m> with <m>y</m>-coordinate 8 on the graph of an equation. How do you find the <m>x</m>-value that produces <m>y=8</m> in the equation?</p></li>
+<li><p>When you solve a quadratic inequality with a graph, how do you find the boundary points of the solution interval(s)?</p></li>
+<li><p>Use a graph to explain why the inequality <m>~x^2+1 \lt 0~</m>  has no solution.</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain how to use a graph to find the <m>x</m>-value that produces a particular <m>y</m>-value for a quadratic equation.</p></li>
+<li><p>Explain why you cannot write the solutions to <m>x^2 - 4 \gt 0</m> as a single inequality.</p></li>
+<li><p>Explain how to use a graph to solve <m>x^2-4x+77 \le 0</m>.</p></li>
+<li><p>Describe how to use interval notation.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+  <li><p>What are the solutions of the inequality <m>~x^2+1 \lt 0</m>?</p>
+    <p><ol marker="a.">
+      <li><m>(-1,1)</m></li>
+      <li><m>(-\infty, -1) \cup (1, \infty)</m></li>
+      <li>All real numbers</li>
+      <li>No solutions</li>
+    </ol></p></li>
+  <li><p>Which points on the parabola <m>~y=ax^2+bx+c~</m> do we need to know to solve the inequality <m>~ax^2+bx+c \gt 0</m>?
+</p>
+    <p><ol marker="a.">
+      <li>The <m>x</m>-intercepts</li>
+      <li>The <m>y</m>-intercept</li>
+      <li>The vertex</li>
+      <li>All of these</li>
+    </ol></p></li>
+  <li><p>Why do we need to know whether the parabola in question 2 opens up or down?</p>
+    <p><ol marker="a.">
+      <li>To decide whether to use <m>\gt</m> or <m>\lt</m> in the solution.</li>
+      <li>To decide whether the solutions lie between the <m>x</m>-intercepts or outside them.</li>
+      <li>To decide whether the solutions are positive or negative.</li>
+      <li>To help us find the <m>x</m>-intercepts.</li>
+    </ol></p></li>   
+  <li><p>What does the notation <m>[-3,3]</m> mean?</p>
+    <p><ol marker="a.">
+      <li>The point with <m>x</m>-coordinate <m>-3</m> and <m>y</m>-coordinate <m>3</m>.</li>
+      <li><p><m>x=-3</m> or <m>x=3</m></p></li>
+      <li>All real numbers between <m>-3</m> and <m>3</m>, excluding the endpoints.</li>
+      <li>All real numbers between <m>-3</m> and <m>3</m>, including the endpoints.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

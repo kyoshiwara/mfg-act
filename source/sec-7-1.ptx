@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Functions</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we consider polynomials, and specifically cubes of binomials and factoring the sum or difference of cubes. We also look at some simple poynomial models.</p>
+
+<p>GOALS</p>
+<p><ul>
+  <li><p>Compute products of polynomials</p></li>    
+  <li><p>Compute cubes of binomials</p></li>    
+  <li><p>Factor the sum or difference of cubes</p></li>  
+  <li><p>Use polynomials as models</p></li>
+</ul></p>
+</assemblage> 
+
+<activity xml:id="act-7-1-1"><title>Products of Polynomials</title>
+
+            <aside component="instructor"><p>You may need to review the vocabulary of polynomials: degree, coefficient, descending powers, monomial, binomial, and trinomial.</p></aside>
+<p><ol marker="a.">
+  <li><p>Write the definition of a polynomial function.</p></li> 
+ 
+  <li><p>Give an example of a trinomial of degree four whose lead coefficient is <m>~-5</m>.</p></li>
+  
+  <li><p>Multiply  <m>~(3x-2)(4x^2+x-2)</m></p></li>
+
+  <li><p>Multiply  <m>~(2a^2-3a+1)(3a^2+2a-1)</m></p>
+
+        <aside component="instructor"><p>1(e)Students can usually multiply polynomials without difficulty, but you will have to show them how to find a specific term of the product. This is a good exercise for analyzing what could be just a rote manipulation.</p></aside></li>
+
+  <li><p>Find the indicated terms of the product. (Do not compute the entire product!)
+        <md>(2-x+3x^2)(3+2x-x^2+2x^4)</md></p>
+
+      <p>Constant term:</p>
+
+      <p>Linear term:</p>
+
+      <p>Quadratic term:</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-1-2"><title>Cubic Polynomials</title>
+
+<p><ol marker="a.">
+<li><p>Expand <m>(x+2)^3</m> by multiplying out <m>(x+2)(x+2)(x+2)</m>.</p></li> 
+
+<li><p>Complete the formulas for cubes of binomials:</p>
+
+  <p><m>(a+b)^3 = </m></p>
+
+  <p><m>(a-b)^3 = </m></p>
+
+            <aside component="instructor"><p>2(b) Some students have a hard time understanding how to use a formula to compute the cube of a binomial. It may help to analyze one product in detail to see how the terms arise.</p></aside></li>
+
+<li><p>Use the formula to expand <m>(x+2)^3</m>. Compare the result to your answer above.</p></li>       
+
+<li><p>Use the formula to expand <m>(2-5\sqrt{t})^3</m>.</p></li>
+
+ <li> <p>Multiply  <m>(a+b)(a^2-ab+b^2)</m></p>  
+
+      <p>Multiply  <m>(a-b)(a^2+ab+b^2)</m></p>
+
+      <p>Hmmm.......    Interesting.</p></li>
+
+<li><p>Write the formulas for factoring the sum or difference of two cubes.</p>   
+
+    <p><m>a^3+b^3 = </m></p> 
+
+    <p><m>a^3-b^3 = </m></p>
+
+<p>Look at the terms in the two formulas. They wil be easy to remember!</p>
+
+            <aside component="instructor"><p>2(f) Emphasize to students that we must just remember the formulas for factoring the sum and differnce of two cubes (as opposed to the strategies they learned for factoring quadratic trinomials.)</p></aside></li>
+
+<li><p>Factor <m>~x^3-8y^3</m></p>    
+
+    <p>Factor <m>~125x^3y^3 + 27</m></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-1-3"><title>Volume of a Box</title>
+
+<introduction><p> A paper company plans to make boxes without tops from sheets of cardboard 8 inches wide and 12 inches long. They will cut out four squares of side <m>x</m> inches from the corners of the sheet and fold up the edges.</p></introduction> 
+
+            <aside component="instructor"><p>It is helpful to physically cut the corners from a sheet of paper or cardboard and turn up the edges to illustrate the box.</p></aside>
+
+<p><ol marker="a.">
+<li><p> Write expressions in terms of  for the length, width, and height of the resulting box.</p>
+    <p>Length:</p>
+    <p>Width:</p>
+    <p>Height:</p></li>                                                                    
+
+<li><p>Write a formula for the volume <m>V</m> of the box as a function of <m>x</m>.</p></li>
+
+<li><p>Use technology to graph your function for <m>-5 \le x \le 10</m>.</p></li>
+
+<li><p>What are the largest and smallest reasonable values for <m>x</m> in this situation? Explain your answer.</p>
+
+            <aside component="instructor"><p>3(d) Students may not understand what is asked in part (d), so you may want to make a table showing the length, width, and height of the box for various values of <m>x</m>.</p></aside></li>
+
+<li><p>Use your answer to part (d) to graph the function in a suitable window. Make a sketch of your graph, and label the scales on the axes.</p></li>
+
+<li><p>Use your graph to find the value of <m>x</m> that will yield a box with maximum possible volume.</p>  
+    <p>Label the corresponding point on your graph.</p>
+    <p>What is the maximum possible volume?</p>
+    <p>What are the dimensions of the box with the largest possible volume?</p>
+          <aside component="instructor"><p>Point out that (at this point) we don't have an algebraic method for solving cubic equations, so we use a graphical solution instead.</p></aside></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>In part (e) of Activity 1, how many terms of the product are quadratic? How many of the terms are cubic?</p></li>
+<li><p>Explain the difference between the expressions <m>(a+b)^3</m> and <m>a^3+b^3</m>.</p></li>
+<li><p>Compare the formulas for expanding <m>(a-b)^2</m> and <m>(a-b)^3</m>.</p></li>
+<li><p>In Activity 3, why is the polynomial for the volume of the box cubic? What are the units of volume in this application?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Who was Gerolamo Cardano? (Do a little research on the internet.)</p></li>
+<li><p>The degree of a product of polynomials is the sum of the degrees of the factors. Why is this true?</p></li>
+<li><p>Why might a cost function might have the shape of a cubic polynomial?</p></li>
+<li><p>Explain how to find the surface area of a solid figure (such as a box or a cylinder).</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>The degree of a product of polynomials is the same as</p>
+    <p><ol marker="a.">
+        <li>The product of the degrees of the factors.</li>
+        <li>The number of terms in the product.</li>
+        <li>The sum of the degrees of the factors.</li>
+        <li>The sum of the lead coefficients.</li>
+    </ol></p></li>
+    <li><p>What is the linear term of the product <m>(x-3)(x+5)</m>?</p>
+    <p><ol marker="a.">
+        <li><m>x^2</m></li>
+        <li><m>2x-15</m></li>
+        <li><m>-15</m></li>
+        <li><m>2x</m></li>
+    </ol></p></li>
+    <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+        <li>A cubic polynomial <m>y=ax^3+bx^2+cx+d</m> describes <m>y</m> as a function of <m>x</m>.</li>
+        <li>We cannot factor the sum of two cubes.</li>
+        <li><m>(2x+3y)^3 = 8x^3 + 27y^3</m></li>  
+        <li>A cubic polynomial must have 4 terms.</li>
+    </ol></p></li>
+    <li><p>How do we solve cubic equations in this class?</p>
+    <p><ol marker="a.">
+        <li>By factoring.</li> 
+        <li>By taking cube roots.</li>
+        <li>By using the quadratic formula.</li> 
+        <li>By graphing.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Quadratic Equations</title>
+
+<assemblage component="instructor"><p>This is a skills lesson on completing the square and the quadratic formula. You may want to begin by presenting a quadratic equation that cannot be solved by factoring. Explain that the goal of completing the square is to turn any quadratic expression into a square of a binomial, so that we can then solve the equation by extraction of roots.</p>
+
+<p>Note that we do not treat complex numbers yet, other than to acknowledge their existence. (Some students already know about complex numbers, so it is best to mention <m>i</m> briefly, but postpone further discussion for later.) It is also helpful to tell students that although the quadratic formula is usually faster than completing the square, we'll need this skill for other applications (conic sections) later on.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Add a constant to <m>x^2+bx</m> to create a perfect square</p></li>
+    <li><p>Solve quadratic equations by completing the square</p></li>
+    <li><p>Decide which method to use to solve a quadratic equation</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-6-2-1"><title>Squares of Binomials</title>
+
+            <aside component="instructor"><p>1a. Have students square several binomials and look for the pattern in the coefficients before presenting the formula for <m>(x+p)^2</m>. Leave the formula prominently displayed on the board; you will need to refer back to it often.</p></aside>
+
+<p><ol>
+<li><p><ol marker="a.">
+  <li><p>Write a formula for the square of a binomial:
+        <md>(x+p)^2 = </md>
+      Notice that the constant term of the trinomial is  <fillin/> , and the coefficient of the linear term (or <m>x</m>-term) is <fillin/>.</p></li>
+
+  <li><p> Now we'll reverse the process. Add a constant to the expression that will turn it into a perfect square:
+        <md>x^2-16x+<fillin/> = (x <fillin/>)^2</md>
+        
+        <aside component="instructor"><p>1b. Some students catch on quickly, but others have a hard time finding <m>p</m> and <m>p^2</m>. In particular, you will probably have to explain that if you know <m>2p</m>, you can find  by multiplying by <m>\frac{1}{2}</m> (and this is the same as dividing by 2.)</p></aside>                                
+
+    (Do you see how to find the constant?  Here's what you do:)</p>
+      <p>First find <m>p:~~~~~~~~~~~~~2p=-16</m>, so  <m>p=\frac{1}{2}(-16)=</m></p>
+      <p>Then find <m>p^2:~~~~~~~~~~~~p^2=</m></p>  
+  
+    <p>We can turn any quadratic expression into a perfect square by adding the correct constant. This process is called <term>completing the square</term>.</p></li>
+  </ol></p></li>
+
+  <li><p>Complete the square and write the result as the square of a binomial.</p>
+    <p><ol marker="a.">
+      <li><p><m>x^2 + 18x + <fillin/> = </m></p></li>
+      <li><p><m>x^2 - 14x + <fillin/> = </m></p>
+          
+          <aside component="instructor"><p>1(2) It may also help to write several quadratic trinomials on the board and ask students which are perfect squares (and then explain how you know.)</p></aside>
+
+  <p>For parts (c) and (d), do not use a calculator! Work with fractions.</p></li>
+      <li><p><m>x^2 + 3x + <fillin/> = </m></p></li>
+      <li><p><m>x^2 - \dfrac{5}{2}x + <fillin/> = </m></p></li>
+    </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-2-2"><title>Solving Quadratic Equations by Completing the Square</title>
+
+<introduction><p>We use the technique of completing the square to solve quadratic equations.  There are two parts to this method:</p>
+<p><ul>
+        <li><p>Part 1: Create a perfect square</p></li>
+        <li><p>Part 2: Use extraction of roots</p></li>
+</ul></p>
+</introduction>
+
+<p><ol>
+<li><p><ol marker="a.">
+    <li><p>Follow the steps to solve <m>~~x^2-6x-16=0</m></p>.
+
+        <p>Move the constant term to the other side of the equation:
+            <md>x^2-6x~~~~~~~~~~~~~~~~~=16</md></p>
+        <p>Complete the square on the left side:   
+            <md>p=\frac{1}{2}(-6)=<fillin/>~~~~\text{and}~~~~~p^2=(-3)^2=<fillin/></md></p>              
+        <p>Add 9 to both sides of the equation:
+            <md>x^2-6x+\alert{9} = 16+\alert{9}</md></p>
+        <p>Write the left side as the square of a binomial: 
+            <md>(<fillin/>)^2 = 25</md></p>                  
+        <p>Use extraction of roots to find the solutions: take the square root of both sides.                   
+            <md><mrow>x-3 \amp = <fillin/>~~~~\text{or}~~~~ x-3 = <fillin/></mrow>
+                <mrow>  x \amp = <fillin/>~~~~\text{or}~~~~~~~~~~~ x = <fillin/></mrow></md></p>                                   
+        <p>The solutions are <fillin/> and <fillin/>.</p></li>
+
+    <li><sidebyside widths="50% 40%"><p>Graph the parabola 
+          <md>y=x^2-6x-16</md>  
+        with technology, and copy the graph onto the grid.  What are the <m>x</m>-intercepts of the graph?</p>
+          <image source="act-3-4-5.png"><description>Grid [-4,8]x[-18,6]</description></image></sidebyside></li>
+      </ol></p></li>
+
+    <li><p>Solve <m>~~x^2-8x-4=0~~</m> by completing the square. (This equation cannot be solved by factoring!)</p>
+
+        <p>Move the constant term to the right side:</p>
+        <p>Complete the square on the left side:  
+            <md>p=\frac{1}{2}(-8)=<fillin/>~~~~\text{and}~~~~~p^2=<fillin/></md></p>                                            
+        <p>Add <m>p^2</m> to both sides:</p>
+        <p>Write the left side as the square of a binomial, and simplify the right side:</p>
+        <p>Extract roots to obtain two solutions: </p>
+        <p>Use a calculator to find decimal approximations for each solution. Round to thousandths:</p>
+            <aside component="instructor"><p>3(2) Be sure to go over finding decimal approximations on the calculator.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-2-3"><title>The Lead Coefficient</title>
+
+<introduction><p>Our method for completing the square works only if the coefficient of <m>x^2</m> is 1. If the lead coefficient is not 1, we must divide each term of the equation by the lead coefficient.</p></introduction>
+<p><ol marker="a.">
+  <li><p>Solve <m>~~4x^2-12x-1=0~~</m> by completing the square.</p>
+            <aside component="instructor"><p>Act 4: Forgetting to divide by the coefficient of <m>x^2</m> is a common mistake.</p></aside>
+
+      <p>Divide each term by 4:</p>
+      <p>Move the constant term to the right side:</p>
+      <p>Complete the square on the left side:  
+            <md>p=\frac{1}{2}(-3)=<fillin/>~~~~\text{and}~~~~~p^2=<fillin/></md></p>                                            
+      <p>Add <m>p^2</m> to both sides:</p>
+      <p>Write the left side as the square of a binomial, and simplify the right side:</p>
+      <p>Extract roots to obtain two solutions: </p>
+      <p>Use a calculator to find decimal approximations for each solution. Round to thousandths:</p></li>
+
+<li><sidebyside widths="50% 35%"><p>Graph the parabola 
+        <md>y=4x^2-12x-1</md> 
+    in the standard window, and copy the graph onto the grid. What are the <m>x</m>-intercepts of the graph?</p>
+        <image source="act-3-4-6.png"><description>Grid [-5,5]x[-10,10]</description></image></sidebyside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-2-4"><title>Summary: Solving Quadratic Equations</title>
+
+    <p><ol marker="a.">
+    <li><p>List four algebraic methods for solving quadratic equations.
+      <ol marker="(1)">
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+      </ol></p>
+    <aside component="instructor"><p>4. This Activity could be used as a wrap-up assignment.</p></aside></li>
+
+    <li><p>Which method(s) work on any quadratic equation?</p></li>
+    <li><p>Which method is fastest if one side of the equation is a perfect square?</p></li>
+
+    <li><p>For each equation, name the easiest method for solving, then solve.
+      <ol>
+        <li><p><m>x^2-7=0</m></p></li>
+        <li><p><m>x^2=7x</m></p></li>
+        <li><p><m>x^2-7x=8</m></p></li>
+        <li><p><m>(x-7)^2=8</m></p></li>
+        <li><p><m>x^2=7x-8</m></p></li>
+        <li><p><m>x^2-8x=4</m></p></li>
+      </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-2-5"><title>Optional: A Geometric Viewpoint</title>
+
+      <aside component="instructor"><p>Do not stress Activity 5. Some students find it helpful; others don't.</p></aside>
+
+<introduction><p>We can visualize completing the square using rectangles.</p></introduction>
+
+<p><ol marker="a.">
+  <li><p>Study the diagrams that illustrate completing the square for <m>x^2+10x</m>.</p>
+  <sidebyside widths="40% 40%">
+    <p>Step 1  
+      <image source="act-3-4-s1.png"><description>box with x^2 and 10x</description></image></p>
+    <p>Step 2 
+        <image source="act-3-4-s2.png"><description>box with x^2 and 5x and 5x</description></image></p></sidebyside>
+  <sidebyside widths="40% 40%">
+    <p>Step 3 
+      <image source="act-3-4-s3.png" ><description>same box with x^2 and 5x and 5x under x^2</description></image></p>
+    <p>Step 4 
+        <image source="act-3-4-s4.png" ><description>box with x^2 and 5x and 5x and 25</description></image></p></sidebyside></li>
+
+  <li><p>Draw a similar set of diagrams to illustrate completing the square for <m>x^2+16x</m>.</p></li>
+</ol></p>
+</activity> 
+
+<activity xml:id="act-6-2-6"><title>Optional: Deriving the Quadratic Formula</title>
+
+            <aside component="instructor"><p>4. Treat this Activity as optional, depending on the strength of your students.</p></aside>
+
+<p><ol marker="a.">
+  <li><p>Use completing the square to solve the equation <m>x^2+bx+c=0</m> for <m>x</m> in terms of <m>b</m> and <m>c</m>. Follow the steps below:</p>
+    <p>Move the constant term to the right side</p>
+    <p>Complete the square on the left side.</p>
+    <p>Write the left side as a perfect square; simplify the right side.</p>
+    <p>Extract roots.</p></li>
+
+  <li><p>Use completing the square to solve <m>ax^2+bx+c=0</m> for <m>x</m> in terms of <m>a,~b</m>, and <m>c</m>. Follow the steps below:</p>
+    <p>Move the constant term to the right side; divide both sides by the lead coefficient.</p>
+    <p>Complete the square on the left side.</p>
+    <p>Write the left side as a perfect square; simplify the right side.</p>
+    <p>Extract roots.</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>Name four algebraic methods for solving a quadratic equation.</p></li>
+    <li><p>Give an example of a quadratic trinomial that is the square of a binomial.</p></li>
+    <li><p>In Activity 2, what were the two parts named for solving an equation by completing the square?</p></li>
+    <li><p>What is wrong with the following solution?
+        <md><mrow>2x^2-8x+3 \amp = 0</mrow>
+            <mrow>2x^2-8x+16 \amp = -3 + 16</mrow>
+            <mrow>(2x-4)^2 \amp = 13</mrow>
+            <mrow>x \amp = \dfrac{4 \pm \sqrt{13}}{2}</mrow></md></p></li>
+</ol></p>
+</subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain how to tell whether <m>x^2+bx+c</m> is the square of a binomial.</p></li>
+    <li><p>Discuss the difference between an exact solution and a decimal approximation.</p></li>
+    <li><p>How can you decide which of the four methods for solving a quadratic equation you should use?</p></li>
+    <li><p>How does creating the square of a binomial help us solve a quadratic equation?</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>What is the linear term of <m>(x+6)^2</m>?</p>
+    <p><ol marker="a.">
+        <li><m>x^2</m></li>    
+        <li><m>6x</m></li>
+        <li><m>12x</m></li>  
+        <li><m>36</m></li>
+    </ol></p></li>
+    <li><p>What is the first step in solving the equation <m>~3x^2-6x=2</m>?</p>
+    <p><ol marker="a.">
+        <li>Divide <m>-6</m> by <m>2</m></li> 
+        <li>Get zero on one side</li>
+        <li>Divide both sides by 3</li> 
+        <li>Factor the left side</li>
+    </ol></p></li>
+    <li><p>What should we add to <m>x^2-5x</m> to create a perfect square? </p>
+    <p><ol marker="a.">
+        <li><m>25</m></li>  
+        <li><m>-25</m></li>
+        <li><m>\dfrac{25}{4}</m></li> 
+        <li><m>10</m></li>
+    </ol></p></li>
+    <li><p>When is <m>~(x+p)^2 = x^2+p^2</m>?</p>
+    <p><ol marker="a.">
+        <li>Always</li>
+        <li>Never</li>
+        <li>When <m>x=p</m></li>
+        <li>When <m>p=0</m></li>
+      </ol></p></li>
+</ol></p>
+</assemblage>
+
+</section>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- This is an extracted section of book                    -->
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./meta_docinfo.ptx" />
+
+  <book xml:id="testing">
+    <title>MFG-Act</title>
+
+   <xi:include href="./meta_frontmatter.ptx" />
+
+<chapter xml:id="Test"><title>Test Chapter</title>
+<xi:include href="./sec-1-1.ptx" /> 
+<!--<xi:include href="./wksht.ptx" /> 
+<xi:include href="./wk-1-1.ptx" /> -->
+</chapter>
+
+
+    <xi:include href="./meta_backmatter.ptx" />
+  </book>
+</pretext>

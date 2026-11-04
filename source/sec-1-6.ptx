@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Regression</title>
+
+<assemblage component="instructor">
+<p>This Lesson begins with the point-slope formula. Besides being able to use the formula, we want students to understand two ideas:</p>
+<p>a.  The point-slope formula is really the same as the coordinate formula for slope, but used in a different way.</p>
+<p>b.  We'd also like students to understand the syntax of the formula, i. e. starting at a point <m>(x_1,y_1)</m> and using the slope to find any other point on the line, rather than just memorizing it.</p>
+
+<p>Students may have been taught to find a linear equation by substituting a point into the slope-intercept formula to find <m>b</m>, but at this stage it is important that they master the point-slope formula. Finding a linear equation to fit two points is one of the most useful skills they will learn in this course. Note that we give two alternate forms for the formula:  the fractional form, <m>\dfrac{y-y_1}{x-x_1} = m</m>, is easier for students if the slope is a common fraction. The form <m>y=y_1+m(x-x_1)</m>  captures the mechanics of the formula, and will occur in calculus.</p> 
+
+<p>This Lesson also provides a brief introduction to linear regression. We begin by considering data that are "almost" linear and fit a regression line by eye. Explain to students that their answers may differ slightly; nonetheless a line can be a bad fit.</p> 
+
+<p>You will also need to emphasize that the line of best fit need not pass through any of the data points, and that to find the equation of the regression line, they must use points on the line, not data points. One goal of this lesson is to practice using the point-slope formula to find the equation for a line through two points. For students, the hardest part of using the formula in an application is identifying the two points to use. Encourage them to make a short table, starting by deciding which is the input variable and which is the output.</p>
+
+<p>If you are using technology for regression in your course, you should arrange for students to have the data already entered or easily downloaded on their devices. Alternatively, you could just demonstrate the technology for the class. We don't think that students should be required to find regression equations for data sets of this size. However, they should be asked to read and interpret information from the graph.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Sketch a line of best fit for a scatterplot</p></li>
+    <li><p>Find an equation for a line of best fit</p></li>
+    <li><p>Make estimates using interpolation and extrapolation</p></li>
+    <li><p>Use technology for least-squares regression</p></li>
+</ul></p></assemblage>
+
+<activity><title>Line of Best Fit</title>
+
+<introduction><p>The scatterplot shows the area, <m>A</m>, of the Amazon rain forest remaining, in thousands of square kilometers, <m>t</m> years after 1980.</p>
+  <sidebyside widths="30% 70%">
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>A</m></cell></row>
+
+               <row><cell>6</cell>
+                    <cell>3745</cell></row>
+
+               <row><cell>8</cell>
+                    <cell>3734</cell></row>
+
+                <row><cell>10</cell>
+                    <cell>3692</cell></row>
+
+                <row><cell>12</cell>
+                    <cell>3667</cell></row>
+
+                <row><cell>14</cell>
+                    <cell>3667</cell></row>
+
+                <row><cell>16</cell>
+                    <cell>3590</cell></row>
+
+                <row><cell>18</cell>
+                    <cell>3560</cell></row>
+
+                <row><cell>20</cell>
+                    <cell>3524</cell></row>
+
+               <row><cell>22</cell>
+                    <cell>3485</cell></row>
+
+                <row><cell>24</cell>
+                    <cell>3432</cell></row>
+
+                <row><cell>26</cell>
+                    <cell>3400</cell></row> 
+            </tabular>
+            <image source="act-2-1-1.png"><description>Scatterplot of thousand sq km of rain forest on [4,30]x[3300,3750]</description></image></sidebyside>
+        </introduction>
+
+  <p><ol marker="a.">
+    <li><p>Use a straightedge to draw a line of best fit for the data.</p>
+        <aside component="instructor"><p>1a.  It is helpful to use a clear plastic ruler to draw a line of best fit.</p></aside></li> 
+ 
+    <li><p>Choose two points on the regression line. (Do not choose data points; choose points on your line.)</p>
+              
+    <p>Points:</p>
+            <aside component="instructor"><p>1b. Ask students to choose points that lie as close as possible to grid lines, so that their coordinates are easy to read.</p></aside></li>
+
+    <li><p>Use the point-slope formula to find the equation of your regression line.</p></li>
+    <li><p>Use your regression equation to predict when the rain forest will be completely destroyed.</p></li>
+    <li><p>Comment on your results:  What factors might affect your prediction?</p>
+            <aside component="instructor"><p>1c.  It is probably best to work through the point-slope formula with the students. Emphasize a two-step process: find the slope, then apply the point-slope formula.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity><title>Interpolation and Extrapolation</title>
+
+<introduction><p>It has been proposed that unemployment is higher in communities where a large percentage of workers own their own homes. The data show the percent of owner-occupied housing and the unemployment rate in several European nations. We will calculate a regression line to model the data.</p>        
+        
+    <sidebyside widths="45% 55%" valigns="middle middle">
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Country</cell>
+                    <cell><line>Home</line><line>Owners %</line></cell>
+                    <cell><line>Unemp.</line><line>Rate %</line></cell></row>
+                <row><cell>Austria</cell>
+                    <cell>54</cell>
+                    <cell>5</cell></row>
+                <row><cell>Belgium</cell>
+                    <cell>65</cell>
+                    <cell>12</cell></row>
+                <row><cell>Denmark</cell>
+                    <cell>65</cell>
+                    <cell>6</cell></row>
+                <row><cell>Finland</cell>
+                    <cell>78</cell>
+                    <cell>13</cell></row>
+                <row><cell>France</cell>
+                    <cell>56</cell>
+                    <cell>11</cell></row>
+                <row><cell>Great Britain</cell>
+                    <cell>65</cell>
+                    <cell>6</cell></row>
+                <row><cell>Ireland</cell>
+                    <cell>76</cell>
+                    <cell>10</cell></row>
+                <row><cell>Italy</cell>
+                    <cell>68</cell>
+                    <cell>12</cell></row>
+                <row><cell>Netherlands</cell>
+                    <cell>45</cell>
+                    <cell>4</cell></row>
+                <row><cell>Spain</cell>
+                    <cell>80</cell>
+                    <cell>18</cell></row>
+                <row><cell>Sweden</cell>
+                    <cell>56</cell>
+                    <cell>6</cell></row>
+                <row><cell>Switzerland</cell>
+                    <cell>28</cell>
+                    <cell>3</cell></row>
+                <row><cell>West Germany</cell>
+                    <cell>42</cell>
+                    <cell>7</cell></row>
+            </tabular>
+      <image source="act-2-1-2.png" width="60%"><description>Scatterplot of home ownership on [25,85]x[0,20]</description></image>
+          </sidebyside>
+      <aside component="instructor"><p>2b. You might enter the data ahead of time and demonstrate the use of your technology for the class.</p></aside>
+  </introduction>
+
+<p><ol marker="a.">
+    <li><p>Use a straightedge to draw a line of best fit for the scatterplot.</p></li>
+
+    <li><p>Use technology to find the equation of the least-squares regression line. (Or record the equation provided by your instructor.) Round the coefficients to two decimal places.</p></li>
+    <li><p>Evaluate the least-squares formula for 40% home ownership and for 70% home ownership.</p>
+            <aside component="instructor"><p>2c. Point out that in this case we do not change the percents to decimals!</p></aside></li>
+
+    <li><p>Use the values from part (c) to graph the least-squares regression line on the scatterplot, and compare to your line of best fit.</p></li> 
+    <li><p>What is the slope of the least-squares regression line? What is its meaning for unemployment?</p>
+            <aside component="instructor"><p>2d. Students will probably notice that the regression line appears to pass through only one data point. Emphasize again that it need not pass through any data points.</p></aside></li>
+    <li><p>What is the vertical intercept of the least-squares regression line? What is its meaning for unemployment?</p></li>
+    <li><p>What unemployment rate does the model predict for a society with 100% home ownership?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>Should you adjust a line of best fit so that it passes through two of the data points?  Why or why not?</p></li>
+    <li><p>In Activity 1, why don't we use data points to find the equation of the line of best fit?</p></li>
+    <li><p>In Activity 2, how did your line of best fit compare to the least-squares regression line?</p></li>
+    <li><p>In which part(s) of Activity 2 did you use interpolation, and in which part(s) did you use extrapolation?</p></li>
+</ol></p> 
+</subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Describe a strategy for sketching a line of best fit by eye.</p></li>
+    <li><p>Should you expect the data points on a scatterplot to satisfy the regression equation? Why or why not?</p></li> 
+    <li><p>Explain the difference between interpolation and extrapolation.</p></li>
+    <li><p>Explain how to find an equation for a line through two points using two steps.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Can two points on a scatterplot have the same <m>x</m>-coordinate? Can two points have the same <m>y</m>-coordinate?</p>
+    <p><ol marker="a.">
+        <li>Yes, Yes</li>    
+        <li>Yes, No</li>
+        <li>No, Yes</li>  
+        <li>No, No</li>
+    </ol></p></li>
+    <li><p>If you add more data points to the scatterplot, could the regression line change?</p>
+    <p><ol marker="a.">
+        <li>Yes</li>    
+        <li>No</li>
+    </ol></p></li>
+    <li><p>How many data points must a good regression line pass through?</p>
+    <p><ol marker="a.">
+        <li>Three</li>    
+        <li>Two</li>
+        <li>One</li>  
+        <li>None</li>
+    </ol></p></li>
+    <li><p>We can estimate the regression equation by drawing the line that passes through:</p>
+    <p><ol marker="a.">
+        <li>The first and last data points.</li>    
+        <li>Two data points in the middle.</li>
+        <li>Either of these.</li>  
+        <li>None of these.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

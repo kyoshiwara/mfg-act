@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Natural Base</title>
+
+<assemblage component="instructor"><p>It is difficult to explain to students before calculus why the natural base is important. This Lesson includes two interesting numerical facts about <m>e</m>, but we have not attempted to justify its relevance to exponential functions. If you wish, you might offer the two usual pictures to the class:</p>
+
+  <sidebyside widths="55% 38%"><image source="actMFG-5-3-1.png"><description>area under y=1/x</description></image><image source="actMFG-5-3-2.png"><description>tangent line to y=e^x</description></image></sidebyside>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Evaluate and graph the natural exponential and natural log functions </p></li>   
+<li><p>Approximate the value of <m>e</m></p></li>
+<li><p>Solve exponential equations base <m>e</m></p></li>
+<li><p>Model exponential growth and decay with base <m>e</m></p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-5-3-1"><title> Base <m>e</m></title>
+
+<p><ol marker="a.">
+    <li><p>Recall that <m>\alert{e}</m> is an irrational number approximately equal to 2.7. Use your calculator to help you complete the table.  Round values to tenths.</p>
+
+        <aside component="instructor"><p>1(a) Students are not comfortable with <m>e</m>, because they are not comfortable with any irrational numbers. Take every opportunity to state that <m>e</m> is about 2.7.</p></aside>
+
+<sidebyside widths="40% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=2^x</m></cell> 
+                    <cell><m>g(x)=e^x</m></cell>
+                    <cell><m>h(x)=3^x</m></cell></row>               
+                <row><cell><m>-1.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>3.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular> 
+            <image source="actMFG-5-3-3.png"></image></sidebyside></li>
+
+    <li><p>Plot points from the table to sketch all three graphs on the grid below.</p>
+        <image source="act-10-3-1.png" width = "55%"><description>grid -2 t0 10 by -2 t0 10</description></image></li>
+
+    <li><p>On the same grid, graph <m>f^{-1}(x)=\log_2{x},~~g^{-1}(x)= \ln {x}</m>,  and <m>h^{-1}(x)=\log_3{x}</m>.</p>
+
+        <aside component="instructor"><p>1(c) Many students read "ln x" as "eye-n-x." Point out that "ln" stands for natural log, so it's an ell not an eye.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-5-3-2"><title>Changing the Base</title>
+
+<p><ol>
+    <li><introduction><p>Because the number <m>e</m> is universal, it is useful to express any exponential growth or decay law with base <m>e</m>. This is easy to do.</p> 
+    
+    <p>First, notice that the laws of exponents tells that <m>e^{kt} = (e^k)^t</m>.</p></introduction>
+
+    <p><ol marker="a.">
+        <li><p>Follow the steps to write <m>P=25(10)^t</m> as <m>P=25(e^k)^t</m></p>
+            <p><ol marker="(1)">    
+                <li><p>We need to replace <m>10</m> by <m>e^k</m>. That is, we need to find <m>k</m> so that <m>e^k = 10</m>. Solve this equation for <m>k</m>.  Round your answer to tenths.</p></li>
+                <li><p>Substitute your value for <m>k</m> into the formula for <m>P</m>.</p></li>
+                <li><p>Check that the two formulas for <m>P</m> give the same outputs for <m>x = 1,~x=2,~</m> and <m>x=3</m>.</p>
+
+                        <aside component="instructor"><p>2(b) It is very helpful to demonstrate that both forms of the function have the same graph.</p></aside></li>
+            </ol></p></li>
+        <li><p>Rewrite each exponential function with base <m>e</m>:</p>
+            <p><ol marker="(1)">
+                <li><p><m>H=12(1.05)^t</m></p></li>
+                <li><p><m>N=80(0.16)^t</m></p>
+
+                <p>How do you know from the formulas that the second function is decreasing?</p></li>
+            </ol></p></li>
+        </ol></p></li>
+
+    <li><p>We can also convert easily from logarithms in one base to logs in another base, using the Change of Base formula.</p>
+        <p>Suppose we want to change from base 2 to base 10.  Start with  <m>y=\log_2 {x}</m> and follow the steps:</p>
+
+        <p><m>\blert{\text{Rewrite in exponential form.}}</m></p>
+        <p><m>\blert{\text{Take} ~\log_{10}~\text{of both sides.}}</m></p>
+        <p><m>\blert{\text{Apply the third log property.}}</m></p>
+        <p><m>\blert{\text{Solve for}~y.}</m></p></li>
+
+    <li><p>Now use your rule to find <m>\log_2{15}</m>. Is your answer reasonable?</p></li>
+
+    <li><p>How can you generalize your rule in part (b) to change from any base <m>b</m> to a different base <m>c</m>?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-5-3-3"><title>What is <m>\alert{e}</m> ?</title>
+
+ <introduction><p>You have already met <m>\alert{\pi}</m>, an irrational number that turns up in many mathematical models, including the geometric formulas you know. It is one of the constants that describes our universe. Another such universal constant is <m>\alert{e}</m>, but its significance is not usually apparent without calculus. Here is a preview.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Use your calculator to evaluate the expression <m>\left(1+\dfrac{1}{n}\right)^n</m>  for large values of <m>n</m>. What number does the expression approach as <m>n</m> increases?</p>
+
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>n</m></cell>
+                    <cell><m>100</m></cell> 
+                    <cell><m>1000</m></cell>
+                    <cell><m>10,000</m></cell>
+                    <cell><m>100,000</m></cell></row>               
+                <row><cell><m>\left(1+\dfrac{1}{n}\right)^n</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row></tabular>
+
+    <p>What number does the expression approach as <m>n</m> increases?</p></li>
+
+    <li><p>Recall that <m>n! = n \cdot (n-1) \cdot (n-2) \cdot ... \cdot 3 \cdot 2 \cdot 1</m>. For example, <m>4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24</m>.  Evaluate the following expressions.</p>
+
+        <p><m>1+\dfrac{1}{1!} = </m></p>
+        <p><m>1+\dfrac{1}{1!}+\dfrac{1}{2!} = </m></p>
+        <p><m>1+\dfrac{1}{1!}+\dfrac{1}{2!}+\dfrac{1}{3!} = </m></p>
+        <p><m>1+\dfrac{1}{1!}+\dfrac{1}{2!}+\dfrac{1}{3!}+\dfrac{1}{4!} = </m></p>
+        <p><m>1+\dfrac{1}{1!}+\dfrac{1}{2!}+\dfrac{1}{3!}+\dfrac{1}{4!}+\dfrac{1}{5!} = </m></p>
+        <p><m>1+\dfrac{1}{1!}+\dfrac{1}{2!}+\dfrac{1}{3!}+\dfrac{1}{4!}+\dfrac{1}{5!}+\dfrac{1}{6!} = </m></p>
+
+    <p>What number does the sum approach as the number of terms increases?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>Why would you expect the graph of <m>y=e^x</m> to lie between the graphs of <m>y=2^x</m> and <m>y=3^x</m>?</p></li>
+<li><p>What does "ln" stand for in the function <m>f(x) = \ln{x}</m> ?</p></li>
+<li><p>Give decimal approximations for the constants <m>\pi</m> and <m>e</m>.</p></li>
+<li><p>Is <m>F(n) = \dfrac{1}{n!}</m> an increasing or a decreasing function of <m>n</m>?  Is it concave up or down?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain how to rewrite <m>P(t) = P_0b^t</m>  with the natural base.</p></li>
+<li><p>Delbert says that he will begin solving the equation <m>100e^{0.6t} = 40</m> by computing <m>e^{0.6t}</m>. Is this a good strategy?  Why or why not?</p></li>
+<li><p>Explain why <m>\ln{\left(\dfrac{1}{e^3}\right)} = -3</m>.</p></li>
+<li><p>Explain why solving exponential equations in base <m>e</m> is no harder than solving exponential equations in base 10.</p></li></ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>The value of <m>e^2</m> is closest to </p>
+    <p><ol marker="a.">
+        <li><p><m>3</m></p></li>
+        <li><p><m>5</m></p></li>
+        <li><p><m>7</m></p></li>
+        <li><p><m>9</m></p></li>
+    </ol></p></li>
+    <li><p>Which of the following is equivalent to <m>e^x = k</m>?</p>
+    <p><ol marker="a.">
+        <li><m>e^k=x</m></li>
+        <li><m>\log_k{e} = x</m></li>
+        <li><m>\log_e{k} = x</m></li>
+        <li><m>k^x = e</m></li>
+    </ol></p></li>
+    <li><p>Why is the equation <m>e^x = 6.5</m> easier to solve than <m>8^k = 6.5</m> ?</p>
+        <p><ol marker="a.">
+        <li>8 is larger than 6.5</li>
+        <li><m>k</m> is a constant</li>
+        <li>There is a button for log base <m>e</m> on the calculator, but not a button for log base 8.</li>
+        <li>Because <m>e</m> is an irrational number.</li>
+    </ol></p></li>
+    <li><p>The natural log of a fraction between 0 and 1 is</p>
+        <p><ol marker="a.">
+        <li>positive.</li>
+        <li>negative.</li>
+        <li>undefined.</li>
+        <li>between <m>e^0</m> and <m>e^1</m>.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

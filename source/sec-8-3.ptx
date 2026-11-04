@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Linear Systems Using Matrices</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we solve 2x2 and 3x3 linear systems using matrices.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Write the augmented matrix for a system</p></li>
+<li><p>Perform row operations on a matrix</p></li> 
+<li><p>Put a matrix into reduced row echelon form</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-8-3-1"><title>Elementary Row Operations</title>
+
+<introduction><p>We can use a <term>matrix</term> to reduce the amount of writing needed to solve a system of equations. Recall that you can perform the same operations on the rows of a matrix that you can perform on the equations of a system.</p></introduction>
+
+<p>List those three operations here:</p>
+    <p><ol>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li> 
+    </ol></p>
+</activity>
+
+<activity xml:id="act-8-3-2"><title>A 2x2 Matrix</title>
+
+<p><ol marker="a.">
+    <li><p>Write the augmented matrix for the system
+      <md><mrow>3x - 2y \amp = 16</mrow>
+          <mrow>2x + y \amp = 6</mrow></md></p>
+
+        <aside component="instructor"><p>There is not much advantage to using a matrix for a 2x2 system. Tell students that we are learning the steps to use on a larger system.</p></aside></li>
+
+    <li><p>To obtain a 1 in the first element of the first row, subtract the second row from the first.</p></li>
+
+    <li><p>Subtract 2 times row 1 from row 2.</p></li>
+
+    <li><p>Now your matrix is in upper triangular form. Use back-substitution to solve the system.</p></li>
+
+    <li><p>Alternatively, go back to the matrix in part (c). Divide the second row by 7.</p></li>
+
+    <li><p>Add 3 times row 2 to row 1.</p>
+
+          <aside component="instructor"><p>Point out that reduced row echelon form produces a diagonal coefficient matrix.</p></aside></li>
+
+    <li><p>Your matrix is now in <term>reduced row echelon</term> form, and you can read the solutions directly. Do you get the same solution as before?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-8-3-3"><title>A 3x3 Matrix</title>
+
+<p><ol marker="a.">
+    <li><p>Now let's try a 3x3 system. Write the augmented matrix for the system:
+
+      <md><mrow>x - 2y + 3 \amp = -11</mrow>
+          <mrow>2x + 3y - z \amp = 6</mrow>
+          <mrow>3x - y - x \amp = 2</mrow></md></p></li>
+
+    <li><p>First we'll obtain zeros in the first entries of the second and third rows.</p>
+
+    <p><m>\blert{\text{Subtract 2*(row 1) from row 2}}</m></p>
+    <p><m>\blert{\text{Subtract 3*(row 1) from row 3}}</m></p></li>
+
+    <li><p>Next, obtain 1 in the second row.</p>
+
+    <p><m>\blert{\text{Divide row 2 by 7}}</m></p>
+    <p><m>\blert{\text{Divide row 3 by 5}}</m></p></li>
+
+    <li><p>Finally, obtain 1 in the third row.</p>
+
+    <p><m>\blert{\text{Subtract row 2 from row 3}}</m></p>
+
+          <aside component="instructor"><p>This is a very easy example of reducing a 3x3 matrix. If you have time to do another and your students are ready for it, you could choose a harder one from the Homework Problems.</p></aside></li>
+
+    <li><p>Solve the system by back-substitution.</p></li>
+
+    <li><p>Alternatively, go back to the matrix in part (d). Perform the operations to put the matrix in reduced row echelon form.</p></li>
+
+    <li><p>Do you get the same solution as before?</p>
+
+      <aside component="instructor"><p>You might ask students whether they prefer the upper triangular or the reduced row echelon form for solving a system.</p></aside></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>What is a 4x3 matrix?</p></li>
+    <li><p>What is the first step in reducing a matrix?</p></li>
+    <li><p>What is the second step in reducing a matrix?</p></li>
+    <li><p>What is reduced row echelon form?</p></li>
+</ol></p></subsection> 
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>What is the difference between a coefficient matrix and an augmented matrix?</p></li>
+    <li><p>How is matrix reduction similar to Gaussian reduction?</p></li>
+    <li><p>What is the order of a matrix?</p></li>
+    <li><p>Why do we want to put a matrix into upper triangular form?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which of the following is not an allowed row operation?</p>
+        <p><ol marker="a.">
+        <li>Divide the entries in a row by a nonzero number</li>
+        <li>Add two rows together</li> 
+        <li>Interchange two elements in a row</li>
+        <li>Interchange the first and last rows</li>
+    </ol></p></li>
+    <li><p>Why is reduced row echelon form useful?</p>
+        <p><ol marker="a.">
+        <li>It makes the elements in each row smaller.</li>
+        <li>It lets us read the solutions of a system.</li>
+        <li>It reduces the number of rows.</li>
+        <li>It solves the matrix.</li>
+    </ol></p></li>
+    <li><p>What happens if we cannot obtain nonzero entries on the diagonal?</p>
+        <p><ol marker="a.">
+        <li>There is no solution.</li>
+        <li>There is no unique solution.</li>
+        <li>We should reduce the matrix.</li>
+        <li>We should augment the matrix.</li>
+    </ol></p></li>
+    <li><p>What should you do if the first entry in the first row is zero?</p>
+        <p><ol marker="a.">
+        <li>Interchange two columns.</li>
+        <li>Interchange two rows.</li>
+        <li>Add the first row to the second row.</li>
+        <li>Obtain zeros below that entry.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

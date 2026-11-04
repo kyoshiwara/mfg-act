@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Properties of Logarithms</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we introduce the properties of logarithms and use them to solve exponential equations. Instead of trying to "prove" the properties, it may be more effective to illustrate them with numerical values, as is done in the reading.</p>
+<p>Remind students that "<m>\log (x)</m>" is function notation: the parentheses do not indicate multiplication, and are thus not subject to the distributive law. When solving equations, you will also need to empahsize that <m>\dfrac{\log a}{\log b} \not= \dfrac{\log a}{\log b}</m>. Students at this level have a hard time applying a general rule expressed algebraically to specific instances, so it is a good idea to work through several examples.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Use the properties of logarithms to simplify expressions</p></li>
+    <li><p>Avoid mistakes when using the properties of logarithms.</p></li>    
+    <li><p>Solve exponential equations using base 10 logarithms</p></li>    
+ </ul></p></assemblage>
+  
+<activity xml:id="act-4-4-1"><title>Three Properties</title>
+
+<introduction><p>Refer to the properties of logarithms in your textbook.</p></introduction>
+
+        <aside component="instructor"><p>To help your students understand the log properties, look at some numerical examples, as in part (a), alongside the corresponding property of exponents. Highlight the fact that the logarithms are the exponents.</p></aside>
+<p><ol marker="a.">
+    <li><p>Verify that the properties are true for these examples by calculating the logs:</p>
+        <p>Property (1):</p>
+        <p><md><mrow>~~~~\log_2 32 = \log_2 (4 \cdot 8) \amp = \log_2 4 + \log_2 8 ~~~~~~~~~~ \text{because} ~2^5 = 2^2 \cdot 2^3</mrow>
+                <mrow><fillin/> \amp = <fillin/> + <fillin/></mrow></md></p>
+        <p>Property (2):</p>
+        <p><md><mrow>~~~~\log_2 8 = \log_2 \left(\dfrac{16}{2} \right)\amp  = \log_2 16 - \log_2 2 ~~~~~~~~~~ \text{because} ~2^3 = \dfrac{2^4}{2^1}</mrow>
+                <mrow><fillin/> \amp = <fillin/> - <fillin/></mrow></md></p>
+          <p>Property (3):</p>
+            <p><md><mrow>~~~~\log_2 64 = \log_2 (4^3) \amp = 3\log_2 4 ~~~~~~~~~~  \text{because} ~(2^2)^3 = 2^6</mrow>
+                    <mrow><fillin/> \amp = <fillin/> \times <fillin/></mrow></md></p></li>
+
+    <li><p>Given that <m>\log_b 2 = 0.6931,~ \log_b 3 = 1.0986,~</m> and <m>\log_b 5 = 1.6094~</m>,  use the properties to simplify each expression.</p>
+        <p><ol>
+            <li><p><m>\log_b 3x</m></p></li>
+            <li><p><m>\log_b \dfrac{5}{x}</m></p></li>
+            <li><p><m>\log_b 8</m></p></li>
+            <li><p><m>\log_b \sqrt{5x}</m></p></li>
+        </ol></p></li>
+
+    <li><p>Caution! Be careful when using the properties of logarithms. Which expressions in each group are equivalent (if any)?</p>
+        <p><ol>
+
+        <aside component="instructor"><p>Point out the various incorrect applications of the log properties that studetns are prone to make.</p></aside>
+
+            <li><p><m>\log \dfrac{x}{25}~~~~~~~~\dfrac{\log x}{\log 25}~~~~~~~~\log x - \log 25~~~~~~~~\log (x-25)</m></p></li>
+            <li><p><m>\log (25x)~~~~~~~~\log 25 + \log x~~~~~~~~\log (x+25)~~~~~~~~\log x \log 25</m></p></li>
+            <li><p><m>\log (x^2)~~~~~~~~(\log x)^2~~~~~~~~2 \log x~~~~~~~~\log 2x</m></p></li>
+        </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-4-2"><title>Solving Exponential Equations</title>
+
+        <aside component="instructor"><p>We use a two-step strategy for solving the exponential equations we study. We (1) isolate the exponential expression, then (2) take the log of both sides.</p></aside>
+ 
+ <introduction><p> Now we can solve exponential equations to any base, by using the third log property.</p></introduction>
+<p><ol marker="a.">
+<li><p>Follow the steps to solve the equation  <m>~~3^x = 25</m></p>   
+
+  <p>Take the log base 10 of both sides.</p>
+
+  <p>Apply the third log property.</p>
+
+  <p>Divide both sides by  <m>\log 3</m>.</p>
+
+  <p>Use a calculator to obtain an approximation to 4 decimal places.</p>
+
+          <aside component="instructor"><p>When solving exponential equations, students may try to evaluate <m>\dfrac{\log a}{\log b}</m> as <m>\log \left(\dfrac{a}{b} \right)</m>, either by misapplying the log property, or by failing to use parentheses on the calculator.</p></aside></li>
+
+<li><p>Solve <m>~12 \cdot 5^{1.5x} = 85</m></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-4-3"><title>Electricity Usage</title>
+
+<p><ol marker="a.">
+  <li><p>Starting in 1998, the demand for electricity in Ireland grew at a rate of 5.8% per year. In 1998, 20,500 gigawatts were used. Write a formula for electricity demand in Ireland as a function of time.</p></li>
+
+  <li><p>How much electricity was used in Ireland in 2000?</p></li>
+
+  <li><p>According to the model, when did demand reach 30,000 gigawatts?</p></li>
+
+  <li><p>In a few words, compare the algebraic techniques you used in parts (b) and (c).</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-4-4"><title>Using the Properties of Logarithms</title>
+<p><ol>
+  <li><p>Use the properties of logarithms to write each expression in terms of simpler logsarithms.</p>
+  <p><ol marker="a.">
+     <li><m>\log {x^2 y^5}</m></li>
+     <li><m>\log {\dfrac{m}{(m-1)^3}}</m></li>
+     <li><m>\log{P(1+r)^t}</m></li>
+     <li><m>\log{\sqrt{\dfrac{h}{k}}}</m></li>
+   </ol></p></li>
+
+  <li><p>Combine into one logarithm and simplify.</p>
+  <p><ol marker="a.">
+     <li><m>\log{x-1} +4 \log{x+1}</m></li>
+     <li><m>2 \log{w} + \log {w-2} - 3 \log {w+2}</m></li>
+     <li><m>\dfrac{1}{2} \log{Q} - \dfrac{3}{2} \log{Q+2}</m></li>
+     <li><m>\log {A} + kt \log {1+n}</m></li>
+   </ol></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+  <li><p>How do we use common logarithms to solve exponential equations with any base?</p></li>
+  <li><p>Is <m>\log{\dfrac{8}{3}}</m> the same as <m>\log{8} - \log{3}</m>? Why or why not?</p></li>
+  <li><p>What is the inverse operation for taking a logarithm base <m>b</m>?</p></li>
+  <li><p>Which statement is true?</p>
+      <p><ol marker="a.">
+          <li><m>\log{8+y} = \log{8} + \log{y}</m></li>
+          <li><m>\log{8y} = \log{8} + \log{y}</m></li>
+          <li><m>\log{8y} = \log{8} \cdot \log{y}</m></li>
+          <li><m>\log{8+y} = \log{8} \cdot \log{y}</m></li>
+      </ol></p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol> 
+  <li><p>Explain why the distributive law does not apply to the expression <m>\log {(a+b)}</m>.</p></li>
+  <li><p>Explain how to calculate <m>x=\log_3 {12}</m> by first converting to exponential form.</p></li>
+  <li><p>In the compound interest formula, what do the expressions <m>\dfrac{r}{n}</m> and <m>nt</m> stand for?</p></li>
+  <li><p>Compare the graphs of <m>f(x)= \log{\frac{1}{x}}</m>  and <m>g(x) = -\log x</m>, and explain.</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>How can we solve <m>5^x=7</m>?</p>
+    <p><ol marker="a.">
+        <li>Divide both sides by 5.</li>
+        <li>Take log base 10 of both sides.</li>
+        <li>Take the fifth root of 7.</li>
+        <li>This equation has no solution.</li>
+    </ol></p></li>
+    <li><p>Which expression is equal to <m>\log_3 {100}</m> ?</p>
+    <p><ol marker="a.">
+        <li><m>(\log_3 {10})^2</m></li>
+        <li><m>\sqrt[3]{1002}</m></li>
+        <li><m>2\log_3 {10}</m></li>
+        <li><m>\log {300}</m></li>
+    </ol></p></li>
+    <li><p>How can we find a power of 8 that equals 1000?</p>
+    <p><ol marker="a.">
+        <li>Trial and error</li>
+        <li>Divide 1000 by powers of 8</li>
+        <li>Compute <m>\dfrac{3}{\log{8}}</m></li>
+        <li>Compute <m>1000^{1/8}</m></li>
+    </ol></p></li>  
+    <li><p>Which of these is the solution to <m>3^x=16</m>?</p>
+    <p><ol marker="a.">
+        <li><m>\dfrac{\log {3}}{\log {16}}</m></li>
+        <li><m>\dfrac{\log {16}}{\log {3}}</m></li>
+        <li><m>\log {\dfrac{16}{3}}</m></li>
+        <li><m>16^{1/3}</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

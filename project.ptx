@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file provides the overall configuration for your PreTeXt
+    project. To edit the content of your document, open `source/main.ptx`
+    (default location).
+-->
+<project ptx-version="2" source="source">
+  <targets>
+    <target name="web" format="html" source="mfg-act.ptx" publication="publication.ptx" />
+    <target name="print-latex" format="latex" source="imfg-act.ptx" publication="publication.ptx" />
+    <target name="print" format="pdf" source="mfg-act.ptx" publication="publication.ptx" />
+    <target name="subset" format="html" source="test-section.ptx" publication="publication-test.ptx" />
+    <target name="subset-instructor" format="html" source="test-section.ptx" publication="publication-instructor.ptx" />
+  </targets>
+</project>
+

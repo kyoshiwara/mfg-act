@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Complex Numbers</title>
+
+<assemblage component="instructor">
+<p>In this Lesson students practice graphing and performing operations on complex numbers while exploring complex roots. Begin by describing the complex plane and show students how to plot points for complex numbers. For these Activities, we will use "arrows" to locate points, so that students can more clearly see angles and rotations.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Perform operations on complex numbers</p></li>    
+<li><p>Plot complex numbers in the complex plane</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-7-3-1"><title>Products</title>
+
+<introduction><p><sidebyside widths="50% 50%"><p>The figure shows the graph of
+        <md>z=3+2i</md>
+as the tip of an arrow starting at the origin.</p>
+    <image source="actMFG-7-3-1.png"><description>arrow on grid from (0,0) t0 (3,2)</description></image></sidebyside></p>
+</introduction>
+
+<p><ol marker="a.">
+    <li><p>What happens to the arrow when we multiply <m>z</m> by a real number? Compute  
+            <md>2z= </md>
+        and draw an arrow on the same grid to represent it.</p></li>
+
+    <li><p>Multiplying a complex number by a real number changes the <fillin></fillin> of the arrow.</p></li>
+
+    <li><p>What if we multiply a complex number by <m>i</m> ?  Compute
+            <md>iz=  </md>
+        and draw an arrow on the grid to represent it.</p></li>
+
+<li><p>Multiplying a complex number by <m>i</m> rotates the arrow by <fillin></fillin>°.</p>
+
+      <aside component="instructor"><p>Discuss with students how they can know that the rotation is 90°.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-3-2"><title>More Products</title>
+
+<p><ol marker="a.">
+    <li><p>Multiply your value for <m>iz</m> from Activity 1 by another factor of <m>i</m>, and draw an arrow to represent it.</p>
+            <md>i \cdot iz = </md></li>
+
+    <li><p> What do you notice about the result?</p>  
+        <p>Why does this happen?</p></li>
+
+    <li><p> Multiply your result from part (a) by one more factor of <m>i</m>, and draw an arrow to represent it.</p></li>
+
+    <li><p>What do you notice about the four arrows?</p></li>
+</ol></p>    
+</activity>
+
+<activity xml:id="act-7-3-3"><title>Roots</title>
+
+<p><ol marker="a.">
+    <li><p>Find two square roots of <m>-1</m> in the complex numbers.</p></li> 
+
+    <li><p>Find two square roots of <m>-4</m> in the complex numbers.</p></li>
+
+    <li><p><sidebyside widths="50% 35%"><p>Draw arrows for the four complex numbers
+            <md><mrow>z_1 = 1,~~~~~~ \amp z_2 = i</mrow>
+                <mrow>z_3 = -1,~~~~~~ \amp z_4 = -i</mrow></md></p>
+        <image source="actMFG-7-3-2.png"><description>2 by 2 grid, axes x and iy</description></image></sidebyside></p></li>
+
+    <li><p>Raise each complex number in part (c) to the fourth power.</p></li>
+
+    <li><p>How many fourth roots of <m>1</m> have you found in the complex numbers? Do you think there could be others?</p>
+
+        <aside component="instructor"><p>This Activity introduces the idea that the complex roots of a number are equally spaced around the origin. You might need to prompt them to notice this.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-3-4"><title>More Roots</title>
+
+<p><ol marker="a.">
+    <li><p><sidebyside widths="50% 50%"><p>Draw an arrow on the grid to represent 
+            <md>z = \dfrac{1}{\sqrt{2}} +  \dfrac{1}{\sqrt{2}} i</md>
+        (Use your calculator to evaluate <m>\dfrac{1}{\sqrt{2}}</m>.)</p>
+    <image source="actMFG-7-3-3.png"><description>1 by 1 grid, scaled in tenths</description></image></sidebyside></p></li>
+
+    <li><p> Compute 
+            <md>z^2 = </md></p>
+
+              <aside component="instructor"><p>Students may have difficulty with the computations. Circulate and offer help, and if necessary demonstrate for the class.</p></aside>
+        <p> Compute 
+            <md>z^4 = (z^2)^2 = </md></p></li>
+
+    <li><p>Draw another arrow on the grid to represent 
+            <md>w = \dfrac{-1}{\sqrt{2}} +  \dfrac{1}{\sqrt{2}} i</md></p></li>
+
+    <li><p> Compute 
+            <md>w^2 = </md></p>
+        <p> Compute 
+            <md>w^4 = (w^2)^2 = </md></p></li>
+
+    <li><p>How many fourth roots of <m>-1</m> have you found in the complex numbers?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-3-5"><title>Yet More Roots</title>
+
+<p><ol marker="a.">
+    <li><p><sidebyside widths="50% 50%"><p>Draw an arrow on the grid to represent 
+        <md>z = \dfrac{-1}{2} +  \dfrac{\sqrt{3}}{2} i</md></p>
+    <image source="actMFG-7-3-3.png"><description>1 by 1 grid, scaled in tenths</description></image></sidebyside></p></li>
+
+    <li><p> Compute 
+            <md>z^2 = </md></p>
+        <p> Compute 
+            <md>z^3 = z \cdot z^2 = </md></p></li>
+
+    <li><p>Let <m>w=z^2</m> from part (b). Compute
+            <md>w^2 = </md>
+        What do you notice?</p></li>
+
+    <li><p>Compute 
+            <md>w^3 = w^2 \cdot w = </md>
+        Compare to your calculation in part (b)></p></li> 
+
+    <li><p>How many cube roots of <m>-1</m> have you found in the complex numbers? List them.</p>
+
+          <aside component="instructor"><p>You might offer a wrap-up stating the conclusions you hope students will draw from the Lesson.</p></aside></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>From your work here, state a conjecture about the number of complex <m>n</m>th roots a real number has.</p></li>
+    <li><p>How are those roots located in the complex plane?</p></li>
+    <li><p>What is an easy way to compute <m>(a+bi)(a-bi)</m>?</p></li>
+</ol></p></subsection>
+
+ 
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain how to divide one complex number by another.</p></li>
+    <li><p>What does the Fundamental Theorem of Algebra tell us?  Give an example.</p></li>
+    <li><p>Describe how multiplying complex numbers is like multiplying binomials.</p></li>
+    <li><p>What can you say about the graph of a quadratic function whose zeros are complex numbers?</p></li>
+</ol></p></assemblage>
+
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>How many fourth roots does <m>-1</m> have in the complex numbers?</p>
+        <p><ol marker="a.">
+        <li>2</li>
+        <li>4</li>
+        <li>1</li>
+        <li>none</li>
+    </ol></p></li>
+    <li><p>What is the imaginary unit?</p>
+        <p><ol marker="a.">
+        <li><m>-1</m></li>
+        <li><m>(-1)^2</m></li>
+        <li><m>i^2</m></li>
+        <li><m>\sqrt{-1}</m></li>
+    </ol></p></li>
+    <li><p>What is the product of <m>a+bi</m> with its complex conjugate?</p>
+        <p><ol marker="a.">
+        <li><m>a-bi</m></li>
+        <li><m>a^2-b^2</m></li>
+        <li><m>a^2+b^2</m></li>
+        <li><m>ai+b</m></li>
+    </ol></p></li>
+    <li><p>If <m>z=3+5i</m> is a solution to a polynomial equation, then so is:</p>
+        <p><ol marker="a.">
+        <li><m>5+3i</m></li>
+        <li><m>9+25</m></li>
+        <li><m>3-5i</m></li>
+        <li><m>5-3i</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>
+

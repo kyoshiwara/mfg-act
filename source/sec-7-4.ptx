@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graphing Rational Functions</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we sketch some rational functions consider some simple examples using rational functions as models. We discuss the meaning of verical and horizontal asymptotes in aplications.</p>
+
+<p>We do not cover operations on algebraic fractions here; however if you wish, Section A.9 in the Appendix offers a review.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Graph rational functions </p></li> 
+<li><p>Use rational functions as models</p></li>    
+<li><p>Interpret horizontal and vertical asymptotes</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-7-4-1"><title>Sketching a Graph</title>
+  
+<introduction><p>We can quickly sketch the graph of a rational function using just the asymptotes and a handful of points. Follow the steps below to graph the two functions
+        <md> f(x) = \dfrac{21}{x^2-9}~~~~~~\text{and}~~~~~~g(x)=\dfrac{2x^2-4}{x^2-1}</md>
+on the grids below.</p>
+
+<p><sidebyside widths="50% 50%">
+    <image source="actMFG-7-4-1.png"><description>8 by 8 grid</description></image><image source="actMFG-7-4-1.png"><description>8 by 8 grid</description></image></sidebyside></p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Find the vertical and horizontal asymptotes of the graph. Use dashed lines to show them on the grid.</p>
+
+          <aside component="instructor"><p>Some students may need help with parts (a) and (b). If most of the class is struggling, you may want to go over the graph of <m>f</m> with them. Then you could have them tackle the graph of <m>g</m> in their groups.</p></aside></li>
+
+    <li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph (if they exist). Plot those points.</p></li>
+
+    <li><p>Think of the vertical asymptotes as dividing the plane into three regions. We'll find one point in each region:
+
+            <md>f(-4) = ~~~~~~~~~~~~f(0) = ~~~~~~~~~~~~f(4) = </md>
+            <md>g(-2) = ~~~~~~~~~~~~g(0) = ~~~~~~~~~~~~g(2) = </md></p>
+        <p>Plot the points you found.</p></li> 
+
+    <li><p>Notice that the graph of <m>f</m> cannot cross the <m>x</m>-axis. Why is that? Similarly, the graph of <m>g</m> cannot cross the line <m>y=2</m>.</p>
+
+        <aside component="instructor"><p>Take some time to make sure that everyone understands part (d).</p></aside></li>
+
+    <li><p>As the graph approaches each vertical asymptote, it must head towards either positive or negative infinity. Use your observations from part (d) to complete each graph.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-4-2"><title>Horizontal Asymptote</title>
+
+<introduction><p>Envirogreen Technology, Inc. decides to produce a new type of water filter for home use.They spend $5000 for startup costs, and each filter costs $50 to produce.</p></introduction>
+
+            <aside component="instructor"><p>Begin be reviewing the notions of revenue, profit, and cost. Make sure your students recognize the difference between price, variable cost, and average cost. Most students grasp the idea of spreading the start-up cost over the number of filters produced.</p></aside>
+<p><ol marker="a.">
+<li><p>To help her decide on a selling price for the filters, the marketing manager would like to know the average cost per filter if they produce <m>x</m> filters.</p>  
+    <p>Compute the total cost of producing <m>x</m> filters:
+            <md><mrow>\text{Total Cost} \amp = \text{Startup Cost} + \text{Cost of}~x~\text{Filters}</mrow>
+                <mrow>  \amp = </mrow></md></p>
+    <p>Divide the total cost by the number of filters produced.
+            <me>\text{Average Cost} = \dfrac{\text{Total Cost}}{\text{Number of Filters}} = </me></p></li>
+
+<li><p>Sketch a graph of the average cost, <m>A</m>.</p>
+  <sidebyside widths="30% 70%">
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>A</m></cell></row>                
+                <row><cell><m>50</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>100</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>200</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>400</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>500</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1000</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1250</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2000</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular>
+        <image source="act-8-2-1.png"><description>Grid [0,2000]x[0,150]</description></image></sidebyside>
+  
+        <p>Use the graph and the table to help you answer the questions.</p></li>
+
+<li><p>Approximately how many filters should Envirogreen produce for the average cost to be $75?</p></li>
+
+<li><p>What happens to the average cost per filter as <m>x</m> increases?</p>
+
+    <p>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</p></li>
+
+<li><p>A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? Use the formula:</p>  
+        <p>Profit = Revenue - Cost.</p></li>
+</ol></p>
+</activity>
+
+<activity  xml:id="act-7-4-3"><title>Vertical Asymptote</title>
+ 
+<introduction><p> The fastest fish in the sea is the bluefin tuna, which has been clocked at 43 miles per hour in short sprints. A school of tuna is migrating a distance of 200 miles at an average speed of 36 miles per hour in still water, but they have run into a current flowing against their direction of travel.</p></introduction>
+
+<p><ol marker="a.">
+<li><p>Express the tuna's travel time <m>t</m> as a function of the current speed, <m>t</m>.</p></li>
+            
+            <aside component="instructor"><p>Help students see that the mathematics reflects their common sense.</p></aside>
+
+<li><p> Complete the table showing the travel time for various current speeds.</p> 
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>v</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell><m>12</m></cell>
+                    <cell><m>16</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>24</m></cell>
+                    <cell><m>28</m></cell>
+                    <cell><m>32</m></cell>
+                    <cell><m>36</m></cell></row>
+                <row><cell><m>t</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular>                        
+    <p>What happens to the travel time as the current speed increases?</p></li>
+
+<li><p>Use the table to choose an appropriate window and graph your function <m>t(v)</m>. Sketch the graph and label scales on the axes.</p></li>
+
+<li><p>Use your graph to estimate the speed of the current if the tuna's travel time was 20 hours. Show your method on the graph.</p></li>
+
+<li><p>Give the equations of any horizontal or vertical asymptotes. What does the vertical asymptote mean in the context of the problem?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>What do the zeros of the numerator of a rational function tell you? What do the zeros of the denominator tell you?</p></li>
+<li><p>Can the graph of a rational function cross a vertical asymptote? Why or why not?</p></li>
+<li><p>In Activity 2, why does the average cost per filter never decrease below $50?</p></li>
+<li><p>What would negative values of <m>v</m> mean in Activity 3?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain how to reduce an algebraic fraction, and describe some mistakes to avoid.</p></li>
+<li><p>Explain carefully why <m>\dfrac{x-t}{t-x} = -1</m>.</p></li>
+<li><p>Explain why dividing by <m>\dfrac{1}{3}</m> gives the same answer as multiplying by 3.</p></li>
+<li><p>Describe the shape of the graph of a rational function near a horizontal asymptote, and near a vertical asymptote.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which expression is equivalent to <m>-\dfrac{v-1}{v+1}</m></p>
+    <p><ol marker="a.">
+        <li><m>\dfrac{v+1}{v-1}</m></li>
+        <li><m>\dfrac{1-v}{v+1}</m></li>
+        <li><m>\dfrac{-v-1}{v+1}</m></li>
+        <li><m>-1</m></li>
+    </ol></p></li>
+    <li><p>Why should we factor the numerator and denominator of a fraction when trying to reduce it?</p>
+    <p><ol marker="a.">
+        <li>To simplify the answer.</li>
+        <li>To find the <m>x</m>-intercepts.</li>
+        <li>We can only cancel factors, not terms.</li>
+        <li>To find out where it is undefined.</li>
+    </ol></p></li>
+    <li><p>The fraction <m>\dfrac{x^2-1}{x^2-4}</m>:</p>
+    <p><ol marker="a.">
+        <li>can be reduced to <m>\dfrac{1}{4}</m></li>
+        <li>is undefined at <m>x=1</m> and <m>x=-1</m></li>
+        <li>is equivalent to <m>\dfrac{(x-1)^2}{(x-2)^2}</m></li>
+        <li>is equal to 0 at <m>x=1</m> and <m>x=-1</m></li>
+    </ol></p></li>
+    <li><p>Which of the following is not a rational function?</p>
+    <p><ol marker="a.">
+        <li><m>y=\dfrac{1}{x+2}</m></li>
+        <li><m>y=3x+5</m></li>
+        <li><m>y=\dfrac{\sqrt{x^2-4}}{x^2+4}</m></li>
+        <li><m>y=\dfrac{x^3+3x-7}{x^4-x^2}</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

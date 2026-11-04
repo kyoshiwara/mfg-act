@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Curve Fitting</title>
+
+<assemblage component="instructor">
+<p>In this lesson we use a linear system to fit a parabola through three points and model with the vertex form. The Activities do not include quadratic regression; if you wish to cover that topic you could use Practices 5 and 6 in the text as classroom examples.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Use Gaussian elimination to fit a parabola to three points</p></li> 
+    <li><p>Choose the best method to find the equation for a parabola</p></li>
+    <li><p>Find the equation for a parabola, given its graph</p></li>
+</ul></p></assemblage>  
+
+<activity xml:id="act-6-6-1"><title>Using Three Points</title>
+
+<introduction><p>You are driving at 60 miles per hour when you step on the brakes. Find a quadratic formula, <m>~d=at^2+bt+c</m>, for the distance in feet that your car has traveled <m>t</m> seconds after braking.</p> 
+      <aside><p>1a. Check that students understand that the unknowns in this system are <m>a</m>, <m>b</m>, and <m>c</m>.</p></aside>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m> (sec)</cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>4</m></cell></row>
+                <row><cell><m>d</m> (feet)</cell>
+                    <cell><m>81</m></cell>
+                    <cell><m>148</m></cell>
+                    <cell><m>210</m></cell>
+                    <cell><m>240</m></cell></row>
+    </tabular></introduction>
+
+<p><ol marker="a.">
+  <li><p>Use the first three data points from the table to write three equations.</p></li>
+  <li><p>Simplify the equations, and write a system.</p></li>
+
+  <li><p>Solve the system.</p>
+          <aside component="instructor"><p>1c. Point out that the easiest way to solve the system is to eliminate <m>c</m> first.</p></aside></li>
+  <li><p>State your formula for <m>d</m>.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-6-2"><title>Finding the Equation of a Parabola</title>
+
+<introduction><p>We now have three forms for the equation of a parabola:</p> 
+<p><ul>
+    <li><p>standard form <m>~~~y=ax^2+bx+c~</m></p></li>
+    <li><p>factored form  <m>~~~y=a(x-r_1)(x-r_2)~</m></p></li>
+    <li><p>vertex form  <m>~~~y=a(x-x_v)^2+y_v~</m></p></li>
+</ul></p></introduction>
+
+<p><ol>
+<li><p>Each of these forms is useful for highlighting different properties of the parabola.</p>
+      <p><ol>
+          <li><p>What is the <m>y</m>-intercept of the graph of <m>~y=3x^2-5x+8~</m>?</p></li>
+          <li><p>What are the <m>x</m>-intercepts of the graph of <m>~y=2(x-3)(x+5)~</m>?</p></li>
+          <li><p>What is the vertex of the graph of <m>~y=4(x+2)^2-5~</m>?</p></li>
+      </ol></p></li>
+
+<li><p>How can we find the equation of a parabola?</p>
+      <p><ul>
+          <li><p>If we know the <m>x</m>-intercepts of the parabola, then we use the factored form.</p></li>  
+          <li><p>If we know the vertex, we use the vertex form.</p></li> 
+          <li><p>In each case, we must know one other point on the parabola in order to find the value of <m>a</m>.</p>
+              <aside component="instructor"><p>2(2) Go over the fact that we need two points to find the equation of a line, and three points to find a parabola, unless one of the points happens to be the vertex.</p></aside></li>
+      </ul></p>
+
+      
+        <p>Problem 1</p>
+          <p><ol marker="a.">
+              <li><p>Write an equation for a parabola that has <m>x</m>-intercepts at <m>(2,0)</m> and <m>(-3,0)</m>. (There are many possible answers.)</p></li>
+              <li><p>Write an equation for another parabola that has the same <m>x</m>-intercepts.</p></li>
+              <li><p>Write an equation for the parabola that has <m>x</m>-intercepts at <m>(2,0)</m> and <m>(-3,0)</m> and <m>y</m>-intercept at <m>(0,3)</m>.</p></li>
+            </ol></p>
+          
+
+        <p>Problem 2</p>
+          <p><ol marker="a.">
+            <li><p>Write an equation for a parabola whose vertex is the point <m>(-2,6)</m>. (Many answers are possible.)</p></li>
+            <li><p>Find the value of <m>a</m> if the <m>y</m>-intercept of the parabola is 18.</p></li>
+        </ol></p>
+
+        <p>Problem 3</p>
+          <p>Find an equation for each parabola. Use the vertex form or the factored form of the equation, whichever is more appropriate.</p>
+              <aside component="instructor"><p>2(2) Suggest that students choose points on the graph whose coordinates are easy to read.</p></aside>
+          <sidebyside widths="35% 35%">
+              <image source="act-4-3-1.png"><description>Parabola on [-2,14]x[-2,18] vertex at (6,2) y-intercept at (0,14)</description></image>
+              <image source="act-4-3-2.png"><description>Parabola on [-6,8]x[-18,6] vertex at (1,-16) x-intercept3 at -3 and 5</description></image></sidebyside></li>      
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-6-3"><title>Curve-Fitting with the Vertex Form</title>
+
+<introduction><sidebyside widths="50% 35%"><p>Francine is designing a synchronized fountain display for a hotel in Las Vegas. For each fountain, water emerges in a parabolic arc from a nozzle three feet above the ground. Francine would like the vertex of the arc to be eight feet high, and two feet horizontally from the nozzle.</p>
+    <image source="act-4-3-3.png"><description>water from fountain forming parabola</description></image></sidebyside></introduction>
+
+<p><ol marker="a.">
+  <li><p>Choose a coordinate system with its origin at the base of the fountain. Label the coordinates of two points on the path of the water.</p></li>
+
+  <li><p>Write an equation for the path of the water.</p></li>
+
+  <li><p>How far from the base of the nozzle will the stream of water hit the ground?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>What were the variables in your 3x3 system in Activity 1?</p></li>
+    <li><p>Which variable did you eliminate first from the system in Activity 1?</p></li>
+    <li><p>If you use the last three points in the table instead of the first three points, will you get the same regression equation?  Why or why not?</p></li>
+    <li><p>Name three forms for quadratic equations.</p></li>
+</ol></p>
+</subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Discuss the three forms for quadratic equations, and when each is useful.</p></li>
+    <li><p>Explain how to fit a parabola through three points.</p></li>
+    <li><p>How do we choose an appropriate type of equation to fit a data set?</p></li>
+    <li><p>If you use the last three points in a table of data instead of the first three points, will you get the same regression equation? Why or why not?</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+  <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+      <li>A parabola is a good model for any non-linear curve.</li>
+      <li>We will get the same equation by fitting a parabola through any three points of a data set.</li>
+      <li>We can use Gaussian elimination to fit a parabola through three points.</li>
+      <li>When we use quadratic regression, the lowest (or highest) point of a data set will be the vertex of the parabola.</li>
+    </ol></p></li>
+  <li><p>How many data points must a quadratic regression equation pass through?</p>
+    <p><ol marker="a.">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>None</li>
+    </ol></p></li>
+  <li><p>If you know the <m>x</m>-intercepts of a parabola, how many more points do you need to find its equation?</p>
+    <p><ol marker="a.">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>None</li>
+    </ol></p></li>   
+  <li><p>If you know the vertex of a parabola, how many more points do you need to find its equation?</p>
+    <p><ol marker="a.">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>None</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

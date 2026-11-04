@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This frontmatter division will contain all content before the -->
+<!-- first chapter.  Fill in and comment/uncomment to see how this -->
+<!-- works.                                                        -->
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="meta_frontmatter">
+  <titlepage>
+    <author>
+      <personname>Katherine Yoshiwara</personname>
+            <department>Department of Mathematics</department>
+            <institution>Los Angeles Pierce College</institution>
+    </author>
+    <date><today/></date>
+  </titlepage>
+
+  <colophon>
+
+    <website>
+      <name><c>Yoshiwara Books</c></name>
+      <address>https://yoshiwarabooks.org</address>
+    </website>
+
+    <copyright>
+      
+            <year>2020</year>
+            <holder>Katherine Yoshiwara</holder>
+            <minilicense>GFDL License</minilicense>
+            <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
+    </copyright>
+
+  </colophon>
+
+  
+  <preface xml:id="meta_frontmatter-preface">
+    <p>This Activities Workbook provides a Lesson for each section in the book, consisting of Activities for students to complete in groups or with guidance from the instructor; or they can be used as support for a lecture format. The Lessons are designed to show students how the mathematical techniques they are learning can be applied to study and understand new situations. Each Lesson ends with a Wrap-Up and a set of "Check Your Understanding" questions for discussion.</p>
+
+    <p>The Instructor's version of the Workbook contains an overview and teaching notes for each Lesson, including suggestions for using the Workbook and how to structure class time. There are also suggested questions for writing or discussion.</p>
+  </preface>
+
+</frontmatter>
+

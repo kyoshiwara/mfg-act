@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Chapters are enclosed with <chapter> tags. Use xml:id to -->
+<!-- uniquely identify the chapter.  The @xmlns:xi attribute  -->
+<!-- is needed if you use xi:include in this file             -->
+<chapter xml:id="ch1" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<!-- Change title when you have one: -->
+  <title>Linear Models</title>
+  <!-- If the chapter has sections, there may be an introduction -->
+  <!-- before those sections. Note the <p> tags around content.  -->
+  <introduction>
+    <p>This is the introduction to the chapter</p>
+  </introduction>
+
+  <xi:include href="./sec-1-1.ptx" />
+  <xi:include href="./sec-1-2.ptx" />
+  <xi:include href="./sec-1-3.ptx" />
+  <xi:include href="./sec-1-4.ptx" />
+  <xi:include href="./sec-1-5.ptx" />
+  <xi:include href="./sec-1-6.ptx" />
+
+  <!-- One or more of the sections of a chapter might be exercises-->
+</chapter>

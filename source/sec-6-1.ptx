@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intercepts, Solutions, and Factors</title>
+
+<assemblage component="instructor">
+<p>Some students find the introduction to quadratic models quite challenging. Begin by pointing out that <m>ax^2+bx+c</m> is an expression, which we may be able to factor, <m>ax^2+bx+c=0</m> is an equation, which has solutions, and <m>y=ax^2+bx+c</m> is an equation in two variables, which we can graph.</p>  
+    
+<p>Students may not remember how to factor quadratic expressions; if so you will probably have to review factoring outside of class time. And although most students remember the zero-factor principle, they often do not apply it correctly. You will also need to spend some time discussing whether to use factoring or extraction of roots to solve a given equation. It is a good idea to keep quizzing students on their solving skills as we progress to each new solution technique.</p>   
+    
+<p>The Activities do not include finding a quadratic equation with given solutions, so you might do some examples like Example 6.16 in class. Note that most students do not know what integers are.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Solve quadratic equations by factoring</p></li>
+    <li><p>Find a quadratic equation with given solutions</p></li> 
+    <li><p>Find the <m>x</m>-intercepts of a parabola</p></li>
+    <li><p>Solve problems involving perimeter and area or the Pythagorean theorem</p></li>
+</ul></p></assemblage>    
+
+  <activity xml:id="act-6-1-1"><title>A Typical Quadratic Graph</title>
+  
+  <p><ol marker="a.">
+    <li><p>Verify that <m>y=(2x-7)(x+1)</m> is a quadratic equation. (Hint: Expand the right side.)</p></li>
+  
+    <li><p>Graph <m>y=(2x-7)(x+1)</m> with technology.  If you are using a graphing calculator, use the "friendly" window  
+      <md><mrow>\text{Xmin} = -9.4,~~~\text{Xmax} = 9.4</mrow>
+          <mrow>\text{Ymin} = -10,~~~\text{Ymax} = 10</mrow></md>
+    Sketch the graph on the grid.</p>
+        <image source="act-3-2-1.png" width="40%"><description>Grid [-4,6]x[-12,8]</description></image></li>
+
+    <li><p>Use the Trace feature to locate the <m>x</m>-intercepts of the graph.</p>
+            <aside component="instructor"><p>1c. Ask the class how they can verify algebraically that 3.5 is indeed the intercept.</p></aside></li>    
+
+    <li><p>Solve the equation
+          <me>(2x-7)(x+1)=0</me></p></li>
+    <li><p>Explain how your answers to parts (c) and part (d) are related.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-1-2"><title>X-Intercepts</title>
+  
+<p><ol marker="a."> 
+    <li><sidebyside widths="45% 45%">
+        <image source="act-2-2-2.png"><description>10x10 Grid</description></image>
+        <stack><p>Use technology to graph the three equations below in the standard window, and sketch the graphs on the grid. What do you notice about the <m>x</m>-intercepts?</p>       
+    <p><ol marker="(1)">
+
+      <li><p><m>y=x^2-2x+15</m></p>
+      
+            <aside component="instructor"><p>2a. The point of this task is to show that we can factor a constant from a quadratic equation without changing its solutions. If students are not convinced that we can "ignore" the constant, you might point out that the equations <m>x-2=0</m> and <m>5x-10=0</m> have the same solution.</p></aside></li>
+      <li><p><m>y=3(x^2-2x+15)</m></p></li>
+      <li><p><m>y=0.2(x^2-2x+15)</m></p></li>
+    </ol></p></stack></sidebyside>
+
+    <p>Multiplying a quadratic expression by a constant does not change the <m>x</m>-intercepts of the graph.</p></li>
+
+    <li><p>Solve by factoring  <m>~~20x^2-40x-700 = 0</m>.</p>
+            <aside component="instructor"><p>2e. Point out that we learned factoring in order to find the solutions of (some) quadratic equations. On the other hand, if we know the solutions of the equation, we can write it in factored form.</p></aside></li>
+
+    <li><p>Graph <m>~~y=0.1(x^2+9x-360)~~</m> on your calculator, using the ZInteger setting.</p></li>  
+    <li><p>Locate the <m>x</m>-intercepts of the graph.</p></li>  
+    <li><p>Use the <m>x</m>-intercepts to write the quadratic expression in factored form. (Do not try to factor the expression!)</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-1-3"><title>A Quadratic Model</title>
+
+<aside component="instructor"><p>The idea that rectangles with the same perimeter may have different areas is new to many students. Before tackling this model, you may want to illustrate the concept by drawing several rectangles with perimeter 36 but different dimensions and areas.</p></aside>
+
+<p>A rancher has 360 yards of fence to enclose a rectangular pasture. If she uses a riverbank to border one side of the pasture, she can enclose 16,000 square yards of land. What will the dimensions of the pasture be then?</p>
+
+<p>We'll solve this problem in three different ways. First, make a sketch of the pasture and the river.</p>
+
+<p><ol>
+    <li><title>Method 1: Using a Table of Values</title>
+
+<introduction><p>Notice that you only have 360 yards of fence. So if you decide how wide the pasture is going to be, the length of the pasture is determined.</p></introduction>
+        <aside component="instructor"><p>3a. Students find it difficult to compute the length of the rectangle when its width is known. Do several numerical examples.</p></aside>
+
+<p><ol marker="a.">
+    <li><p>Use the perimeter of the pasture, 360 yards, to write a formula for the length of the pasture in terms of its width. (Be careful: remember that one side of the pasture does not need any fence!)</p>  
+    <p>Length = </p></li>
+
+    <li><p>Make a table that shows the areas of pastures of various widths.</p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Width</cell>
+                    <cell>Length</cell>
+                    <cell>Area</cell></row>
+                <row><cell>10</cell>
+                    <cell>340</cell>
+                    <cell>3400</cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+            </tabular></li>
+
+    <li><p>Continue the table until you find the pasture whose area is 16,000 square yards.</p>
+        <p>Dimensions of pasture:</p></li>
+    </ol></p></li>
+
+<li><title>Method 2: Using a Graph</title>
+
+<introduction><p>On your sketch of the pasture in part (1), label the width of the pasture as <m>x</m>.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Write an expression for the length of the pasture if its width is <m>x</m>. (Hint: How did you compute the length of the pasture in Method 1?</p>
+    <p> Length = </p></li>
+
+    <li><p>Write an expression for the area <m>A</m> of the pasture if its width is <m>x</m>.</p> 
+        <p>Area = </p></li>                                               
+
+    <li><sidebyside widths="45% 50%"><p>Use technology to graph the equation for <m>A</m>. If you use a calculator, set the window at
+        <md><mrow>\text{Xmin} = 0,~~~\amp \text{Xmax} = 188</mrow>
+            <mrow>\text{Ymin} =0,~~~\amp \text{Ymax} = 17,000</mrow></md>
+        Then copy the graph onto the grid.</p> 
+            <image source="act-3-2-2.png"><description>Grid [0,200]x[0,20]</description></image></sidebyside>
+
+            <aside component="instructor"><p>3(2)c. Emphasize the fact that the graph shows how the area changes as we change the width of the rectangle; the length of the rectangle does not appear in this graph.</p></aside></li>
+
+    <li><p>On the graph, find the pasture of area 16,000 square yards. Label the correct point on your graph.</p>
+      <p>Dimensions of pasture:</p></li>
+</ol></p></li>
+
+<li><title>Method 3: Using an Equation</title>
+
+<p><ol marker="a.">
+    <li><p>Refer to steps (a) and (b) of Method 2, and write an equation for the area <m>A</m> of the pasture in terms of its width <m>x</m>.</p>
+        <p>Area = </p>
+
+        <aside component="instructor"><p>3(3)a. Once again, students have trouble writing algebraic expressions for the length and the area of the pasture.</p></aside></li>
+
+    <li><p>Substitute <m>A = 16,000</m> and solve your equation algebraically.</p>
+        <p>Dimensions of pasture:</p></li>
+
+    <li><p>Which of the three methods do you prefer?  Why?</p></li>
+</ol></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>Delbert says that the solutions of the equation <m>4(x-2)(x+1)=0</m> are <m>x=4,~x=2</m> and <m>x=-1</m>. Do you agree?  Why or why not?</p></li>
+    <li><p>If the perimeter of a rectangle is 56 inches, and its width is <m>w</m> inches, write an expression for its length.</p></li>
+    <li><p>How can you use a graph to factor a quadratic expression?</p></li>
+    <li><p>In Method 2 of the Quadratic Model, what did the two variables on the graph represent? What happened to the second variable as you increased the first variable?</p></li>
+</ol></p></subsection>
+
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>How can you use a graph to factor a quadratic expression?</p></li>
+    <li><p>How are the factors of <m>ax^2+bx+c</m> related to the <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m>?</p></li>
+    <li><p>Explain why the solutions of <m>(x-3)(x-6)=1</m> are not 3 and 6.</p></li>
+    <li><p>Explain why we cannot "cancel" <m>(x-5)</m> from both sides of the equation <m>3x(x-5)=6(x-5)</m>. What are the solutions of the equation?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>What are the <m>x</m>-intercepts of <m>~y=3(2x-7)(x+2)</m>?</p>
+    <p><ol marker="a.">
+        <li><m>\dfrac{7}{2}</m> and <m>-2</m></li>    
+        <li><m>\dfrac{-7}{2}</m> and <m>2</m></li>
+        <li><m>3,~\dfrac{7}{2}</m> and <m>-2</m></li>  
+        <li><m>3,~\dfrac{-7}{2}</m> and <m>2</m></li>
+    </ol></p></li>
+    <li><p>What happens to the <m>x</m>-intercepts when you multiply the right side of <m>~y=ax^2+bx+c~</m> by 3?</p>
+    <p><ol marker="a.">
+        <li>The are tripled</li> 
+        <li>They are divided by 3</li>
+        <li>They move 3 units to the right</li>   
+        <li>They are unchanged</li>
+    </ol></p></li>
+    <li><p>If the perimeter of a rectangle is 56 inches and its width is <m>x</m> inches, what is an expression for its length? </p>
+    <p><ol marker="a.">
+        <li><m>56-x</m></li> 
+        <li><m>28-x</m></li>
+        <li><m>56x</m></li>
+        <li><m>\dfrac{28}{x}</m></li>
+    </ol></p></li>
+    <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+        <li>All rectangles with the same perimeter have the same area.</li>
+        <li>The solutions of <m>~x(18-x)=80~</m> are <m>x=80</m> and <m>x=18</m>.</li>
+        <li>If the perimeter of a rectangle is 20 cm, the largest area it can have is 20 sq cm.</li>
+        <li>If you know the <m>x</m>-intercepts of the graph of <m>~y=ax^2+bx+c~</m>, you can write it in factored form.</li>
+      </ol></p></li>
+</ol></p></assemblage>
+
+</section>

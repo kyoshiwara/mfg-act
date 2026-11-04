@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- This is the main file of the pretext template book provided -->
+<!-- by the `pretext new book` command.  The main.ptx here always-->
+<!-- starts with <pretext> tags.  In this example, the main file -->
+<!-- just imports other .ptx files which contain content. Open   -->
+<!-- those files to see more pretext features                    -->
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./meta_docinfo.ptx" />
+
+  <!-- The <book> tags wrap all the content.  Change the @xml:id   -->
+  <!-- to some short (non-spaced) description of your book         -->
+  <book xml:id="act-int-alg">
+    <title>Activities for Modeling, Functions, and Graphs</title>
+    
+
+    <xi:include href="./meta_frontmatter.ptx" />
+
+    
+    <xi:include href="./ch1.ptx" />
+    <xi:include href="./ch2.ptx" />
+    <xi:include href="./ch3.ptx" />
+    <xi:include href="./ch4.ptx" />
+    <xi:include href="./ch5.ptx" />
+    <xi:include href="./ch6.ptx" />
+    <xi:include href="./ch7.ptx" />
+    <xi:include href="./ch8.ptx" />
+    <!-- <xi:include href="./ch9.ptx" />
+    <xi:include href="./ch10.ptx" /> -->
+
+    
+  </book>
+</pretext>

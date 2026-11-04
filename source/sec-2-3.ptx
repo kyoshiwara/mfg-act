@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Transformations of Graphs</title>
+
+<assemblage component="instructor">
+<p>For this Lesson, it is probably more efficient if you display the graphs for the class. Students who are more comfortable with their graphing utility may wish to follow along, and all students can write the answers to the questions in their Activity booklets.</p>
+<p>Part of the purpose of this Lesson is to help students become familiar with the eight basic graphs.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Sketch the graph of <m>y=f(x)+k</m> if you know the graph of <m>y=f(x)</m>  </p></li>
+    <li><p>Sketch the graph of <m>y=f(x+h)</m> if you know the graph of <m>y=f(x)</m></p></li> 
+    <li><p>Sketch the graph of <m>y=af(x)</m> if you know the graph of <m>y=f(x)</m></p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-2-3-1"><title>Vertical Shift</title>
+
+<introduction><p>How is the graph of a function affected if we add a constant to the formula? In other words, how is the graph of <m>f(x)+k</m>  different from the graph of <m>y=f(x)</m> ?</p></introduction>
+
+<p><ol marker="a.">
+<li><p>Use technology to graph the absolute value function, <m>Y_1 = \abs{x}</m>, in a standard window, <m>[-10, 10] \times [-10, 10]</m>.  Create a table of values for <m>y=\abs{x}</m>, starting at <m>x=-3</m> with <m>\Delta x = 1</m>.</p></li>
+
+<li><p>Graph <m>Y_2 = \abs{x}-3</m> in the same window with <m>Y_1</m>.</p>
+    <p>Does the graph of <m>Y_2</m> have the same shape as the graph of <m>Y_1</m>?</p>  
+    <p>How is the graph of <m>Y_2</m> different from the graph of <m>Y_1</m>?</p></li>
+
+<li><p>Use the Table to compare the function values for <m>Y_2</m> with the function values for <m>Y_1</m>. (Locate a specific <m>x</m>-value in the table and compare the <m>Y_1</m> and <m>Y_2</m> values for that input. How are they related?)</p>
+
+  <p>Try the same comparison for several other <m>x</m>-values.</p></li>
+
+<task><p>Now change your definition of <m>Y_2</m> to <m>Y_2 = \abs{x}+3</m>.</p>  
+  <p>Does the graph of this new <m>Y_2</m> have the same shape as the graph of <m>Y_1</m>?</p> 
+  <p>How is the graph of <m>Y_2</m> different from the graph of <m>Y_1</m>?</p></task>
+
+<li><p>Use the Table to compare the function values for <m>Y_2</m> with the function values for <m>Y_1</m>. How are they related?</p></li>
+
+<li><p>Define <m>Y_2 = \abs{x}+k</m> for various positive and negative values for <m>k</m> and compare the graph and Table values of <m>Y_2</m> with those of <m>Y_1</m>. Describe how the value of <m>k</m> alters the graph of <m>Y_1</m>.</p></li>
+
+<li><p>Now change the basic function to the square root function, <m>Y_1=\sqrt{x}</m>, and repeat the previous task with <m>Y_2=\sqrt{x}+k</m>. Do your answers to the previous task still hold for the new functions?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-2-3-2"><title>Horizontal Shift</title>
+
+        <aside component="instructor"><p>Students usually find vertical translations easy to grasp, but horizontal translations are harder. You might refer them to the tables in the textbook, or point out that if you pull the <m>x</m>-axis to the right, the graph appears to move to the left.</p></aside>
+
+<introduction><p>How is the graph of a function affected if we add a constant to the independent variable? In other words, how is the graph of <m>y=f(x+h)</m> different from the graph of <m>y=f(x)</m>?</p></introduction>
+
+<p><ol marker="a.">
+<li><p>Graph <m>Y_1 = \abs{x}</m> and <m>Y_2 = \abs{x-2}</m> in the same window.</p>
+  <p>Does the graph of <m>Y_2</m> have the same shape as the graph of <m>Y_1</m>?</p> 
+  <p>How is the graph of <m>Y_2</m> different from the graph of <m>Y_1</m>?</p></li>
+
+<li><p>Use the Table to compare the function values for <m>Y_2</m> with the function values for <m>Y_1</m>. (Locate a specific output value in the <m>Y_1</m> column and note its corresponding <m>x</m>-value. Now find the same output value in the <m>Y_2</m> column and note its <m>x</m>-value. How are the two <m>x</m>-values related?)</p>  
+
+<p>Try the same comparison for several other <m>x</m>-values.</p></li>
+
+<li><p>Now change your definition of <m>Y_2</m> to <m>Y_2 = \abs{x+4}</m>.</p>
+  <p>Does the graph of this new <m>Y_2</m> have the same shape as the graph of <m>Y_1</m>?</p> 
+  <p>How is the graph of <m>Y_2</m> different from the graph of <m>Y_1</m>?</p></li>
+
+<li><p>Use the Table to compare the function values for <m>Y_2</m> with the function values for <m>Y_1</m>. How are they related?</p></li>
+
+<li><p>Define <m>Y_2 = \abs{x+h}</m> for various positive and negative values for <m>h</m> and compare the graph and Table values of <m>Y_2</m> with those of <m>Y_1</m>. Describe how the value of <m>h</m> alters the graph of <m>Y_1</m>.</p></li>
+
+<li><p>Now change the basic function to the square root function, <m>Y_1=\sqrt{x}</m>, and repeat the previous task with <m>Y_2=\sqrt{x+h}</m>. Do your answers to the previous task still hold for the new functions?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-2-3-3"><title>Vertical Stretch and Compression</title>
+
+<introduction><p>How is the graph of a function affected if we multiply the formula by a constant? In other words, how is the graph of <m>y=af(x)</m> different from the graph of <m>y=f(x)</m> ?</p></introduction>
+
+        <aside component="instructor"><p>For stretches and compressions, be sure to consider examples other than <m>y=x^2</m>, because a parabola squashed vertically looks very much like a parabola stretched horizontally.</p></aside>
+
+<p><ol marker="a.">
+<li><p>Graph <m>Y_1 = \abs{x}</m> and <m>Y_2 = 2\abs{x}</m> in the same window.</p>
+  <p>Does the graph of <m>Y_2</m> have the same shape as the graph of <m>Y_1</m>?</p> 
+  <p>How is the graph of <m>Y_2</m> different from the graph of <m>Y_1</m>?</p></li>
+
+<li><p>Use the Table to compare the function values for <m>Y_2</m> with the function values for <m>Y_1</m>. (Locate a specific <m>x</m>-value in the table and compare the <m>Y_1</m> and <m>Y_2</m> values for that input. How are they related?)</p>
+ 
+<p>Try the same comparison for several other <m>x</m>-values.</p></li>
+
+<li><p>Now change your definition of <m>Y_2</m> to <m>Y_2 = \frac{1}{2}\abs{x}</m>.</p>
+  <p>Does the graph of this new <m>Y_2</m> have the same shape as the graph of <m>Y_1</m>?</p> 
+  <p>How is the graph of <m>Y_2</m> different from the graph of <m>Y_1</m>?</p></li> 
+
+<li><p>Use the Table to compare the function values for <m>Y_2</m> with the function values for <m>Y_1</m>. How are they related?</p></li>
+
+<li><p>Define <m>Y_2 = a \abs{x}</m> for various values of <m>a</m>, including <m>a \gt 1</m> and <m>0 \lt a \lt 1</m>. Compare the graph and Table values of <m>Y_2</m> with those of <m>Y_1</m>. Describe how the value of <m>a</m> affects the graph of <m>Y_1</m>.</p></li>
+
+<li><p>Now change the basic function to the square root function, <m>Y_1=\sqrt{x}</m>, and repeat the previous task with <m>Y_2=a \sqrt{x}</m>. Do your answers to the previous task still hold for the new functions?</p></li>
+
+<li><p>Now define <m>Y_2 = -\abs{x}</m>.</p>
+  <p>Does the graph of <m>Y_2</m> have the same shape as the graph of <m>Y_1</m>?</p> 
+  <p>How is the graph of <m>Y_2</m> different from the graph of <m>Y_1</m>?</p></li>
+
+<li><p>Use the Table to compare the function values for <m>Y_2</m> with the function values for <m>Y_1</m>. How are they related?</p></li>
+
+ <li><p>Define <m>Y_2 = a \abs{x}</m> for various negative values of <m>a</m>, including <m>a \lt -1</m> and <m>-1 \lt a \lt 0</m>. Compare the graph and Table values of <m>Y_2</m> with those of <m>Y_1</m>. Describe how the value of <m>a</m> affects the graph of <m>Y_1</m> when <m>a</m> is negative.</p></li>
+
+ <li><p>Now change the basic function to the square root function, <m>Y_1=\sqrt{x}</m>, and repeat the previous task with <m>Y_2=a \sqrt{x}</m> for negative values of <m>a</m>. Do your answers to the previous task still hold for the new functions?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>How does the graph of <m>y=f(x)+k</m> compare with the graph of <m>y=f(x)</m>? </p></li>     
+    <li><p>How does the graph of <m>y=f(x+h)</m> compare with the graph of <m>y=f(x)</m>? </p></li>
+    <li><p>How does the graph of <m>y=af(x)</m> compare with the graph of <m>y=f(x)</m>? Include in your discussion the cases <m>a \gt 1</m>, <m>0 \lt a \lt 1</m>, and <m>a \lt 0</m>.</p></li>
+</ol></p></subsection>
+
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+  <li><p>How would you alter the formula for <m>y=f(x)</m> if you wanted each <m>y</m>-coordinate on the graph to be <m>\frac{1}{3}</m> as far from the <m>x</m>-axis?</p></li>
+  <li><p>Delbert says that the graph of <m>y=f(x+5)</m> adds 5 units to the <m>x</m>-coordinate of each point on the graph of <m>y=f(x)</m>. Is he correct? Why or why not?</p></li>
+  <li><p>How do you think the graph of <m>y=f(-x)</m> looks, compared to the graph of <m>y=f(x)</m>?</p></li>
+  <li><p>Francine applies a vertical translation to her graph, and then applies a vertical compression to the result. Would she get the same graph if she applied the transformations in the opposite order?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+  <li><p>The <m>y</m>-intercept of the graph of <m>y=f(x)</m> is <m>(0,2)</m>. What point lies on the graph of <m>y=f(x+3)</m>?</p>
+      <p><ol marker="a.">
+        <li><m>(0,5)</m></li>
+        <li><m>(3,2)</m></li>
+        <li><m>(-3,2)</m></li>
+        <li><m>(3,5)</m></li>
+      </ol></p></li>
+    
+  <li><p>The graph of <m>y=g(x)</m> has a vertical asymptote at <m>x=-4</m>. What happens to the asymptote under a vertical translation?</p>
+      <p><ol marker="a.">
+        <li>Nothing.</li>
+        <li>It is compressed vertically.</li>
+        <li>It is translated vertically.</li>
+        <li>It is eliminated.</li>
+      </ol></p></li>
+  <li><p>The graph of <m>y=F(x)</m> is symmetric about the <m>y</m>-axis. Which of the following graphs will also be symmetric about the <m>y</m>-axis?</p>
+      <p><ol marker="a.">
+        <li><m>y=-3F(x)</m></li>
+        <li><m>y=F(x)-3</m></li>
+        <li><m>y=F(x-3)</m></li>
+        <li>(a) and (b)</li>
+      </ol></p></li>
+    <li><p>Under which transformations does the graph of a function keep the same shape?</p>
+        <p><ol marker="a.">
+        <li>Vertical translation</li>
+        <li>Horizontal translation</li>
+        <li>Reflection</li>
+        <li>All of these</li>
+      </ol></p></li>
+    </ol></p></assemblage>
+  </section>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Roots and Radicals</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we define powers of the form <m>a^{1/n}</m>, use the laws of exponents on such powers, and convert expressions from radical to exponential form and vice versa. Note that we do not yet consider powers with exponents <m>m/n</m>; those come in the next Lesson. We briefly discuss irrational numbers and the roots of real numbers. Finally, we consider equations and power functions that involve <m>a^{1/n}</m>.</p>
+
+<p>After introducing exponents of the form <m>1/n</m>, you might want to go over some of the Checkpoints in the text as a skills warm-up. Emphasize the difference between negative exponents and fractional exponents. Show students how to evaluate <m>n</m>th roots on their calculators using both radicals and exponents. You may choose to have students use technology to make the tables and graphs in the Activities.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Evaluate fractional powers and roots</p></li>    
+    <li><p>Convert between radical and exponential notation</p></li>    
+    <li><p>Graph and analyze power functions</p></li>
+    <li><p>Solve equations involving radicals</p></li>
+    <li><p>Simplify expressions using the laws of exponents</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-3-3-1"><title>Maximum Speed for Ships</title>
+
+<introduction><p>When a ship moves through the water, it creates waves that hinder its own progress. Because of this resistance, there is an upper limit to the speed at which a ship can travel. This maximum speed, or hull velocity, is given in knots by
+        <md>v_{max} = f(L) = 1.3 L^{1/2}</md>  
+where <m>L</m> is the length of the vessel in feet.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Complete the table of values for <m>v_{max}</m> as a function of <m>L</m>. (We'll get to <m>v_c</m> later.)</p>
+        <aside><p>Tell students that we are not using the third row of the table (<m>v_c</m>) until later in the problem.</p></aside> 
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>L~</m> (feet)</cell>
+                    <cell>0</cell>
+                    <cell>200</cell>
+                    <cell>400</cell>
+                    <cell>600</cell>
+                    <cell>800</cell>
+                    <cell>1000</cell></row>
+                <row><cell><m>v_{max}~</m> (knots)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+                <row><cell><m>v_c~</m> (knots)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+                </tabular></li>
+
+    <li><p>Graph maximum speed against vessel length. Which basic graph will your graph resemble?</p>
+        <aside component="instructor"><p>1(b) Make sure that students extend their graphs to pass through the origin, and that they don't try to fit a straight line through the points.</p></aside>
+                <image source="act-6-2-1.png" width="50%"><description>grid [0,1000]x[0,50]</description></image></li>
+
+    <li><p>Write and solve an equation to answer the question: What is the length of a vessel whose top speed is 20 knots? Locate the corresponding point on your graph.</p>
+
+            <aside component="instructor"><p>1(c) Here we solve an equation. You may want to illustrate the process with one or two more examples.</p></aside></li>
+
+    <li><p>The largest ship ever built, the oil tanker Seawise Giant, was 1504 feet long. What was its top speed?</p></li>
+
+    <li><p>Write the formula for <m>v_{max}</m> using a decimal fraction for the exponent.</p></li>
+
+    <li><p>Write the formula for <m>v_{max}</m> using a radical.</p></li>
+
+    <li><p>As a ship approaches its maximum speed, the power required increases sharply. Therefore, most merchant ships are designed to cruise at speeds no higher than <m>v_c = 0.8 L^{1/2}</m>. Complete the table of values in part (a) for <m>v_c</m>.</p></li>
+
+    <li><p>Graph the cruising speed <m>v_c</m> on the same axes with <m>v_{max}</m>.</p></li> 
+
+    <li><p>What was the cruising speed of the Seawise Giant? What percent of its maximum speed is that?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-3-2"><title>Heart Rate</title>
+
+<introduction><p>An animal's heart rate is related to its size or mass, with smaller animals generally having faster heart rates. The heart rates of mammals are given approximately by the power function 
+        <me>H=f(m)=k m^{-1/4}</me>
+where <m>m</m> is the animal's mass in kilograms and <m>k</m> is a constant.</p>
+
+            <aside component="instructor"><p>Ask students whether they expect smaller animals to have slower or faster heart rates than larger ones, and what that means for the function <m>H=f(m)</m>. Then ask them how they know that <m>H=k m^{-1/4}</m> is a decreasing function.</p></aside></introduction>
+
+<p><ol marker="a.">
+    <li><p>A typical human male weighs about 70 kilograms and has a resting heart rate of 70 beats per minute. Find the constant of proportionality, <m>k</m>, and write a formula for <m>H</m> as a function of <m>m</m>.</p></li>
+
+    <li><p>Complete the table with the heart rates of the mammals whose masses are given.</p>
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Animal</cell>
+                    <cell>Cat</cell>
+                    <cell>Wolf</cell>
+                    <cell>Horse</cell>
+                    <cell>Polar Bear</cell>
+                    <cell>Elephant</cell></row>
+                <row><cell>Mass (kg)</cell>
+                    <cell>5</cell>
+                    <cell>40</cell>
+                    <cell>400</cell>
+                    <cell>1500</cell>
+                    <cell>5400</cell></row>
+                <row><cell>Heart Rate</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+            </tabular></li>
+
+    <li><p>Sketch a graph of <m>H</m> for masses up to 6000 kilograms.</p>
+        <image source="act-6-2-2.png" width="70%"><description>grid [0,6000]x[0,80]</description></image></li>
+
+    <li><p>What would be the mass of a mammal whose heart rate is 40 beats per minute?</p>
+
+        <aside component="instructor"><p>2(d) Compare solving this equation (with a negative exponent) to solving the equation in Activity 1.</p></aside></li>
+
+    <li><p>Write the formula for <m>H</m> using a decimal fraction for the exponent.</p>
+        <p>Write the formula for <m>H</m> using a radical.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-3-3"><title>Laws of Exponents</title>
+
+<p><ol>
+    <li><p><ol marker="a.">
+        <li><p>Use exponents to explain why <m>\sqrt{\sqrt{x}} = \sqrt[4]{x}</m>.</p></li>
+        <li><p>Use exponents to explain why <m>\dfrac{\sqrt{x}}{\sqrt[4]{x}} = \sqrt[4]{x}</m>.</p></li>
+        <li><p>Use exponents to explain why <m>\sqrt[3]{x}~\sqrt[6]{x} = \sqrt{x}</m>. </p></li>
+    </ol></p></li>
+
+    <li><p>Explain in words how to evaluate each expression. Then illustrate with <m>x=9</m>.</p>
+        <p><ol marker="a." cols="2">
+        <li><p><m>-x^2</m></p></li>
+        <li><p><m>x^{-2}</m></p></li>
+        <li><p><m>\frac{1}{2}x</m></p></li>
+        <li><p><m>x^{1/2}</m></p></li>
+        <li><p><m>-x^{1/2}</m></p></li>
+        <li><p><m>x^{-1/2}</m></p></li>
+    </ol></p></li>
+
+    <li><p> Which of the following statements are true for all positive values of the variables?  Try several numberical values to verify your answers.</p>
+            <aside component="instructor"><p>3(3) Explain that the statements are or are not applications of the fourth law of exponents, but most students will have trouble until they grasp that the formulas "work" for multiplication, but not for addition or subtraction.</p></aside>
+
+        <p><ol marker="a." cols="2">
+        <li><p><m>(a^2 + b^2)^{1/2} = a + b~</m>?</p></li>
+        <li><p><m>(x^2y^2)^{1/2} = xy~</m>?</p></li>
+        <li><p><m>(c^{1/2} - d^{1/2})^2 = c-d~</m>?</p></li>
+        <li><p><m>(u^{1/2}v^{1/2})^2 = uv~</m>?</p></li>
+        <li><p><m>\sqrt[3]{n^3 - p^3} = n-p~</m>?</p></li>
+        <li><p><m>\sqrt[3]{s^3t^3} = st~</m>?</p></li>
+        <li><p><m>\left(\sqrt[3]{m} + \sqrt[3]{h}\right)^3 = m+h~</m>?</p></li>
+        <li><p><m>\left(\sqrt[3]{w}~\sqrt[3]{z}\right)^3 = wz~</m>?</p></li>
+    </ol></p></li>
+
+    <li><p>Solve each equation.</p>
+        <p><ol marker="a." cols="2">
+        <li><p><m>7(z-4)^{1/3} = 9.8</m></p></li>
+        <li><p><m>\dfrac{1}{3} = (2x+1)^{-1/2}</m></p></li>
+        <li><p><m>4.7 - 76x^{1/4} + 15 = 4.5</m></p></li>
+        <li><p><m>(t^3+5)^{1/5} = 2</m></p></li>
+    </ol></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>Delbert says his calculator told him that <m>5^{1/2}</m> is equal to 2.5. What did he do wrong?</p></li>
+<li><p>What does the notation <m>a^{0.125}</m> mean? How is it evaluated?</p></li>
+<li><p>Express each of the following algebraic notations in words, and evaluate each for <m>x=16</m>:
+      <me>4x,~x^4,~\dfrac{x}{4},~\dfrac{1}{4}x,~x^{1/4},~x-4,~x^{-4},~x^{-1/4}</me></p></li>
+<li><p>In Activity 2, explain why the graph of <m>~H=k m^{-1/4}~</m> is decreasing.</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain why <m>x^{1/4}</m> is a reasonable notation for <m>\sqrt[4]{x}</m>.</p></li>
+<li><p>What is the principal root of a number? How many real-valued roots does a real number have?</p></li>
+<li><p>Suppose <m>M=9 \times 10^{14}</m>. Explain why <m>\sqrt{M} = 3 \times 10^7</m>.</p></li>
+<li><p>Explain the difference between a rational and an irrational number. Give examples.</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which of the following expressions is not equivalent to the other three?</p>
+    <p><ol marker="a.">
+        <li><m>B^{1/8}</m></li>
+        <li><m>\sqrt[8]{B}</m></li>
+        <li><m>B^{0.125}</m></li>
+        <li><m>\dfrac{1}{B^8}</m></li>
+    </ol></p></li>
+    <li><p>Which of the following is undefined for negative <m>x</m> ?</p>
+    <p><ol marker="a.">
+        <li><m>x^{1/4}</m></li>
+        <li><m>x^{-4}</m></li>
+        <li><m>(-x)^{1/4}</m></li>
+        <li><m>(-x)^{-4}</m></li>
+    </ol></p></li>
+    <li><p>Whcih of these do we accomplish by taking a fifth root?</p>
+    <p><ol marker="a.">
+        <li>Solve <m>~\sqrt[5]{x}=32</m></li>
+        <li>Evaluate <m>~f(x)=x^{-5}~</m> for <m>x=32</m></li>
+        <li>Solve <m>~x^5=32</m></li>
+        <li>Solve <m>~x^{1/5}=32</m></li>
+    </ol></p></li>
+    <li><p>Which of the following statements is true?</p>
+    <p><ol marker="a.">
+        <li><m>x^{1/2}+x^{1/2}=x</m></li>
+        <li><m>x^{1/4} \cdot x^4=x</m></li>
+        <li><m>x^{-1/5}=\dfrac{-1}{x^5}</m></li>
+        <li><m>x^{1/3} \cdot x^{1/3} \cdot x^{1/3}=x</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

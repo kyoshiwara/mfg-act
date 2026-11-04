@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graphs of Polynomial Functions</title>
+
+<assemblage component="instructor">
+<p>Graphing polynomials by hand is not really a useful skill (especially without calculus to find relative extrema), because graphing software is readily available. This Lesson presents a more scaffolded version of Homework Problems 69 and 70, which introduce the idea of using polynomials to approximate transcendental functions. Students can use a graphing calcultor or an on-line graphing tool such as Desmos to create their graphs.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Approximate a function by a polynomial</p></li>
+<li><p>Recognize the long-term behavior of a polynomial of degree</p></li> 
+<li><p>Apply the Factor Theorem to locate the zeros of a polynomial</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-7-2-1"><title>Approximating <m>f(x)=e^x</m></title>
+
+<introduction><p>Polynomials are easy to evaluate (especially with a computer) because they involve only the four arithmetic operations. And because they can take on such a variety of shapes, they are often used to approximate other functions.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Graph the functions
+        <md> f(x)=e^x~~~~~~\text{and}~~~~~~p(x) = 1 + x + \dfrac{1}{2}x^2</md>
+
+on the interval <m>[-5,5]</m>. For what values of <m>x</m> does it appear that <m>p(x)</m> would be a good approximation for <m>f(x)</m>?</p>
+
+    <aside component="instructor"><p>Ask the class what they consider a "good approximation."</p></aside></li>
+
+    <li><p>Use your calculator to fill in the table of values.</p>
+
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>-0.5</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>0.5</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>1.5</m></cell>
+                    <cell><m>2</m></cell></row>
+                <row><cell><m>f(x)</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>p(x)</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>f(x)-p(x)</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                </tabular>
+
+        <aside component="instructor"><p>Check that students understand why <m>f(x)-p(x)</m> gives the error in the approximation.</p></aside>
+
+        <p>The difference <m>f(x)-p(x)</m> is the <term>error</term> in the approximation.</p></li>
+    </ol></p>
+</activity>
+
+<activity xml:id="act-7-2-2"><title>Polynomial Approximation</title>
+
+<p><ol marker="a.">
+    <li><p>We can reduce the error in our approximation by using a polynomial of higher degree. Replace <m>p(x)</m> on your graph by
+
+        <md>P_3(x) = 1 + x + \dfrac{1}{2}x^2 + \dfrac{1}{6}x^3</md>
+
+        What is the largest error for <m>P_3(x)</m> on the interval <m>[-1,1]</m> ?</p></li>
+
+    <li><p>The <m>n</m>th degree polynomial for approximating <m>e^x</m> is 
+
+        <md>P_n(x) = 1 + x + \dfrac{1}{2!}x^2 + \dfrac{1}{3!}x^3 + \cdots + \dfrac{1}{n!}x^n</md>
+
+        where
+
+        <md>n! = n(n-1)(n-2) \cdots 3 \cdot 2 \cdot 1</md>
+
+        Graph <m>f(x)</m> and <m>P_5(x)</m> on the interval <m>[-5,5]</m>. (You will need to include larger <m>y</m>-values.) What is the error in approximating <m>f(2)</m> by <m>P_5(2)</m>?</p></li>
+
+    <li><p>Graph <m>f(x)-P_5(x)</m> on the interval <m>[-4,4]</m>, with <m>y</m>-values from <m>-0.1</m> to <m>0.1</m>. Use the graph to estimate the largest    interval on which the error is less than 0.01.</p></li>
+
+    <li><p>What is the smallest value of <m>n</m> for which <m>f(x)-P_n(x)</m> is less than 0.01 on the interval <m>-2 \le x \le 2</m></p></li>
+
+    <li><p>What conclusions can you draw from your investigation?  Write a short paragraph summarizing your results.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-7-2-3"><title>Shapes of Polynomials</title>
+
+<introduction><p>For each description, write the equation of the polynomial of smallest degree that has the given features. Use your graphing tool to check your work.</p>
+
+          <aside component="instructor"><p>Ask the class how they can find (without graphing) the correct lead coefficient to give the desired <m>y</m>-intercept.</p></aside>
+</introduction>
+
+<p><ol marker="a.">
+    <li><p><m>x</m>-intercepts at <m>-1, 1</m> and <m>3</m>;  <m>~y</m>-intercept at <m>6</m></p></li>
+
+    <li><p>zeros at <m>4</m> and <m>6</m>, double zero at <m>-2</m>;  <m>~y</m>-intercept at <m>12</m></p></li>
+
+    <li><p>double zeros at <m>-1, 1</m> and <m>3</m>; <m>~y</m>-intercept at <m>9</m></p></li>
+
+    <li><p>zero at <m>4</m>, double zero at <m>-1</m>, triple zero at <m>2</m>;  <m>~y</m>-intercept at <m>8</m></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>Can you factor the polynomial <m>p(x)</m> in Activity 1? How do you know?</p></li>
+    <li><p>Can you factor the polynomial <m>P_3(x)</m> in Activity 2?  How do you know?</p></li>
+    <li><p>How can you alter the equation for a polynomial to change its <m>y</m>-intercept from <m>b</m> to <m>-b</m>?</p></li>
+    <li><p>What does the multiplicity of a zero tell you about the shape of the graph?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain how you might estimate <m>e^2</m> if you have only a four-function calculator.</p></li>
+    <li><p>Why does the graph of a polynomial have the shape it does near a double zero?</p></li>
+    <li><p>How may the graph of a polynomial differ from the graph of a power function of the same degree?</p></li>
+    <li><p>Describe the difference between the graphs of <m>y=x^3-2</m> and <m>y=(x-2)^3</m>.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>At an inflection point, a graph changes</p>
+    <p><ol marker="a.">
+        <li>direction</li>
+        <li>concavity</li>
+        <li>sign</li>
+        <li>all of these</li>
+    </ol></p></li>
+    <li><p>The graph of which type of polynomial must have an <m>x</m>-intercept?</p>
+    <p><ol marker="a.">
+        <li>quadratic</li>
+        <li>cubic</li>
+        <li>quartic</li>
+        <li>none of these</li>
+    </ol></p></li>
+    <li><p>Without graphing, how can you tell that the polynomial <m>~p(x)=(x^2+1)(x^2+2)~</m> has no <m>x</m>-intercepts?</p>
+    <p><ol marker="a.">
+        <li>It is quartic.</li>
+        <li>All of its coefficients are positive.</li>
+        <li>It cannot be factored further.</li>
+        <li>It has no turning points.</li>
+    </ol></p></li>
+    <li><p>The long-term behavior of a polynomial of degree <m>n</m></p>
+        <p><ol marker="a.">
+        <li>depends on the number of its zeros.</li>
+        <li>is the same as the behavior of <m>y=kx^n</m>.</li>
+        <li>may have a horizontal asymptote.</li>
+        <li>cannot be determined without a graph.</li>
+    </ol></p></li>
+</ol></p>
+</assemblage>
+    
+</section>

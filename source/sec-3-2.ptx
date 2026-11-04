@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Integer Exponents</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we define negative and zero exponents, revisit the laws of exponents, write numbers in scientific notation, and use power functions in applications. Begin class with a brief review of negative exponents and how they relate to power functions, leading into Activity 1.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Evaluate negative exponents</p></li>    
+<li><p>Write a formula for a power function</p></li>    
+<li><p>Graph and analyze power functions</p></li>    
+<li><p>Solve equations involving negative exponents</p></li>     
+<li><p>Simplify expressions using the laws of exponents</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-3-2-1"><title>Power Functions</title>
+
+<p><ol marker="1.">
+  <li><p>State the values of <m>k</m> and <m>p</m> for the two examples below.</p>
+  <p><ol>
+    <li><p><m>V=f(r) = \frac{4}{3} \pi r^3,~~</m>  the volume of a sphere as a function of its radius</p></li>
+    <li><p><m>L=f(T)= 0.8125 T^2,~~</m> the length of a pendulum as a function of its period</p></li>
+  </ol></p></li>
+
+  <li><p>Write each expression as a power function using negative exponents.  State the values of <m>k</m> and <m>p</m>.</p>
+    <p><ol>
+      <li><p><m>h(s)=\dfrac{9}{s^3}</m></p></li>
+      <li><p><m>f(v)=\dfrac{3}{8v^6}</m></p></li>
+      <li><p><m>g(t)=\dfrac{1}{(5t)^4}</m></p></li>
+    </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-2-2"><title>The Trebuchet</title>
+
+<introduction><p>In the middle ages in Europe, castles were used as defensive strongholds. An attacking force would build a huge catapult called a trebuchet to hurl rocks and scrap metal inside the castle walls. The engineers could adjust its range by varying the mass (or weight) of the missiles. The mass, <m>m</m>, of the projectile is inversely proportional to the square of the distance, <m>d</m>, to the target.</p></introduction>
+
+<p><ol marker="a.">
+  <li><p>Use a negative exponent to write a formula for <m>m</m> as a function of <m>d</m>, <m>m=f(d)</m>.</p></li>
+
+  <li><p>The engineers test the trebuchet with a 30-pound lead ball, which lands 948 yards away. Find the constant of proportionality, and rewrite your formula for <m>m</m>. (Round your value of <m>k</m> to the nearest million.)</p>
+
+          <aside component="instructor"><p>2(b) Ask students which basic graph they expect the graph of <m>m=f(d)</m>  to resemble.</p></aside></li>
+
+  <li><p>Graph  <m>m=f(d)</m>.</p>
+      <image source="act-6-1-1.png" width="50%"><description>grid [0,1000]x[0,1000]</description></image></li>
+
+  <li><p>The trebuchet is 500 yards from the courtyard within the castle. What size missile will hit the target?</p>
+
+    <aside component="instructor"><p>2(d) Many students will have difficulty solving for <m>d</m> when <m>d^2</m> appears in the denominator. Dividing both sides of <m>300 = \dfrac{k}{d^2}</m> by <m>k</m> and incorrectly getting <m>d^2</m> on the right side is a common error.</p></aside></li>
+
+  <li><p>The largest missile the trebuchet can handle is 300 pounds. If the attackers would like to hurl a 300-pound rock at the castle, how close must they bring their trebuchet?</p></li>    
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-2-3"><title>Radar</title>
+
+<introduction><p>Airplanes use radar to detect the distances to other objects. A radar unit transmits a pulse of energy which bounces off a distant object, and the echo of the pulse returns to the sender.  The power, <m>P</m>, of the returning echo is inversely proportional to the fourth power of the distance, <m>d</m>, to the object.</p></introduction> 
+
+          <aside component="instructor"><p>Use this Activity to discuss changing from one unit of measure to another; in this case, from watts to picowatts.  You should also make sure that students can read scientific notation on their calculators, and stress that "2.8 E -6", for example, is not an acceptable form for an answer.</p></aside>
+
+<p><ol marker="a.">
+  <li><p>A radar operator receives an echo of <m>5 \times 10^{-10}</m> watt from an aircraft 2 nautical miles away. Express the power of the echo received in picowatts. (1 picowatt <m>= 10^{-12}</m> watt.)</p></li>
+
+  <li><p>Write a function that expresses <m>P</m> in terms of <m>d</m> using negative exponents. Use picowatts for the units of power.</p></li>
+
+  <li><p>Complete the table of values for the power of the echo received from objects at various distances.</p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>d</m> (nautical miles)</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell>7</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m> (picowatts)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+        </tabular></li>
+
+  <li><p>Sketch a graph of <m>P</m> as a function of <m>d</m>. Use units of picowatts on the vertical axis.</p>
+      <image source="act-6-1-2.png" width="45%"><description>grid [0,10]x[0,50]</description></image></li>
+
+  <li><p>Radar units can typically detect signals as low as <m>10^{-13}</m> watt.  How far away is an aircraft whose echo is <m>10^{-13}</m> watt? (Hint: Convert <m>10^{-13}</m> watt to picowatts.)</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-2-4"><title>Using the Laws of Exponents</title>
+
+ <aside component="instructor"><p>Go over the first four parts verbally with the class, stopping to explain any that generate questions.</p></aside> 
+<p><ol>
+  <li><p>Simplify if possible using the first law.</p>
+    <p><ol cols="2">
+        <li><p><m>x^6 \cdot x^{-3}</m></p></li>
+        <li><p><m>x^{-6} \cdot x^3</m></p></li>
+        <li><p><m>x^{-6} \cdot x^{-3}</m></p></li>
+        <li><p><m>x^3 + x^{-6}</m></p></li>
+        <li><p><m>x^{-3} - x^{-6}</m></p></li>
+        <li><p><m>x^3 + x^{-3}</m></p></li>
+</ol></p></li>
+
+<li><p>Simplify if possible using the second law.</p>
+  <p><ol cols="2">
+        <li><p><m>\dfrac{x^6}{x^3}</m></p></li>
+        <li><p><m>\dfrac{x^{-6}}{x^3}</m></p></li>
+        <li><p><m>\dfrac{x^6}{x^{-3}}</m></p></li>
+        <li><p><m>\dfrac{x^{-6}}{x^{-3}}</m></p></li>
+        <li><p><m>\dfrac{x^3}{x^{-6}}</m></p></li>
+        <li><p><m>\dfrac{x^{-3}}{x^{-6}}</m></p></li>
+</ol></p></li>
+
+  <li><p>Simplify if possible using the third law.</p>
+    <p><ol cols="2">
+        <li><p><m>(x^6)^{-3}</m></p></li>
+        <li><p><m>(x^{-6})^3</m></p></li>
+        <li><p><m>(x^{-6})^{-3}</m></p></li>
+        <li><p><m>(-x)^{-3}</m></p></li>
+        <li><p><m>(-x)^{-6}</m></p></li>
+        <li><p><m>(-x^3)^{-6}</m></p></li>
+  </ol></p></li>
+
+  <li><p>Simplify if possible using the fourth and fifth laws.</p>
+    <p><ol cols="2">
+        <li><p><m>(2x)^{-3}</m></p></li>
+        <li><p><m>(\dfrac{2}{x})^{-3}</m></p></li>
+        <li><p><m>(2x^4)^{-3}</m></p></li>
+        <li><p><m>(2x^{-4})^3</m></p></li>
+        <li><p><m>(2x^{-4})^{-3}</m></p></li>
+        <li><p><m>(-2x^{-4})^{-3}</m></p></li>
+        <li><p><m>\left(\dfrac{2}{x^{-4}}\right)^3</m></p></li>
+        <li><p><m>\left(\dfrac{2}{x^{-4}}\right)^{-3}</m></p></li>
+  </ol></p></li>
+
+  <li><p>Which of the following statements are true for all non-zero values of <m>a</m> and <m>b</m>?  (You may want to try out some specific values of <m>a</m> and <m>b</m> before you decide!)</p>
+
+          <aside component="instructor"><p>4(5) Demonstrate for students how to substitute values for <m>a</m> and <m>b</m>.</p></aside>
+
+<p><ol cols="2">
+    <li><p><m>\dfrac{1}{a} + \dfrac{1}{b} = \dfrac{1}{a+b}~</m>?</p></li>
+    <li><p><m>a^{-1} + b^{-1} = (a+b)^{-1}~</m>?</p></li>
+    <li><p><m>a^2 + b^2 = (a+b)^2~</m>?</p></li>
+    <li><p><m>a^{-2} + b^{-2} = (a+b)^{-2}~</m>?</p></li>
+    <li><p><m>\dfrac{1}{a^{-1}} + \dfrac{1}{b^{-1}} = a + b~</m>?</p></li>
+    <li><p><m>\dfrac{1}{a^{-1} + b^{-1}} = a + b~</m>?</p></li>
+</ol></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+  <li><p>Explain the difference between each pair of expressions.</p>
+    <p><ol>
+      <li><p><m>-2^3</m> and <m>2^{-3}</m></p></li>
+      <li><p><m>-x^4</m> and <m>x^{-4}</m></p></li>
+      <li><p><m>-2^n</m> and <m>2^{-n}</m></p></li></ol></p></li>
+  <li><p>Write a power function for "<m>y</m> varies inversely with the cube of <m>x</m>."</p></li>
+  <li><p>How do you convert a value in watts to picowatts?</p></li>
+  <li><p>Explain how to decide which law of exponents to use when simplifying an expression.</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+  <li><p>What is an inverse square law? Give an example.</p></li>
+  <li><p>Explain why <m>\dfrac{1}{a^{-n}} = a^n</m>, if <m>a \not= 0</m>.</p></li>
+  <li><p>How can you tell whether a number should have a positive or a negative exponent in scientific notation? Explain why this is true.</p></li>
+  <li><p>Give an example to show why we cannot add or subtract terms with the same variable but different exponents.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which of these is equivalent to <m>2x^{-4}</m>?</p>
+    <p><ol marker="a.">
+        <li><m>-2x^4</m></li>
+        <li><m>\dfrac{1}{2x^4}</m></li>
+        <li><m>2-x^4</m></li>
+        <li><m>\dfrac{2}{x^4}</m></li>
+    </ol></p></li>
+    <li><p>Which statement about power functions is true?</p>
+    <p><ol marker="a.">
+        <li>They can describe direct or inverse variation.</li>
+        <li>They involve a power of the output variable.</li>
+        <li>The <m>y</m>-intercept must be a positive number.</li> 
+        <li>They include all linear and quadratic functions.</li>
+    </ol></p></li>
+    <li><p>Which of the following is not one of the laws of exponents?</p>
+    <p><ol marker="a.">
+        <li><m>(x+y)^n=x^n+y^n</m></li>
+        <li><m>\left(\dfrac{y}{x}\right)^n=\dfrac{y^n}{x^n}</m></li>
+        <li><m>(xy)^n=x^ny^n</m></li>
+        <li><m>x^nx^m=x^{n+m}</m></li>
+    </ol></p></li>
+    <li><p>Which of these is equivalent to <m>\dfrac{m^2}{m^6}</m>?</p>
+    <p><ol marker="a.">
+        <li><m>\dfrac{1}{m^3}</m></li>
+        <li><m>-m^4</m></li>
+        <li><m>\dfrac{1}{m^4}</m></li>
+        <li><m>\dfrac{1}{3}</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

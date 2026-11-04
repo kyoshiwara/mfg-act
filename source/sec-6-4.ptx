@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Problem Solving</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we use the vertex to find the maximum or minimum value for a quadratic model, and we find the vertex form for the equation of a parabola.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Find the vertex of a parabola</p></li>
+    <li><p>Find the maximum or minimum value of a quadratic model</p></li> 
+    <li><p>Write a quadratic equation in vertex form by completing the square</p></li>
+    <li><p>Find an equation for a parabola given the vertex and one other point</p></li> 
+    <li><p>Write a quadratic model for revenue</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-6-4-1"><title>The Vertex</title>
+
+<p><ol>
+<li><p>Think about the graph of <m>y=(x-2)^2-6</m>.</p>
+    <p><ol marker="a.">
+        <li><p>How do you know that the graph is a parabola?</p></li>
+        <li><p>Does the parabola open up or down? Why?</p></li>
+        <li><p>What is the smallest <m>y</m>-value on the graph of <m>y=(x-2)^2-6</m>?
+                (Hint:  What is the smallest value that <m>(x-2)^2</m> can have?)</p></li>
+        <li><p>Which <m>x</m>-value gives us the smallest <m>y</m>-value? Why?</p></li>
+        <li><p>What are the coordinates of the vertex of the graph?</p></li>
+        <li><p>Graph the equation on the grid and verify your answers.
+                <image source="act-2-2-2.png" width="40%"><description>10x10 grid</description></image></p></li>
+    </ol></p></li>
+
+  <li><p>Now consider the graph of <m>y=3(x-2)^2-6</m>.</p>
+        <p><ol marker="a.">
+            <li><p>What is the vertex of this graph?</p></li>
+            <li><p>How is the graph of <m>y=3(x-2)^2-6</m> different from the graph of <m>y=(x-2)^2-6</m>?</p></li>
+            <li><p>Write the equation <m>y=3(x-2)^2-6</m> in standard form.</p></li>
+        </ol></p></li>
+
+  <li><p>We can write an equation for a parabola if we know its vertex.</p>
+        <p><ol marker="a.">
+            <li><p>State the vertex form for a quadratic function.</p></li>
+            <li><p>Find an equation for a parabola whose vertex is <m>(4,-7)</m>.</p></li> 
+            <li><p>Sketch your parabola on the grid.
+                <image source="act-2-2-2.png" width="40%"><description>10x10 grid</description></image></p></li>
+            <li><p>Find an equation for another parabola whose vertex is <m>(4,-7)</m> if one point on the graph is <m>(2,9)</m>.</p></li>
+
+                <aside><title>Note</title>
+                <p>Explain that many parabolas have the same vertex, so we need to know one other point to establish the "width" of the graph.</p></aside>
+
+            <li><p>Sketch that parabola on the same grid.</p></li>
+        </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-4-2"><title>The Vertex Form</title>
+
+<introduction><p>The batter in a softball game hits the ball when it is 4 feet above the ground. The ball reaches the greatest height, 35 feet, directly above the head of the left-fielder, who is 200 feet from home plate.</p></introduction>
+
+<p><ol marker="a.">
+    <li><sidebyside widths="50% 30%"><p>The path of the ball is shown at right. Label the <m>y</m>-intercept and the vertex with their coordinates.</p>
+        <image source="act-4-2-1.png"><description>unlabeled downward parabola on 2x2 grid</description></image></sidebyside></li>
+
+    <li><p>Write an equation for the height of the ball in terms of the horizontal distance it has traveled.</p> 
+                <aside component="instructor"><p>2b. It may help students to graph the equation.</p></aside></li>
+
+    <li><p>Find the height of the ball when it reaches the left field wall, which is 375 feet from home plate. If the wall is 10 feet tall, did the batter hit a home run (did the ball go over the wall)?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-4-3"><title>Maximum or Minimum Value</title>
+
+<introduction><p>Becca trains dogs and would like to build three holding pens of equal size, as shown in the figure. She has 120 meters of chain link fence to build the pens. What should be the dimensions of each pen in order to enclose the largest area? </p>
+            <image width="40%" xml:id="fig-dogpens"><description>3 adjacent dog pens, each L wide and W high</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=1] 
+    \draw[black,thick] (0,0) rectangle (3.3,1);
+    \draw[black,thick] (1.1,0) -- (1.1,1);
+    \draw[black,thick] (2.2,0) -- (2.2,1);
+    \node[text width=0.3cm] at (-0.3,0.5) {\(w\)};
+    \node[text width=0.3cm] at (0.55,1.3) {\(L\)};
+    \end{tikzpicture}]]>
+</latex-image></image></introduction>
+
+<p><ol marker="a.">
+    <li><p>Let <m>L</m> and <m>w</m> represent the length and width of each pen, and label the figure. (How many <m>L</m>'s and <m>w</m>'s do you have?)</p>
+
+        <aside component="instructor"><p>3a. Note that <m>L</m> stands for the length of one pen, not all three.</p></aside></li>
+
+    <li><p>Write an equation in <m>L</m> and <m>w</m> about the amount of chain link fence. (Hint: Is this an area or a perimeter?)</p></li>
+
+    <li><p>Solve your equation for <m>w</m> in terms of <m>L</m>.</p></li>
+
+    <li><p>Write an equation in terms of <m>L</m> and <m>w</m> for <m>A</m>, the total area enclosed.</p></li>
+
+    <li><p>Substitute your expression for <m>w</m> from part (c) into your equation for the area.</p></li>
+
+    <li><p>Use algebra to answer the questions:</p>
+        <p>What is the largest area Becca can enclose?</p> 
+        <p>What are the dimensions of each pen?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-6-4-4"><title>Wildlife Management and Sustainable Yield</title>
+
+<introduction><p>The rate of growth of a population depends on its size. Larger populations grow faster than smaller ones.  However, if the population grows too large, its rate of growth will decrease. (Why does this happen?) Many species are threatened by overhunting. It has become important to monitor their population growth, and to understand how harvesting affects the population.</p>
+
+<p>The annual increase, <m>I</m>, in the deer population in a national park depends on the size, <m>x</m>, of the population that year, according to the formula
+            <md>I=1.2x-0.0002x^2</md>
+    </p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Sketch a graph of <m>I</m> for  <m>0 \le x \le 7000</m>. The population is stable if its rate of growth (or decline) is zero. What size deer population remains stable?</p>
+        <image width="80%" xml:id="grid-deer"><description>Grid 0-7000 by 0-2000</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [xscale=0.5,yscale=0.5] 
+     \draw[cyan] (0,0) grid (14,8);
+    \draw[black,thick,->,>=stealth'] (0,0)--(15,0) node[right]{$x$};
+    \draw[black,thick,->,>=stealth'] (0,0)--(0,8.9) node[right]{$I$};
+    \foreach \x [evaluate=\x as \xi using int( 500* \x )]  in {2,4,6,8,10,12,14} {
+        \draw[black,thick] (\x,0.15)--++(0,-.3) node[below]{$\xi$};
+    }
+    \foreach \y [evaluate=\y as \yi using int( 250* \y )]   in {4,8} {
+        \draw[black,thick] (.4,\y)--++(-.8,0) node[left]{$\yi$};
+    }
+    \end{tikzpicture}]]>
+</latex-image></image></li>
+
+    <li><p>Find the vertex of the graph. What does it tell you about the deer population?</p></li>
+
+    <li><p>Suppose that each year hunters are allowed to kill 1000 deer. Sketch the graph of <m>H=100</m> on the same graph with <m>I</m>.</p></li>  
+
+    <li><p>>What sizes of population will increase despite hunting? What sizes will decrease? What sizes of deer population will remain stable if 1000 deer are hunted annually?</p></li>
+
+    <li><p>Now suppose that 1600 deer are killed annually. What sizes of deer population will remain stable?</p></li>
+
+    <li><p>What is the largest deer harvest that still allows for a stable population? This harvest is called the maximum sustainable yield. What is the stable population?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>The height of a golf ball in meters is given by <m> h=-4.9t^2+20t </m>.</p>
+        <p><ol> 
+        <li><p>Explain how to find out when the ball hits the ground.</p></li> 
+        <li><p>Explain how to find the greatest height the ball reaches.</p></li>
+        </ol></p></li>
+    <li><p>If you know the <m>x</m>-intercepts of a parabola, how can you find the <m>x</m>-coordinate of the vertex?</p></li>
+    <li><p>In Activity 3, how did you use the 120?</p></li>
+    <li><p>In part(d) of Activity 4, how did you find the stable population?</p></li>
+    
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Why do we need to know a second point besides the vertex to find the equation of a parabola?</p></li>
+<li><p>How can you convert a quadratic equation in standard form into vertex form?</p></li>
+<li><p>In Activity 4, for what values of <m>x</m> might the deer population decrease rather than increase? Why might that happen?</p></li>
+<li><p>Explain why revenue will probably not increase indefinitely as price increases.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+<li><p>What is the <m>x</m>-coordinate of the vertex of the parabola <m>~y=4(x-2)(x+8)</m>?</p>   
+  <p><ol marker="a.">
+      <li>4</li>
+      <li><m>-16</m></li>
+      <li>6</li>   
+      <li>3</li>
+    </ol></p></li>
+<li><p>What is the smallest <m>y</m>-value on the graph of <m>~y=4(x-6)^2 + 12</m>?</p>
+  <p><ol marker="a.">
+    <li>6</li> 
+    <li>4</li>
+    <li>12</li>
+    <li>We can't tell without graphing.</li>
+  </ol></p></li>
+<li><p>The height of golf ball in meters is given by <m>h=-4.9t^2+20t</m>.  How can you find out when the golf ball hits the ground?
+</p>
+  <p><ol marker="a.">
+    <li>Plug in <m>t=0</m>.</li>    
+    <li>Solve for <m>t</m> when <m>h=0</m>.</li>
+    <li>Find the vertex of the graph.</li>    
+    <li>Calculate the discriminant.</li>
+  </ol></p></li>
+<li><p>What does the vertex of the graph tell us about the golf ball in question 3?</p>
+  <p><ol marker="a.">
+    <li>How long the golf ball is in the air</li>
+    <li>The starting height of the golf ball</li>
+    <li>When the golf ball reaches its maximum height</li> 
+    <li>The speed of the golf ball</li>
+  </ol></p></li>
+</ol></p></assemblage>
+
+</section>

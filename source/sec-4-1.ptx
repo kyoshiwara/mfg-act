@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Growth and Decay</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we introduce exponential growth and decay. We do not define exponential functions as such until the next Lesson. Here we look at examples of growth and decay by a constant factor or a constant percent rate, and compare exponential with linear growth. Depending on the strength of your class and your time constraints, it might be wise to spend two class periods on this Lesson.</p>
+
+<p>The Activites in the lesson are designed to introduce the new material, so you may want to begin class with the Activities and summarize after each part, instead of using an introductory lecture.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Calculate percent increase or decrease</p></li>    
+<li><p>Write a formula for exponential growth or decay</p></li>    
+<li><p>Evaluate an exponential growth or decay function</p></li>    
+<li><p>Find the growth factor or initial value</p></li>    
+<li><p>Solve for percent increase or decrease</p></li>   
+<li><p>Compare linear and exponential growth</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-4-1-1"><title>Population Growth</title>
+
+<p><ol marker="1.">
+<li><introduction><p>In a laboratory experiment, researchers establish a colony of 100 bacteria and monitor its growth. The colony triples in population every day.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Complete the table showing the population, <m>P(t)</m>, of bacteria <m>t</m> days later.</p>
+        <tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell><m>P(t)</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>P(0)=100</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>P(1)=100 \cdot 3 = \hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>P(2)=[100 \cdot 3] \cdot 3 =\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>P(3) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>P(4) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>5</m></cell>
+                    <cell><m>P(5) = \hphantom{00000}</m></cell></row>
+            </tabular> </li>
+  
+    <li><p>Plot the data points from the table and connect them with a smooth curve.</p>
+            <image source="act-7-1-1.png" width="50%"><description>grid [0,5]x[0,25000]</description></image>
+            <aside component="instructor"><p>1(c) To help students write a function for the population, show them how the function values in the table are built up with powers of 3, and lead them to see that the exponent on <m>P(t)</m> is <m>t</m>.</p></aside></li>
+
+    <li><p>Write a function that gives the population of the colony at any time, <m>t</m>, in days.</p></li>
+
+    <li><p>Graph your function from part (c) using technology. (Use the table to help you choose an appropriate window.)</p></li>
+
+    <li><p>Evaluate your function to find the number of bacteria present after 8 days. </p>
+        <p>How many bacteria are present after 36 hours?</p>
+                <aside component="instructor"><p>1(e) Show the class how to evaluate exponential expressions on the calculator.</p></aside></li>
+    </ol></p>
+                <aside component="instructor"><p>At the end of part 1, go over the formula for exponential growth, <m>P(t) = P_0b^t</m>, and point out that we only need to know the initial value and the growth factor to write an equation. Use this observation in part 2.</p></aside></li>
+
+<li><title>Bees</title>
+
+<introduction><p>A beekeeper starts a new hive with 20 insects. The population can increase in size by a factor of 1.8 every month.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Write a formula for the population of bees, <m>B(t)</m>, after <m>t</m> months.</p></li>
+
+    <li><p> How many bees will there be after 4 months?</p>  
+        <p> After 6 weeks?</p></li>
+
+    <li><p>Graph your function using technology, then sketch the graph on the grid.</p>
+          <image source="act-7-1-2.png" width="40%"><description>grid [0,10]x[0,1000]</description></image></li>
+</ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-1-2"><title>Percent Increase</title>
+
+<p><ol marker="1.">
+<li><introduction><p>Imagine that you take a job that pays $1000 a month, and every year you'll get a 5% raise. You would like a formula that allows you to compute your salary, <m>S(t)</m>, after <m>t</m> years.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Compute your new salary after working for one year:
+            <md>S(1) = \blert{\text{old salary + raise}} = 1000 + 0.05(1000) = ~~~~~~~~~~~~~~~~~~~~~~~~</md></p>
+        <p>Compute your salary after working for two years:
+            <md>S(2) = \blert{S(1) + \text{raise}} = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</md></p>
+        <p>There is a faster way to compute each year's new salary. We'll factor out 1000 from the calculation for <m>S(1)</m>: 
+            <md>S(1) = 1000 + 0.05(1000) = 1000(1+0.05) = \blert{1000(1.05)} = 1050</md></p>
+        <p>We can compute your new salary each year by multiplying the old salary by <m>1.05</m>. Verify that this works to compute <m>S(2)</m>:
+            <md>S(2) = 1050(1.05) = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</md></p>
+
+            <aside component="instructor"><p>2(b) Students usually have some difficulty grasping the formula for percent increse. You may have to explain several times "where the 1 comes from" in <m>1+r</m>: it gives us back the "old" value, while <m>r</m> produces the increase.</p></aside></li>
+
+    <li><p>Continue the pattern: To compute your new salary every year, multiply your old salary by <m>1.05</m>. (Round to the nearest penny.)</p>
+        <tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell><m>S(t)</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>S(0)=1000</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>S(1)=1000(1.05) = 1050</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>S(2)=1050(1.05) = 1000(1.05)^2 = \hphantom{0000000000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>S(3) = S(2)(1.05) = 1000(1.05)^3 =\hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>S(4) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>5</m></cell>
+                    <cell><m>S(5) = \hphantom{00000}</m></cell></row>
+            </tabular></li>
+
+    <li><p>The table shows that <m>S(t)</m> follows exponential growth. What is its growth factor?</p>
+        <p>Write a formula for your salary <m>S(t)</m> after <m>t</m> years.</p></li>
+</ol></p></li>
+
+<li><title>College Tuition</title>
+
+<introduction><p>In 2000, the average annual cost of tuition at a public 4-year college was $3501. During the next decade until 2010, the cost of tuition rose roughly at an annual rate of 7.4%.</p></introduction>
+<p><ol marker="a.">
+    <li><p>Write a formula for <m>C(t)</m>, the cost of tuition <m>t</m> years after 2000.</p>
+
+        <aside component="instructor"><p>2(2)(a) You may have to remind students that <m>b=1+r</m>. (Ask them if <m>b=0.074</m> will result in an increasing function.</p></aside></li>
+
+     <li><p>According to the model, how much would a year of tuition cost in 2020?</p></li>
+
+    <li><p>Fortunately, starting in 2010 the cost of tuition rose according to the function <m>~L(t) = 208(t-10) + 7340~</m> (with <m>t=10</m> in 2010).</p>
+        <p>What does this new model predict for the cost of tuition in 2020?</p></li>
+
+    <li><p>Complete the table and sketch a graph of the piecewise model for the cost of tuition.</p>
+
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell><m>~0~</m></cell>
+                    <cell><m>~5~</m></cell>
+                    <cell><m>~10~</m></cell>
+                    <cell><m>~15~</m></cell>
+                    <cell><m>~20~</m></cell>
+                    <cell><m>~25~</m></cell></row>
+                <row><cell>Cost</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                </tabular>
+        <image width="40%" xml:id="grid-tuition"><description>Grid 0-25 by 0-12 thousand</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [xscale=.125,yscale=.5] 
+    \draw[xstep=5,cyan] (0,0) grid (25,12);
+    \draw[black,thick,->,>=stealth'] (0,0)--(28,0) node[right]{$t$};
+    \draw[black,thick,->,>=stealth'] (0,0)--(0,12.9);
+    \foreach \x in {5,10,15,20,25} {
+        \draw[black,thick] (\x,0.15)--++(0,-.3) node[below]{$\x$};
+    }
+    \foreach \y  in {2,4,6,8,10,12} {
+        \draw[black,thick] (.4,\y)--++(-.8,0) node[left]{$\y$};
+    }
+    \node[label={[rotate=90]center:Thousands of dollars}] at (-7,6){};
+    \end{tikzpicture}]]>
+        </latex-image></image></li>
+    </ol></p></li>
+</ol></p>
+  </activity>
+
+<activity xml:id="act-4-1-3"><title>Exponential Decay</title>
+
+<introduction><p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals) the population declined to approximately 0.90 of its earlier figure.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Complete the table showing the population, <m>P(t)</m>, of the town <m>t</m> decades after 1940.</p>
+            <tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell><m>P(t)</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>P(0)=5000</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>P(1)=5000 \cdot 0.90 = \hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>P(2)=[5000 \cdot 0.90] \cdot 0.90 =\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>P(3) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>P(4) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>5</m></cell>
+                    <cell><m>P(5) = \hphantom{00000}</m></cell></row>
+            </tabular> 
+
+        <aside component="instructor"><p>3(a) Notice that 0.90 is the value of <m>1-r</m>, not of <m>r</m>. You will need to emphasize the distinction between decreasing to 90% (of the earlier value) and decreasing by 90%. You may want to state several examples with different wordings and different values of <m>r</m> for students to write formulas.</p></aside></li>
+
+    <li><p>Plot the data points and connect them with a smooth curve.</p>
+        <image source="act-7-1-4.png" width="45%"><description>grid [0,8]x[0,5000]</description></image></li>
+
+    <li><p>Write a function that gives the population of the town at any time <m>t</m> in decades after 1940.</p></li>
+
+    <li><p>Graph your function from part (c) using technology. (Use the table to choose an appropriate window.)</p>
+            <aside component="instructor"><p>3(d) Also point out that we don't see much of a curve to the graph over just 5 decades, but if we change the graphing window to 10 or 15 decades, the exponential shape is more pronounced.</p></aside></li>
+
+    <li><p>Evaluate your function to find the population of the town in 1990.</p>
+        <p>What was the population in 2005?</p></li>
+</ol></p>
+</activity> 
+
+<activity xml:id="act-4-1-4"><title>Growth and Decay Laws</title>
+
+<introduction><p>Write a growth or decay law to describe each population, and complete the table of values.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>A herd of 1000 deer grew by 4% per year.</p>
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></li>
+  
+    <li><p>A herd of 1000 deer grew by 40% per year.</p>
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></li>
+  
+    <li><p>A herd of 1000 deer decreased to 40% of its previous population every year.</p>
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></li>
+  
+    <li><p>A herd of 1000 deer decreased by 40% each year. </p>
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-1-5"><title>Comparing Linear and Exponential Decrease</title>
+
+          <aside component="instructor"><p>After getting students started (point out that only the populations in 1992 and 2000 are relevant to the problem), you might assign the write-up to hand in.</p></aside>
+
+<introduction><p>In 2003, the Center for Biological Diversity filed a lawsuit against the federal government for failing to protect Alaskan sea otters. The population of sea otters, which numbered between 150,000 and 300,000 before hunting began in 1741, declined from about 20,000 in 1992 to 6000 in 2000.</p></introduction>
+  
+<p><ol marker="a.">
+    <li><p>If the population declined linearly after 1992, what was its annual rate of decrease?</p></li>
+  
+    <li><p> Write a formula for <m>L(t)</m>, the number of otters <m>t</m> years after 1992 under linear decline.</p></li>
+  
+    <li><p>If the population declined exponentially after 1992, a formula for the number of otters <m>t</m> years after 1992 is <m>~E(t) = 20,000 b^t</m>. Use the population in 2000 to write an equation and solve for <m>b</m>.</p></li>
+  
+    <li><p>What was the annual decay factor for exponential decline in the otter population? What was its annual percent decrease?</p></li>
+  
+    <li><p>Predict the number of sea otters in 2010 under each assumption, linear or exponential decline.</p></li>
+  
+    <li><p>Graph both functions, <m>L(t)</m> and <m>E(t)</m>, on the same grid.</p>  
+            <image source="act-7-1-5.png" width="50%"><description>grid [0,20]x[0,25]</description></image></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>In Activity 1, how can you tell from the table of values that the bacteria population is increasing exponentially?</p></li>
+    <li><p>In Activity 2, what is the annual growth factor in the cost of a year of college?</p></li>
+    <li><p>In Activity 3, what was the decay factor for the town's population each decade? What was the percent decrease in population?</p></li>
+    <li><p>If the population of the town in Activity 3 decreased by 500 in the first decade, did it also decrease by 500 in the second decade? Why or why not?</p></li>
+</ol></p>
+</subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>How can you tell from a table of values that a function is increasing or decreasing exponentially?</p></li>
+    <li><p>If an exponential function increases by 500 in the first month, will it also increase by 500 in the second month? Why or why not?</p></li>
+    <li><p>Explain why the growth factor for for an exponential function is <m>1+r</m>, where <m>r</m> is given by a percent increase, but the decay factor for a decrease given by percent is <m>1-r</m>.</p></li>
+    <li><p>If an exponentially decreasing function decreased by 500 this month, will it decrease by more than 500 or less than 500 next month? Why?</p></li>
+    <li><p>If you know only two points on a graph, can you determine whether the graph is linear or exponential? Explain.</p></li>
+</ol></p>
+</assemblage>  
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>A population grows by 4.5% per year. What is its annual growth factor?</p>
+    <p><ol marker="a.">
+        <li>4.5</li>
+        <li>0.45</li>
+        <li>0.045</li>
+        <li>1.045</li>
+    </ol></p></li>
+    <li><p>A population decreases by 12% per year. What is its annual decay factor?</p>
+    <p><ol marker="a.">
+        <li>-0.12</li>
+        <li>-1.12</li>
+        <li>0.88</li>
+        <li>1.88</li>
+    </ol></p></li>
+    <li><p>The function <m>~P(t) = P_0b^t~</m> is decreasing if</p>
+    <p><ol marker="a.">
+        <li><m>P_0</m> is negative</li>
+        <li><m>b</m> is negative</li>
+        <li><m>0 \lt b \lt 1</m></li>
+        <li><m>0 \lt P_0 \lt 1</m></li>
+    </ol></p></li>
+    <li><p>The graph of <m>~P(t) = P_0b^t</m>, where <m>P_0 \gt 0</m> and <m>b \gt 0</m>, is always</p>
+    <p><ol marker="a.">
+        <li>increasing.</li>
+        <li>concave up.</li>
+        <li>decreasing.</li>
+        <li>concave down.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+  
+</section>

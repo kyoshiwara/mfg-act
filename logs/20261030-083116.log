@@ -1,0 +1,61 @@
+WARNING : Using CLI version 2.55.0 but project's `requirements.txt`
+WARNING : is configured to use 1.0.3. Consider either installing
+WARNING : CLI version 1.0.3 or running `pretext update-project`
+WARNING : to update `requirements.txt` and other managed files to match 2.55.0.
+INFO    : Building target subset-instructor
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\test-section.ptx by C:\Users\kyosh\.ptx\2.55.0\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.55.0\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\mfg-act\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\mfg-act\assets
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into C:\Users\kyosh\pretext\mfg-act\output\subset-instructor.
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\mfg-act\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\mfg-act\assets
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\test-section.ptx by C:\Users\kyosh\.ptx\2.55.0\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.55.0\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.3.6
+INFO    : Downloading Runestone Services, version 8.3.6
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting C:\Users\kyosh\pretext\mfg-act\source\test-section.ptx to HTML in C:\Users\kyosh\AppData\Local\Temp\ptx-3vuhde3k
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\test-section.ptx by C:\Users\kyosh\.ptx\2.55.0\core\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : * PTX:INFO:   checking all deprecated elements.
+WARNING : * PTX:DEPRECATE: (2023-08-08) a "website" element with "address" and "name" children has changed.  Continue to use the "website" element as before, but replace the "address" and "name" children with a single "url" element, which is more flexible and reliable.  We will try to honor your intent, but you may prefer your own adjustments. (1 time)
+INFO    : *              located at: pretext/book/frontmatter/colophon/website
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "titlepage" element inside the "frontmatter" (author, editor, credit, date, and event) should now be placed in "frontmatter/bibinfo".  To ensure a title page is created, put only the empty element "titlepage-items" inside "titlepage".  Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located at: pretext/book/frontmatter/titlepage
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "colophon" element inside the "frontmatter" (credit, copyright, edition, and website) should now be placed in "frontmatter/bibinfo". To produce a "colophon", include only the empty element "colophon-items" inside "colophon" Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located at: pretext/book/frontmatter/colophon
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2026-07-31) the document-wide style of cross-reference text is now a "text" attribute on an "xrefs" element within "docinfo/defaults", replacing the "cross-references" element.  We will honor your intent, but please convert to the new form. (1 time)
+INFO    : *              located at: pretext/docinfo/cross-references
+INFO    : * --------------
+INFO    : successful application of C:\Users\kyosh\.ptx\2.55.0\core\xsl\pretext-html.xsl
+INFO    : Removing temporary directory C:\Users\kyosh\AppData\Local\Temp\ptx-3vuhde3k
+INFO    : Removing temporary directory C:\Users\kyosh\AppData\Local\Temp\ptx-m058dhfw
+INFO    : 
+Finished build for target subset-instructor. Run `pretext view subset-instructor` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

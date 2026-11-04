@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Absolute Value Function</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we solve absolute value equations and inequalities, and calculate error tolerance. Give a short lesson on using the notation <m>\abs{x-a} = b</m> to discuss distance. If you wish to cover measurement error, you could do that now.</p>
+
+<p>The Activities for this Lesson are devoted to solving absolute value equations and inequalities.</p>
+
+<p><ul>
+    <li><p>Use absolute value notation to write statements about distance</p></li>    
+    <li><p>Use graphs to solve absolute value equations and inequalities</p></li>
+    <li><p>Solve absolute value equations and inequalities algebraically</p></li>    
+    <li><p>Express error tolerances using absolute value notation </p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-2-5-1"><title>Solving Absolute Value Equations</title>
+
+<introduction><p>We'll solve the equation 
+             <md>\abs{x-3} = 5</md>
+    in three different ways: with a graph, wth a number line, and with algebra.</p></introduction>
+
+<p><ol>
+<li><p>Solution by graphing</p>
+    <p><ol marker="a.">
+        <li><p>Graph <m>y=\abs{x-3}</m> with technology, and copy the graph onto the grid below.</p>
+            <image source="act-5-6-2.png" width="50%"><description>grid [-10,10]x[-4,10]</description></image></li>
+        <li><p>Sketch the horizontal line <m>y=5</m> on your graph.</p></li>
+        <li><p>Find the points on the graph of <m>y=\abs{x-3}</m> that have <m>y=5</m>. (How many points are there?) What are the <m>x</m>-coordinates of those two points? These are the solutions.</p></li>
+      </ol></p></li>
+
+<li><p>Next we'll use a number line to solve the equation.</p>
+    <p><ol marker="a.">
+        <li><p>Translate the equation <m>\abs{x-3} = 5</m> into a sentence about distance.</p></li>
+        <li><p>Locate 3 on the number line below, and find two points at a distance of 5 units from 3.</p>
+              <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image></li>
+        <li><p>What are the <m>x</m>-coordinates of those two points?</p>
+            <aside component="instructor"><p>2(2) Point out that when using a graph, the solution appears on the <m>x</m>-axis, and looks the same as the solution obtained on a number line.</p></aside></li>
+        </ol></p></li>
+
+  <li><p>Finally, we'll use algebra to sove the equation. Recall the definition of absolute value:
+      <md><mrow>\abs{x} = \begin{cases} x \amp \text{if } x\ge 0</mrow>
+          <mrow>-x \amp \text{if } x\lt 0 \end{cases}</mrow></md></p>
+      <p><ol marker="a.">
+          <li><p>Now substitute <m>x-3</m> for <m>x</m>: 
+              <md><mrow>\abs{x-3} = \begin{cases} x-3 \amp \text{if } x-3\ge 0</mrow>
+                  <mrow>-(x-3) \amp \text{if } x-3\lt 0 \end{cases}</mrow></md></p></li>
+          <li><p>Thus, the equation <m>\abs{x-3} = 5</m> has two parts: 
+            <me>x-3=5~~~~~~~~~~~~~ \text{and} ~~~~~~~~~~~~~~~~~ -(x-3)=5</me></p>
+
+              <aside component="instructor"><p>2(3) Get students to see that we can replace <m>-(x-3) = 5</m> by <m>x-3=-5</m>. This will be useful when we solve inequalities.</p></aside></li>
+
+          <li><p>Solve each equation to get two solutions.</p></li>
+      </ol></p></li>
+
+    <li><p>Solve the equation <m>\abs{x+6} = 2</m> in three different ways:</p>
+    <p><ol>
+      <li><p>By graphing <m>y=\abs{x+6}</m>.</p>
+          <image source="act-5-6-2.png" width="50%"><description>grid [-10,10]x[-4,10]</description></image></li>
+
+      <li><p>By using a number line.</p>
+          <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image></li>
+
+      <li><p>By using algebra.</p></li>
+    </ol></p></li>
+  </ol></p>
+</activity>
+
+<activity xml:id="act-2-5-2"><title>Solving Absolute Value Inequalities</title>
+
+<introduction><p>We'll solve the inequality 
+             <md>\abs{x-3} \lt 5</md>
+    in three different ways: with a graph, wth a number line, and with algebra.</p></introduction>
+
+<p><ol>
+  <li><p>Solution by graphing</p>
+      <p><ol marker="a.">
+        <li><p>Refer to your graph of <m>y=\abs{x-3}</m> in Activity 2, and shade the points on the graph that have <m>y \lt 5</m>.</p>
+              <image source="act-5-6-2.png" width="50%"><description>grid [-10,10]x[-4,10]</description></image></li>
+        <li><p>Now shade the portion of the <m>x</m>-axis that corresponds to those points. (Are the endpoints included in the solution set?) Write your answer with interval notation.</p>
+
+          <aside component="instructor"><p>3(1) When choosing the correct intervals on the <m>x</m>-axis, use the same language we used when solving quadratic inequalities: are the correct <m>x</m>-values "between" the boundary points, or "outside" of them?</p></aside></li>
+        <li><p>Now use the graph to solve <m>\abs{x-3} \gt 5</m>. Note that the solution set consists of two intervals.</p></li>
+        <li><p>Write your answer with interval notation.</p></li>
+      </ol></p></li>
+
+  <li><p>Next, we'll use a number line.</p>
+      <p><ol marker="a.">
+        <li><p>Translate the inequality <m>\abs{x-3} \lt 5</m> into a sentence about distance.</p></li>
+        <li><p>Locate 3 on the number line below, and shade the points closer than 5 units from 3.</p>
+                <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image>
+            <p>Write your answer with interval notation.</p></li>
+        <li><p>Now use the number line to solve <m>\abs{x-3} \gt 5</m>.</p>
+            <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image>
+            <p>Shade the points farther than 5 units from 3. Write your answer with interval notation.</p></li>
+        </ol></p></li>
+
+  <li><p>Finally, we'll solve the inequality <m>\abs{x-3} \lt 5</m> with algebra.</p> 
+      <p>This absolute value inequality is equivalent to the compound inequality  <m>-5 \lt x-3 \lt 5</m>. Solve the inequality and verify that you get the same solution as before.</p></li>
+
+<li><p>Now we'll solve <m>\abs{x-3} \gt 5</m>.  This absolute value inequality is equivalent to the compound inequality
+        <md>x-3 \gt 5~~~~~~~~~~~~~~~~~\text{or}~~~~~~~~~~~~~~~~~~~~x-3 \lt -5</md>    
+  Solve the inequality and verify that you get the same solution as before.</p>
+
+            <aside component="instructor"><p>3(4) Most students find it difficult to follow an algebraic argument to obtain the conclusions on absolute value inequalities summarized in the box in the text. It is more effective to rely on the graphical interpretation described above to motivate the algebraic solution.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-2-5-3"><title>More Inequalities</title>
+
+<p><ol>
+    <li><p>Solve the inequality  <m>\abs{2x-5} \le 6</m>  in two ways:</p>
+        <p><ol marker="a.">
+        <li><p>Graph <m>y=\abs{2x-5}</m> on the grid and use the graph to solve the inequality. Write your answer in interval notation.</p>
+        <image source="act-5-6-2.png" width="50%"><description>grid -10 to 10 by -4 to 10</description></image></li>
+        <li><p>Solve algebraically.  <m>\abs{2x-5} \le 6</m> is equivalent to <m>-6 \le 2x-5 \le 6</m></p></li>
+  </ol></p></li>
+
+    <li><p>Solve the inequality  <m>\abs{3x-6} \ge 3</m>  in two ways</p>
+        <p><ol marker="a.">
+        <li><p>Graph <m>y=\abs{3x-6}</m> on the grid and use the graph to solve the inequality. Write your answer in interval notation.</p>
+        <image source="act-5-6-2.png" width="50%"><description>grid -10 to 10 by -4 to 10</description></image></li>
+        <li><p>Solve algebraically.  <m>\abs{3x-6} \ge 3</m> is equivalent to <m>3x-6 \ge 3</m> or <m>3x-6 \le -3</m></p></li>
+  </ol></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>How do we write "the distance between <m>x</m> and 5" in mathematical notation?</p></li>
+    <li><p>How many solutions are there to the equation <m>\abs{2x-7} = k</m>, if <m>k \gt 0</m>?</p></li>
+    <li><p>Do you prefer to solve absolute value inequalities algebraically, or with a graph?  Why?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Describe the absolute value graph.</p></li>
+    <li><p>Explain how to solve an absolute value inequality with a graph.</p></li>
+    <li><p>Find the error in this statement and correct it:</p>
+        <p>"If <m>\abs{x-3} \gt 5</m>, then either <m>x-3 \gt 5</m>  or <m>x-3 \gt -5</m>."</p></li>
+    <li><p>What is error tolerance, and how is it used?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>A To find the absolute value of a number, we can</p>
+        <p><ol marker="a.">
+            <li>change its sign.</li>
+            <li>subtract it from zero.</li>
+            <li>find its distance from zero.</li>
+            <li>square it.</li>
+        </ol></p></li>
+    <li><p>The notation <m>\abs{x-3}=5</m>  means</p>
+        <p><ol marker="a.">
+            <li><m>x</m> is 3 units bigger than 5</li>
+            <li>the distance between <m>x</m> and 5 is 3 units</li>
+            <li>5 and 3 are <m>x</m> units apart</li>
+            <li>the distance between <m>x</m> and 3 is 5 units</li>
+        </ol></p></li>
+    <li><p>Which statement is true?</p>
+        <p><ol marker="a.">
+            <li>The graph of <m>y=\abs{2x-8}</m> has no negative inputs.</li>
+            <li>The equation <m>\abs{2x-8}=-4</m> has two solutions.</li>
+            <li>Depending on <m>x</m>, <m>\abs{2x-8}</m> can equal <m>2x-8</m> or <m>8-2x</m>.</li>
+            <li>The graph of <m>y=\abs{2x-8}</m> is a straight line.</li>
+        </ol></p></li>
+    <li><p>Which statement is false?</p>
+        <p><ol marker="a.">
+            <li>The equation <m>\abs{3x-12}=0</m>  has one solution.</li>
+            <li>The statement <m>\abs{T-0.1} \lt 0.05</m>  describes an error tolerance of 0.5 units.</li>
+            <li><m>\abs{mx+b} \lt k</m> is equivalent to <m>-k \lt mx+b \lt k</m> .</li> 
+            <li>The solutions of <m>\abs{3x-12} \ge 6</m> form a closed interval.</li>
+        </ol></p></li>
+  </ol></p></assemblage>
+
+</section>

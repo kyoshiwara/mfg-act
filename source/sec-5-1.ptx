@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inverse Functions</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we study inverse functions and their graphs and apply the horizontal line test to determine whether the inverse is itself a function. Inverse functions are often somewhat nebulous for students. Try to make the analogy with inverse operations, that a function (at least the ones we are considering) tells you to perform some operation on the input. The Activities in this Lesson attempt to demystify inverse functions by looking at their graphs and treating them like any other familiar function.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Find a formula for an inverse function</p></li>
+    <li><p>Use a graph of <m>f</m> to find values of <m>f^{-1}</m></p></li> 
+    <li><p>Use the horizontal line test</p></li>
+    <li><p>Find the domain and range of an inverse function</p></li>
+</ul></p></assemblage> 
+
+<activity xml:id="act-5-1-1"><title>Graphing the Inverse Function</title>
+
+<introduction><p>For each of the basic functions shown below:<ol>
+  <li><p>Sketch the inverse on the same graph as the function.</p></li>  
+  <li><p>Is the inverse also a function?</p></li></ol></p></introduction> 
+
+      <aside component="instructor"><p>Students can sketch the inverse graphs either by interchanging the coordinates of points on the graph or by working out the formula for the inverse first. They can use one method to check the other.</p></aside>
+
+<p><ol label="a" cols="2">
+<li><p><m>y=x^2</m></p>
+    <image source="actMFG-5-1-1.png" width="100%"><description>graph of y=x^2</description></image></li>
+
+<li><p><m>y=x^3</m></p>
+  <image source="actMFG-5-1-2.png" width="100%"><description>graph of y=x^3</description></image></li>
+
+<li><p><m>y=\sqrt{x}</m></p>
+  <image source="actMFG-5-1-3.png" width="100%"><description>graph of y=square root x</description></image></li>
+
+<li><p><m>y=\sqrt[3]{x}</m></p>
+  <image source="actMFG-5-1-4.png" width="100%"><description>graph of y=cube root x</description></image></li>
+
+<li><p><m>y=\dfrac{1}{x}</m></p>
+  <image source="actMFG-5-1-5.png" width="100%"><description>graph of y=1/x</description></image></li>
+
+<li><p><m>y=\dfrac{1}{x^2}</m></p>
+  <image source="actMFG-5-1-6.png" width="100%"><description>graph of y=1/x^2</description></image>
+
+      <aside component="instructor"><p>You might have each group sketch one graph, then display the results to the class. They should, of course, notice the relationship between <m>y=x^2</m> and <m>y=\sqrt{x}</m>, and between <m>y=x^3</m> and <m>y=\sqrt[3]{x}</m>. You could point out that they already knew that, for example, taking square roots is the "inverse operation" for squaring.</p></aside></li>
+</ol></p>      
+</activity>
+
+<activity xml:id="act-5-1-2"><title>Formulas for Inverse Functions</title>
+<p><ol marker="a.">
+  <li><p>Name the inverse function for each function below, and complete the statement describing the inverse function.
+      <ol>
+        <li><p><m>f(x)=x^3~~~~~~~~f^{-1}(x)=~~~~~~~~~~~~~~~</m></p>
+            <p><m>y=<fillin></fillin></m> if and only if <m>~x=y^3</m></p></li>
+        <li><p><m>g(x)=\sqrt{x}~~~~~~~~g^{-1}(x)=~~~~~~~~~~~~~~~</m></p>
+            <p><m>y= <fillin></fillin></m> if and only if <m>~x=\sqrt{y}</m></p></li>
+        <li><p><m>G(x)=\dfrac{1}{x}~~~~~~~~G^{-1}(x)=~~~~~~~~~~~~~~~</m></p>
+            <p><m>y=<fillin></fillin></m> if and only if <m>~x=\dfrac{1}{y}</m></p></li>
+      </ol></p></li>
+
+  <li><p>One of the statements in part (a) is true only for <m>x \ge 0</m>. Which one is it?</p></li>
+
+  <li><p>Using the functions in part (a), verify that each statement is true for one value of <m>x</m> that you choose. Show your work.</p>
+      <p><ol>
+        <li><p><m>f(f^{-1}(x)) = x</m></p>
+            <p><m>f^{-1}(f(x)) = x</m></p></li>
+        <li><p><m>g(g^{-1}(x)) = x</m></p>
+            <p><m>g^{-1}(g(x)) = x</m></p></li>
+        <li><p><m>G(G^{-1}(x)) = x</m></p>
+            <p><m>G^{-1}(G(x)) = x</m></p></li>
+      </ol></p>
+
+      <aside component="instructor"><p>2(c) You may need to provide an example for part (c). An answer for (1) might be
+            <md><mrow>f(f^{-1}(8)) = \left(\sqrt[3]{8}\right)^3 = 2^3 = 8</mrow>
+                <mrow>f^{-1}(f(8)) = \sqrt[3]{2^3} = \sqrt[3]{8} = 2</mrow></md></p></aside></li>
+</ol></p>
+</activity>   
+
+<activity xml:id="act-5-1-3"><title>Domain and Range</title>
+
+<p><ol>
+  <li><p>Graph <m>f(x)=\sqrt{x+4}</m> on the grid below.</p>
+    <image source="act-2-2-2.png" width="45%"><dscription>10 by 10 grid</dscription></image>
+
+      <aside component="instructor"><p>3(a) Walk around to make sure that students have their inital graphs correct.</p></aside>
+
+    <p><ol marker="a.">
+      <li><p>State the domain and range of <m>f</m>.</p></li>
+
+      <li><p>Use the graph to find <m>f^{-1}(4)</m>.</p></li>
+
+      <li><p>Find a formula for the inverse function, <m>f^{-1}(x)</m>.</p></li>
+
+      <li><p>State the domain and range of <m>f^{-1}</m>.</p></li>
+
+      <li><p>Graph <m>y=f^{-1}(x)</m> on the grid in part (a).</p></li>
+  </ol></p>
+
+      <aside component="instructor"><p>3(e) Ask students if they see a relationship between the graphs of the function and its inverse. Reflection about the line <m>y=x</m> may be difficult for them to see without help.</p></aside></li>
+
+  <li><p>Graph <m>g(x)=\dfrac{5}{x+1}</m> on the grid below.</p>
+    <image source="actMFG-5-1-7.png" width="45%"></image>
+
+    <p><ol marker="a.">
+      <li><p>State the domain and range of <m>g</m>.</p></li>
+
+      <li><p>Use the graph to find <m>g^{-1}(1)</m>.</p>
+
+            <aside component="instructor"><p>3(2c)Students may have trouble finding the formula for <m>g^{-1}(x)</m>; give them a hint to get them started.</p></aside></li> 
+
+      <li><p>Find a formula for the inverse function, <m>g^{-1}(x)</m>.</p></li>
+
+      <li><p>State the domain and range of <m>g^{-1}</m>.</p></li>
+
+      <li><p>Graph <m>y=g^{-1}(x)</m> on the grid in part (a).</p></li>
+        </ol></p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>In Activity 1, which function is its own inverse?</p></li>
+    <li><p>What is the domain of the inverse function for <m>y=\sqrt{x}~</m>? Why?</p></li>
+    <li><p>Explain how you used the graph in part (1b) of Activity 3.</p></li>
+    <li><p>If you know the coordinates of one point on the graph of <m>y=f(x)</m>, how can you find a point on the graph of <m>y=f^{-1}(x)</m>?</p></li>
+</ol></p></subsection> 
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>If the function <m>f</m> tells you how much money is in your account after <m>t</m> years, what does the function <m>f^{-1}</m> tell you?</p></li>
+    <li><p>Explain the difference between the meaning of the notation <m>p^{-1}</m> if <m>p</m> is a function or if <m>p</m> is a variable.</p></li>
+    <li><p>What is the difference between the vertical line test and the horizontal line test?</p></li>
+    <li><p>What does the term one-to-one mean? Give an example.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>If the point <m>(3,-4)</m> lies on the graph of <m>f</m>, what point lies on the graph of its inverse function?</p>
+    <p><ol marker="a.">
+        <li><m>(-3,4)</m></li>
+        <li><m>(-4,3)</m></li>
+        <li><m>(4,-3)</m></li>
+        <li><m>\left(\dfrac{1}{3}, \dfrac{-1}{4}\right</m></li>
+    </ol></p></li>
+    <li><p>The graphs of <m>f</m> and <m>f^{-1}</m> are symmetric about</p>
+    <p><ol marker="a.">
+        <li><p>the <m>x</m>-axis.</p></li>
+        <li><p>the <m>y</m>-axis.</p></li>
+        <li><p>the asymptote.</p></li>
+        <li><p>the line <m>y=x</m>.</p></li>
+    </ol></p></li>
+    <li><p>An inverse function</p>
+    <p><ol marker="a.">
+        <li><p>makes the input negative.</p></li>
+        <li><p>makes the output negative.</p></li>
+        <li><p>interchanges the input and the output.</p></li>
+        <li><p>the line <m>y=x</m>.</p></li>
+        <li><p>takes the reciprocal of the output.</p></li>
+    </ol></p></li>
+    <li><p>Which of these is the inverse of the function <m>h=m-2</m> ?</p>
+    <p><ol marker="a.">
+        <li><m>h=m+2</m></li>
+        <li><m>h=2-m</m></li>
+        <li><m>h=\dfrac{1}{m} - 2</m></li>
+        <li><m>h=\dfrac{1}{m-2}</m></li>
+    </ol></p></li>
+</ol></p>
+</assemblage>
+
+</section>
+
+
+  
+
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Functions</title>
+
+<assemblage component="instructor">
+<p>In this Lesson, we review the slope-intercept formula for linear functions. It has already appeared in this course as the form for a linear model. Here we use it to graph a linear equation and to find the equation of a line from its graph. We also introduce the coordinate point-slope form and illustrate its use as a model, but explore it more fully in the next Lesson.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Identify the slope and <m>y</m>-intercept from the equation for a line</p></li>
+    <li><p>Interpret the slope and <m>y</m>-intercept in context</p></li>
+    <li><p>Use the coordinate formula to calculate slope</p></li>
+    <li><p>Use the point-slope formula to find an equation for a line</p></li>
+    <li><p>Write a linear model using slope and initial value</p></li>
+    <li><p>Find a linear model from two data points</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-1-5-1"><title>Slope-Intercept Form</title>
+
+<introduction><p>In England, oven cooking temperatures are often given as Gas Marks rather than degrees Fahrenheit. The table shows the equivalent oven temperatures for various Gas Marks.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Gas Mark</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>7</cell>
+                    <cell>9</cell></row>
+                <row><cell>Degrees</cell>
+                    <cell>325</cell>
+                    <cell>375</cell>
+                    <cell>425</cell>
+                    <cell>475</cell></row>
+    </tabular></introduction>
+
+    <aside component="instructor"><p>Students should be able to work through Activity 1 in their groups with only minimal help.</p></aside>
+<p><ol marker="a.">
+    <li><p>Plot the data and draw a line through the data points.</p></li>
+    <li><sidebyside widths="50% 40%">
+        <stack><p>Calculate the slope of your line.</p>  
+            <p>Estimate the <m>y</m>-intercept from the graph.</p></stack>
+        <image source="act-1-5-1.png"><description>Grid [0,10]x[0,500]</description></image></sidebyside></li>
+    <li><p>Write an equation that gives the temperature, <m>T</m>, in degrees Fahrenheit, in terms of the Gas Mark, <m>G</m>.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-1-4-2"><title>Slope and Linear Models</title>
+
+<introduction><p>The taxi fare in three different cities is described below. In each city, you pay an initial charge when you get into the taxi, and the rest of your fare is based on the distance you travel. Each city uses a different distance unit to compute the fare.</p>
+    <aside component="instructor"><p>2a. To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></aside>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>City</cell>
+                    <cell>Initial Charge</cell>
+                    <cell>Distance Unit</cell>
+                    <cell>Charge per Unit</cell></row>
+                <row><cell>Boston</cell>
+                    <cell><m>1.45</m></cell>
+                    <cell><m>\frac{1}{8}</m> mile</cell>
+                    <cell><m>0.30</m></cell></row>
+                <row><cell>Honolulu</cell>
+                    <cell><m>2.25</m></cell>
+                    <cell><m>\frac{1}{4}</m> mile</cell>
+                    <cell><m>0.75</m></cell></row>
+                <row><cell>New York</cell>
+                    <cell><m>2.50</m></cell>
+                    <cell><m>\frac{1}{5}</m> mile</cell>
+                    <cell><m>0.40</m></cell></row>
+            </tabular></introduction>
+        
+  <p><ol marker="a.">
+    <li><p>How much would a 4-mile taxi ride cost you in Honolulu?</p></li>
+    <li><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest fare per mile?</p>
+        <aside component="instructor"><p>2c. Remind students of the form for a linear model. In this model the input variable is distance (miles), not time. Check that students were able to wtite the models.</p></aside></li>
+    <li><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p></li>  
+    <li><p>Use your models to decide in which city taxis charge the lowest fare for a 5 mile ride.</p></li>
+    <li><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (c).)</p>
+            <aside component="instructor"><p>2e. Students find part (e) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></aside></li>
+    <li><sidebyside widths="50% 40%"><p>Choose the correct graph for each city. Explain how you decided.</p>
+      <image source="act-1-4-3.svg" width="75%"><description>Graph of three lines, fare vs miles</description></image></sidebyside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-1-5-3"><title>Finding a Linear Model</title>
+
+<introduction><p>The temperature at which water freezes depends on its dissolved mineral content. So sea water does not freeze at exactly 32 <m>\degree</m> F because of its salinity. A common unit for measuring salinity is parts per thousand, or ppt. For example, salinity of 8 ppt means 8 grams of dissolved salts in each kilogram of water. Here are some data for the freezing temperature of water.</p>
+
+    <aside component="instructor"><p>Check that students understand salinity and ppt.</p></aside>
+
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Salinity, ppt <m>S</m></cell>
+                    <cell>8</cell>
+                    <cell>12</cell>
+                    <cell>20</cell></row>
+                <row><cell>Freezing Temperature, <m>\degree</m> F, <m>T</m></cell>
+                    <cell>31.552</cell>
+                    <cell>31.328</cell>
+                    <cell>30.88</cell></row>
+    </tabular></introduction>
+
+           <aside component="instructor"><p>3b. Using different variables can be confusing for students. Write the formula <m>T-T_1 = m(S-S_1)</m> directly below <m>y-y_1 = m(x-x_1)</m>, and sketch a set of axes labeled <m>S</m> and <m>T</m> next to axes labeled <m>x</m> and <m>y</m>.</p></aside>
+ 
+<p><ol marker="a.">
+    <li><p>Do these data points describe a linear model? Why or why not?</p></li>
+    <li><p>Use the point-slope formula to find a linear equation for freezing temperature, <m>T</m>, in terms of salinity, <m>S</m>.</p>
+      <p><ul>
+        <li><p>Step 1:  Find the slope</p></li> 
+        <li><p>Step 2:  Use the point-slope formula</p></li>
+    </ul></p></li>
+
+    <li><p>What is the salinity of water that freezes at 32<m>\degree</m> F?</p></li>
+    <li><p>Sea water has an average salinity of 35 ppt.  What is the freezing point of sea water?</p></li>
+    <li><p>The conversion formula from Celsius to Fahrenheit is <m>F=\dfrac{9}{5} C + 32</m>. What is the freezing point of sea water in degrees Celsius?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+    <p><ol>
+    <li><p>Which formula did you use to find the equation of the line in Activity 1?</p></li>
+    <li><p>What two numbers did you need to write each linear model in part (b) of Activity 2?</p></li>
+    <li><p>If you graph the data in Activity 3, which variable goes on the vertical axis?</p></li>
+    <li><p>When you calculate a slope using data, how do you know which variable goes in the numerator of the slope ratio?</p></li>
+    <li><p>Which two formulas do you need to find the equation of a line that goes through two given points?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain why the initial value for a linear model is often given by the <m>y</m>-intercept.</p></li>
+    <li><p>How can you find the equation of a line from its graph?</p></li>
+    <li><p>How is the coordinate formula for slope related to net change?</p></li>
+    <li><p>Explain how to find an equation for a line through two points using two steps.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>What do the coefficients in the slope-intercept form tell you about a line?</p>
+        <p><ol marker="a.">
+        <li><m>m</m> is the slope; <m>b</m> is the <m>x</m>-intercept</li>    
+        <li><m>m</m> is the slope; <m>b</m> is the <m>y</m>-intercept</li>
+        <li><m>(m,b)</m> is a point on the line</li>  
+        <li><m>m</m> is the <m>x</m>-intercept; <m>b</m> is the <m>y</m>-intercept</li>
+    </ol></p></li>
+    <li><p>What will be wrong with your answer if you accidentally compute the slope as <m>~\dfrac{y_2-y_1}{x_1-x_2}</m>?</p>
+        <p><ol marker="a.">
+        <li>The number will be too big.</li>    
+        <li>The line will be decreasing.</li>
+        <li>That is the slope of the perpendicular line.</li>  
+        <li>It will be the negative of the slope.</li>
+    </ol></p></li>
+    <li><p>What do you get when you substitute the point <m>(0,b)</m> into the point-slope formula?</p>
+        <p><ol marker="a.">
+        <li><m>x=0</m></li>    
+        <li><m>y=mx+b</m></li>
+        <li><m>y=b</m></li>  
+        <li><m>ax+by=0</m></li>
+    </ol></p></li>
+    <li><p>What is the easiest way to find the slope of the line <m>~18x-42y=60</m>?</p>
+    <p><ol marker="a.">
+        <li>Solve for <m>y</m> to get the slope-intercept form.</li>    
+        <li>Find the intercepts and use them to compute the slope.</li>
+        <li>Graph the line and compute <m>\dfrac{\Delta y}{\Delta x}</m>.</li>  
+        <li>Find values of <m>x</m> and <m>y</m> that make the equation true.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

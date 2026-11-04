@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Domain and Range</title>
+
+<assemblage component="instructor">
+<p>This Lesson contains several geometry problems that lend themselves to a discussion of domain and range. Working through these problems will provide practice with algebraic skills.</p>
+
+<p>If students struggle with the first Activity, you might work through it with them, and perhaps assign Activity 2 as homework.  Note that the function in Activity 2 is a rational function, and the function in Activity 3 is a square root.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Find the domain and range of a function from its graph</p></li>
+    <li><p>Find the domain and range of a function from its formula</p></li>
+    <li><p>Find a suitable domain for a function used as a model</p></li>
+    <li><p>Find the range of a function on a given domain</p></li>
+  </ul></p></assemblage>
+
+<activity xml:id="act-2-6-1"><title>Area of a Triangle</title>
+
+<introduction><p>Consider several different lines that pass through the point <m>(2,1)</m> and form right triangles in the first quadrant, as shown below. The shape of the triangle depends on the slope of the line, <m>m</m>.  Let <m>a</m> and <m>b</m> stand for the <m>x</m>- and <m>y</m>-intercepts of the line, respectively.</p>
+      <image source="mfg-2-6-1.png" width="50%"><description>line in first quadrant through <m>(2,1)</m></description></image></introduction>
+
+      <aside component="instructor"><p>Draw a few different lines that pass through <m>(2,1)</m> for students.</p></aside>
+
+<p><ol>
+    <li><p>Use the point-slope equation of the line, <m>y-1=m(x-2)</m>, to find <m>a</m> and <m>b</m> in terms of <m>m</m>.</p>
+
+        <aside component="instructor"><p>Students may have trouble finding <m>a</m> and <m>b</m> in terms of <m>m</m>.  Remind them that the intercepts are points with coordinates <m>(a,0)</m> and <m>(0,b)</m>.</p></aside></li>
+
+    <li><p>Find the area of the triangle as a function, <m>A=f(m)</m>, of the slope of the line.</p></li>
+
+    <li><p>What is the domain of this function?</p></li>
+
+    <li><p>Graph your function for values of <m>m</m> between <m>-3</m> and <m>0</m>.</p> 
+
+        <p>Make a sketch of your graph.</p></li>
+
+    <li><p>For what value of <m>m</m> does the triangle have the smallest area? Sketch that triangle, and compute its area</p></li>
+
+    <li><p>What happens to the area of the triangle as <m>m</m> decreases through negative values?  What is the range of the function <m>A(m)</m>?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-2-6-2"><title>Another Triangle</title>
+
+<introduction><p>A right triangle is formed in the first quadrant as follows: Two of the sides are formed by the <m>x</m>- and <m>y</m>-axes, the third side is on a line passing through the point <m>(2,1)</m>. (Note that this is the same picture as in Activity 1.)</p></introduction>
+
+        <aside component="instructor"><p>Note that the setting for this Activity is the same as the previous one, but using a different independent variable.</p></aside>  
+
+<p><ol>
+    <li><p>Let <m>(a,0)</m> be the <m>x</m>-intercept of the hypotenuse of the triangle. Express the slope of the hypotenuse in terms of <m>a</m>.</p></li>
+
+    <li><p>Let <m>(0,b)</m> be the <m>y</m>-intercept of the third side. Express <m>b</m> in terms of <m>a</m>. (Use your expression for the slope.</p></li>
+
+    <li><p>Express the area of the triangle as a function of <m>a</m>, <m>A=f(a)</m>.</p></li>
+
+    <li><p>What is the domain of your function? (What values of <m>a</m> result in a triangle?)</p>
+            <aside component="instructor"><p>In each Activity, encourage students to use both algebraic and graphical methods to find the domain and range of the function.</p></aside></li>
+
+    <li><p>Graph your function on the domain <m>(2,20.8]</m>. Make a sketch of your graph.</p></li>
+
+    <li><p>What is the area of the triangle if <m>a=3</m>?</p> 
+  
+        <p>What value(s) of <m>a</m> result in a triangle of area 7.2 square units?</p></li>
+
+    <li><p> What value of <m>a</m> results in the triangle with the smallest area?</p> 
+  
+        <p>What is the area of that triangle?</p></li>
+
+    <li><p>Describe what happens to the area of the triangle as <m>a</m> increases from 2 to larger values. What is the range of the function <m>A=f(a)</m>?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-2-6-3"><title>Yet Another Triangle</title>
+
+<introduction><p>The hypotenuse of a right triangle is 12 centimeters long.</p></introduction>
+
+<p><ol>
+    <li><p>If the length of one leg of the triangle is <m>x</m>, what is the length of the other leg?</p></li>
+
+    <li><p>Express the area of the triangle as a function of <m>x</m>, <m>A=f(x)</m>.</p></li>
+
+    <li><p>What is the domain of your function?</p>  
+    
+        <p>Graph your function on its domain.</p></li>
+  
+    <li><p>What is the area of the triangle if the shortest side is <m>\sqrt{6}</m> inches long?</p></li>
+
+    <li><p>For what value of <m>x</m> does the triangle have the largest area?</p>  
+
+        <p>What is its area?</p></li>
+
+    <li><p>What is the range of the function <m>A=f(x)</m>?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>The same triangles are described in Activities 1 and 2. What is different about the area functions you wrote in each Activity?</p></li>
+    <li><p>In Activity 1, describe the motion of the hypotenuse as <m>m</m> increases over its domain.</p></li>
+    <li><p>In Activity 2, describe the motion of the hypotenuse as <m>a</m> increases over its domain.</p></li>
+    <li><p>In Activity 3, how can you find the domain of the function from its formula?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>In Activity 1, Delbert came up with the equation <m>\dfrac{b}{a} = \dfrac{1}{a-2}</m>. How did he get this?</p></li>
+    <li><p>Francine says that the expression <m>\sqrt{36-m^2}</m> can be simplified to <m>6-m</m>. Is she correct? Why or why not?</p></li>
+    <li><p>Do the largest and smallest values in the domain of a function result in the largest and smallest values of the range?  Give an example.</p></li>
+    <li><p>Which of the eight basic functions include all real numbers in their range?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which function changes concavity on its domain?</p>
+        <p><ol marker="a.">
+        <li><m>y=x^2</m></li>    
+        <li><m>y=x^3</m></li>
+        <li><m>y=\sqrt{x}</m></li>  
+        <li><m>y=\abs{x}</m></li>
+    </ol></p></li>  
+    <li><p>Which function includes all real numbers in its range?</p>
+        <p><ol marker="a.">
+        <li><m>y=x^2</m></li>    
+        <li><m>y=x^3</m></li>
+        <li><m>y=\sqrt{x}</m></li>  
+        <li><m>y=\abs{x}</m></li>
+    </ol></p></li>  
+    <li><p>In a function, how many domain elements can be paired with one range element?</p>
+        <p><ol marker="a.">
+        <li>One</li>
+        <li>Two</li>
+        <li>None</li>    
+        <li>Infinitely many</li>
+    </ol></p></li>
+    <li><p>The domain of the function <m>f(x)</m> is <m>[-4,4]</m>.  What is the domain of the function <m>g(x)=\dfrac{1}{2}f(x)</m>?</p>
+        <p><ol marker="a.">
+        <li><m>[-2,2]</m></li>    
+        <li><m>[-8,8]</m></li>
+        <li><m>[-4,4]</m></li>  
+        <li><m>[4,-4]</m></li>
+    </ol></p></li>
+</ol></p></assemblage>  
+
+</section>

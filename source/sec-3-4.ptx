@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rational Exponents</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we extend the study of rational exponents to powers of the form <m>a^{m/n}</m>. We simplify expressions using the laws of exponents, solve equations, and look at models that use power functions with rational exponents.</p>
+    
+<p>Begin class by reviewing the types of exponents we have already studied, and show how the defintion of rational exponents makes sense. You may want to practice using the laws of exponents, but do not make the examples unreasonably complicated, or the discussion may devolve into a lesson on adding fractions. It is also useful to solve a few equations that involve rational exponents.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Evaluate powers with rational exponents</p></li>    
+    <li><p>Convert between radical and exponential notation</p></li>    
+    <li><p>Graph and analyze power functions with rational exponents</p></li>   
+    <li><p>Solve equations involving rational exponents</p></li>     
+    <li><p>Simplify expressions using the laws of exponents</p></li>
+</ul></p>
+</assemblage>
+
+<activity xml:id="act-3-4-1"><title>Kepler's Law</title>
+
+<introduction><p> In 1619 Johannes Kepler published what is now known as his third law of planetary motion. He wrote "I first believed I was dreaming... But it is absolutely certain and exact that the ratio which exists between the period times of any two planets is precisely the ratio of the 3/2th power of the mean distance." One way to state Kepler's Law is as follows:</p> 
+<p>The relation between the period <m>p</m> of a planet's revolution and its average distance <m>a</m> from the Sun is given by
+        <md>p^2=Ka^3</md>
+where <m>K=1.243 \times 10^{-6}</m>, <m>a</m> is in millions of miles, and <m>p</m> is in years.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>The planet Neptune is <m>2.793 \times 10^3</m> million miles from the Sun. Find its period of revolution.</p></li>
+
+    <li><p>The length of a "year" on the planet Jupiter (its period of revolution) is 11.86 Earth years. What is Jupiter's average distance from the Sun?</p></li> 
+
+    <li><p>Astronomers can observe the orbital period of a planet and use Kepler's Law to calculate its distance from the Sun. Solve Kepler's law for <m>a</m> in terms of <m>p</m>. Write your equation in two ways:  using a fractional exponent, and using a radical.</p>
+            <aside component="instructor"><p>1(c) This task involves working with scientific notation. Show students how to simplify the formula for <m>a</m> with minimal calculator use.</p></aside></li>
+
+    <li><p>Use your new equation to complete the table for the four inner planets. Give the values of <m>a</m> in millions of miles.</p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Planet</cell>
+                    <cell>Mercury</cell>
+                    <cell>Venus</cell>
+                    <cell>Earth</cell>
+                    <cell>Mars</cell></row>
+                <row><cell><m>p</m> (years)</cell>
+                    <cell>0.241</cell>
+                    <cell>0.615</cell>
+                    <cell>1.000</cell>
+                    <cell>1.881</cell></row>
+                <row><cell><m>a</m> (<m>10^6</m> miles)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+            </tabular></li>
+
+    <li><p>Graph <m>a</m> as a function of <m>p</m>. Label the points that represent the four inner planets.</p>
+            <image source="act-6-3-1.png" width="50%"><description>grid [0,2]x[0,300]</description></image></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-4-2"><title>Vampire Bats</title>
+
+ <introduction><p>Small animals like bats cannot survive for long without eating. The weight <m>W</m> of a typical vampire bat decreases over time until its next meal, according to the function   
+        <md>W = f(h) = 130.25 \times h^{-0.126}</md>
+where <m>h</m> is the number of hours since the bat's most recent meal, and <m>W</m> is in grams.</p>
+            <aside component="instructor"><p>Consider assigning this Activity as a project or for extra credit.</p></aside></introduction>
+
+<p><ol marker="a.">
+    <li><p>Complete the table showing the bat's weight after fasting for <m>h</m> hours.</p>  
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>h</m> (hours)</cell>
+                    <cell>5</cell>
+                    <cell>10</cell>
+                    <cell>20</cell>
+                    <cell>40</cell>
+                    <cell>50</cell>
+                    <cell>70</cell></row>
+                <row><cell><m>W</m> (grams)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+            </tabular></li>
+
+    <li><p>Graph the equation.</p>
+      <image source="act-3-4-2.png" width="50%"><description>grid [0,70]x[70,110]</description></image></li>
+
+    <li><p>A bat can survive for 60 hours without food. What is the bat's weight at the point of starvation? Locate this point on the graph.</p></li>
+
+    <li><p>When the bat's weight has dropped to 90 grams, how long has it been without food? How long can it survive before its next meal?</p></li>
+
+    <li><p>Complete the table with the number of hours since eating at various weights, and label the corresponding points on the graph. Round to the nearest hour.</p> 
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Weight (grams)</cell>
+                    <cell>97.5</cell>
+                    <cell>92.5</cell>
+                    <cell>85</cell>
+                    <cell>80</cell></row>
+                <row><cell>Hours since Eating</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+                <row><cell>Point on Graph</cell>
+                    <cell>A</cell>
+                    <cell>B</cell>
+                    <cell>C</cell>
+                    <cell>D</cell></row>
+            </tabular></li>
+    <li><p>Compute the slope, including units, from point A to point B, and from point C to point D.</p>
+
+            <p><m>~~~~~~~~~~~~~~~~~~~m_{AB} = </m></p> 
+            <p><m>~~~~~~~~~~~~~~~~~~~m_{CD} = </m></p></li>
+
+    <li><p>What do the slopes you computed mean for the vampire bats?</p></li>
+
+    <li><p>Vampire bats sometimes donate blood (through regurgitation) to other bats that are close to starvation. Suppose a bat at point A on the curve donates 5 grams of blood to a bat at point D. How many hours of life does the recipient gain from the 5 grams of food? How many hours of life does the donor give up?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-3-4-3"><title>Laws of Exponents</title>
+
+<task><p>Simplify by using the laws of exponents. Write your answers using radicals.</p>
+<p><ol cols="2">
+  <li><p><m>x^{3/4}x^{5/4}</m></p></li>
+  <li><p><m>\left(x^{3/2}\right)^{5/2}</m></p></li>
+  <li><p><m>\dfrac{z^{1/3}}{z^{2/3}}</m></p></li>
+  <li><p><m>\dfrac{w^{1/5}w^{-3/5}}{w^{-4/5}}</m></p></li>
+</ol></p></task>
+
+<task><p>Simplify by using the laws of exponents. Write your answers using radicals.</p>
+<p><ol cols="2">
+  <li><p><m>b^{1/3}b^{2/5}</m></p></li>
+  <li><p><m>\dfrac{a^{5/4}}{a^{-4/3}}</m></p></li>
+  <li><p><m>\left(-3c^{4/3}\right)^{-2}</m></p></li>
+  <li><p><m>\dfrac{\left(a^{3/2}b^{-1/4}\right)^{1/3}}{a^{3/8}}</m></p></li>
+</ol></p></task>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>What does the notation <m>b^{0.4}</m>  mean?</p></li>
+    <li><p>Explain how to evaluate the function <m>f(x)=x^{-3/4}</m> for <m>x=625</m>, without using a calculator.</p></li>
+    <li><p>Explain why <m>~x\sqrt{x} = x^{1.5}</m>.</p></li>
+    <li><p>Delbert says that to compute <m>a^{m/n}</m> you have to do the power first, and Francine says you have to do the root first. Who is correct?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Why are rational exponents more convenient to use than radical notation?</p></li>
+    <li><p>Explain how to solve <m>x^{0.4} = 18</m>, and why this method works.</p></li>
+    <li><p>Describe the difference between the graphs of <m>y=x^{3/4}</m> and <m>y=x^{4/3}</m>.</p></li>
+    <li><p>Suppose <m>M=8 \times 10^6</m>. Explain why <m>M^{2/3} = 4 \times 10^4</m>.</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p><m>x^{3/4}</m> means</p>
+    <p><ol marker="a.">
+        <li>the fourth root of <m>x</m> cubed</li>
+        <li>the cube root of <m>x</m> to the fourth</li>
+        <li>the <m>3/4</m> root of <m>x</m></li>
+        <li>the cube root of the fourth root of <m>x</m></li>
+    </ol></p></li>
+    <li><p>To solve the equation <m>x^{2/3}=k</m> we should</p>
+    <p><ol marker="a.">
+        <li>Raise both sides to the negative of the exponent</li>
+        <li>Divide both sides by the exponent</li>
+        <li>Raise both sides to the reciprocal of the exponent</li>
+        <li>Raise the right side to the given exponent</li>
+    </ol></p></li>
+    <li><p>Which of the following is the correct way to evaluate <m>15^{3/5}</m> on a calculator</p>
+    <p><ol marker="a.">
+        <li>15^3 <m>\div</m> 5</li>   
+        <li>15 <m>\div</m> 5^3</li>
+        <li>(15 <m>\div</m> 5)^3</li> 
+        <li>15^(3 <m>\div</m> 5)</li>
+    </ol></p></li>
+    <li><p>The notation <m>a^{0.6}</m> means</p>
+    <p><ol marker="a.">
+        <li><m>\sqrt[6]{a}</m></li>
+        <li><m>\dfrac{1}{a^6}</m></li>
+        <li><m>a^{1/6}</m></li>
+        <li><m>a^{3/5}</m></li>
+    </ol></p></li>
+</ol></p></assemblage>   
+
+</section>

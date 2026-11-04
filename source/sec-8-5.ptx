@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Programming</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we consider optimization problems in two variables. We'll write and solve a linear programming problem using three steps: write the objective function and the set of constraints, graph the set of feasible solutions, evaluate the objective function at the vertices of the set of feasible solutions to find the optimum value.</p>
+
+<p>GOALS</p>
+<p><ul>
+<li><p>Write an objective function and a set of constraints</p></li>     
+<li><p>Find the set of feasible solutions</p></li>
+<li><p>Find the optimum solution</p></li>
+<li><p>Interpret the result</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-8-5-1"><title>Maxiizing Revenue</title>
+
+<introduction><p>Tanya makes cereamic mugs and bowls for sale at local craft fairs.</p>
+<p><ul>
+    <li><p>Each mug takes her 2 hours to make and 1 hour to paint.</p></li>
+    <li><p>Each bowl takes 1 hour to make and 2 hours to paint.</p></li>
+    <li><p>Before the next fair, Tanya has the use of a potting table for 100 hours, and she can spend 80 hours painting her creations.</p></li> 
+    <li><p>She has room on her display table for at most 30 bowls.</p></li>
+</ul></p>
+<p>Tanya plans to sell the mugs for $15 each, and the bowls for $12 each. How many mugs and how many bowls should Tanya make in order to maximize her potential revenue?</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>What are the variables in this problem?</p>
+      <p><m>x = </m></p>
+      <p><m>y = </m></p></li>
+
+<li><p>Write an inequality about Tanya's use of the potting table.</p>
+
+    <p>(1)</p>
+    
+ <p>Write an inequality about Tanya's time for painting.</p>
+
+    <p>(2)</p>
+  
+  <p>Write an inequality about the amount of room on her display table.</p>
+
+    <p>(3)</p> 
+  
+<p>These are the <term>constraints</term>. (And of course,  <m>x \ge 0,~y \ge 0</m>.)</p></li>
+
+<li><p>Graph each inequalilty, one at a time, on the grid.</p>
+  <sidebyside widths="50% 50%">             
+  <p><stack>
+  <p>(1)</p> 
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x~</m></cell>
+                    <cell><m>y~</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular>
+
+  <p>(2)</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x~</m></cell>
+                    <cell><m>y~</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular> 
+ 
+  <p>(3)</p></stack></p> 
+
+    <image source="actMFG-8-5-1.png"><description>grid, 0 to 100 by 0 to 100</description></image></sidebyside>
+
+    <p>Shade the intersection of their solution sets.</p></li>
+
+<li><p>Find the five vertices of the set of <term>feasible solutions</term>, and label each with its coordinates.</p>
+
+  <p>(A)</p>
+
+  <p>(B)</p>
+
+  <p>(C)</p>
+
+  <p>(D)</p>
+
+  <p>(E)</p></li>
+
+<li><p>Now write a formula for Tanya's revenue, <m>R</m>, from mugs and bowls. This is the <term>objective function</term>.</p>
+
+      <p><m>R = </m></p></li>
+
+<li><p>Think about the revenue function. What values of <m>x</m> and <m>y</m> produce a given revenue? To help you visualize the process, add two lines representing revenues of $300 and $600 to your graph:
+  <md><mrow>15x + 12y = 300</mrow>
+      <mrow>15x + 12y = 600</mrow></md></p></li> 
+
+<li><p>Do you see that as <m>R</m> increases, the line of <m>x</m> and <m>y</m> values that produce that revenue moves across the set of feasible solutions? If we continue to increase <m>R</m>, what is the last point on that set that it will touch? (Try moving a ruler parallel to the <m>R</m> lines to see the point.)</p></li>
+
+<li><p>Finally, evaluate <m>R</m> at each of the vertices to find the revenue at that point.</p> 
+
+  <p>(A)  <m>~R = </m></p>
+
+  <p>(B)  <m>~R = </m></p>
+
+  <p>(C)  <m>~R = </m></p>
+
+  <p>(D)  <m>~R = </m></p>
+
+  <p>(E)  <m>~R = </m></p>
+
+  <p>Does the maximum revenue occur at the point you identified in part (g)?</p></li>
+</ol></p></activity>
+
+<activity xml:id="act-8-5-4"><title>Foraging Strategy</title>
+
+<introduction><p>Grazing animals spend most of their time foraging for food. A small animal such as a ground squirrel must also be alert for predators. Which foraging strategy favors survival:  Should the animal look for foods that satisfy its dietary requirements in minimum time, thus minimizing its exposure to predators and the elements, or should it try to maximize its intake of nutrients?</p>
+
+<p>The Columbian ground squirrel eats forb, a type of flowering weed, and grass.</p>
+<p><ul>
+    <li><p>One gram of forb provides 2.44 kilocalories, and one gram of grass provides 2.26 kilocalories. For survival, the squirrel needs at least 100 kilocalories per day.</p></li>
+    <li><p>However, the squirrel can digest no more than 314 wet grams of food daily. Each dry gram of forb becomes 2.67 wet grams in the squirrel's stomach, and each dry gram of grass becomes 1.64 wet grams.</p></li>
+    <li><p>In addition, the squirrel has at most 342 minutes available for grazing each day. It takes the squirrel 2.05 minutes to eat one gram of forb and 5.21 minutes to eat one gram of grass.</p></li>
+</ul></p></introduction>  
+
+<p><ol marker="a.">
+
+<li><p>Let <m>x</m> stand for the number of grams of forb the squirrel eats daily, and let <m>y</m> stand for the number of grams of grass. Write an inequality about the amount of energy the squirrel needs.</p></li>
+
+<li><p>Write another inequality about the amount of food the squirrel can digest.</p></li>
+
+<li><p>Write a third inequality about the amount of time the squirrel spends eating.</p></li>
+
+<li><p>Use your graphing utility to help you graph the inequalities in the first quadrant, and shade the set of feasible solutions.</p>
+
+    <image width="55%" xml:id="grid-squirrels"><description>Grid 0-200 by 0-200</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [xscale=0.5,yscale=0.5] 
+     \draw[cyan] (0,0) grid (10,10);
+    \draw[black,thick,->,>=stealth'] (0,0)--(10.7,0) node[above]{$x$};
+    \draw[black,thick,->,>=stealth'] (0,0)--(0,10.7) node[right]{$y$};
+    \foreach \x [evaluate=\x as \xi using int( 20* \x )]  in {2,4,...,10} {
+        \draw[black,thick] (\x,0.15)--++(0,-.3) node[below]{$\xi$};
+    }
+    \foreach \y [evaluate=\y as \yi using int( 20* \y )]   in {2,4,...,10} {
+        \draw[black,thick] (.4,\y)--++(-.8,0) node[left]{$\yi$};
+    }
+    \end{tikzpicture}]]>
+</latex-image></image></li>
+
+<li><p> Give two possible combinations of grass and forb that satisfy the squirrel's feeding requirements.</p></li>
+
+<li><p> If the squirrel can find only grass on a given day, how much grass will it need to eat?</p>
+
+    <p>If the squirrel can find only forb, how much forb will it need?</p></li>
+
+<li><p>Find the vertices of the set of feasible solutions.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-8-5-5"><title>Foraging Strategy Continued</title>
+
+<p><ol marker="a.">
+    <li><p>Write a formula for the squirrel's energy consumption.</p></li>
+
+    <li><p>Evaluate your formula at each of the vertices of the solution set. Round your answers to one decimal place.</p></li> 
+
+    <li><p>What is the optimum diet for the squirrel if it wants to maximize its energy consumption?</p></li>
+
+    <li><p>Write a formula for the squirrel's foraging time.</p></li> 
+
+    <li><p>Evaluate your formula at each of the vertices of the solution set. Round your answers to one decimal place.</p></li>
+
+    <li><p>What is the optimum diet for the squirrel if it wants to minimize its time foraging?</p></li>
+
+    <li><p>The actual observed diet of the squirrel consists of approximately 100 grams of forb and 25 grams of grass. Does the squirrel appear to be trying to maximize its caloric intake or to minimize its time foraging?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
+<p><ol>
+    <li><p>Name the three steps of a linear programming problem.</p></li>
+    <li><p>Why is the set of feasible solutions called that?</p></li>
+    <li><p>Why does the optimum value of the objective function occur at one of the vertices of the set of feasible solutions?</p></li>
+    <li><p>In Activity 3 you wrote two different objective functions. What were they?</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain how to find the set of feasible solutions.</p></li>
+    <li><p>What fact helps us find the optimal solution?</p></li>
+    <li><p>In the revenue problem, why wouldn't Tanya produce only mugs, which have a higher selling price?</p></li>
+    <li><p>How is the procedure for linear programming different if you are looking for a minimum value of the objective function, instead of a maximium value?</p></li>
+</ol></p>
+</assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which of these could be an objective function?</p>
+        <p><ol marker="a.">
+            <li><m>2x+5y\le 50</m></li>
+            <li><m>M=2x+5y</m></li>
+            <li><m>y \ge 2x+50</m></li>
+            <li><m>2x+5y= 50</m></li>
+        </ol></p></li>
+<li><p>What is the set of feasible solutions?</p>
+        <p><ol marker="a.">
+            <li>The vertices of the solution set</li>
+            <li>The values of the objective function</li>
+            <li>The set of points that satisfy the constraints</li>
+            <li>The boundary lines of the inequalities</li>
+        </ol></p></li>        
+<li><p>Linear programming is used to</p>
+        <p><ol marker="a.">
+            <li>find the vertices of a region.</li>
+            <li>solve a system of inequalities.</li>
+            <li>write a set of inequalities in two variables.</li>
+            <li>find an optimal solution subject to a set of constraints.</li>
+        </ol></p></li>
+<li><p>What is an optimal solution?</p>
+        <p><ol marker="a.">
+            <li>The largest or smallest feasible solution</li>
+            <li>The largest or smallest value of the objective function in the set of feasible solutions</li>
+            <li>The vertex farthest from the origin</li>
+            <li>The largest or smallest constrained <m>y</m>-value</li>
+        </ol></p></li>
+</ol></p></assemblage>
+
+</section>

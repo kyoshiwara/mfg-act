@@ -1,0 +1,46 @@
+(Lesson 1.6)
+
+<p>Activity 2 demonstrates least-squares regression with technology. Put students in groups so that they can help each other with the keystrokes. It is probably not a good idea to require students to memorize the steps in this process; allow them to use a copy of the instructions when they use technology for regression.</p> 
+
+<p>The scatterplots in Example 3 (literacy and birth rate) and Homework Problem 3 (Miss America BMI's) are more complex; students should not be required to find regression equations for data sets of this size. However, they should be asked to read and interpret information from the graph.</p>
+
+
+<xref ref="act-4-1-1" text="custom">Activity 1</xref>
+
+xml:id="act-4-1-7"
+
+<activity xml:id="act-4-1-7">
+
+
+
+
+
+
+
+
+
+<activity><title>Maximum or Minimum value</title>
+
+<introduction><p>A farmer plans to fence a rectangular grazing area along a river using 300 yards of fence.</p>
+
+                <aside><title>Note</title>
+                <p>Note that this problem is similar to the model in Lesson 6.1.</p></aside></introduction>
+
+<task><p>Draw a sketch illustrating the grazing area, and label its length and width.</p></task>
+
+<task><p>Let <m>w</m> stand for the width of the rectangle, and write an expression for the length <m>l</m> in terms of the width.</p></task>
+
+<task><p>Write an equation for the area <m>A</m> of the grazing land in terms of <m>w</m>.</p></task>
+
+<task><p>Graph the equation.</p>
+  <image source="act-4-2-2.png" width="40%"></image></task>
+
+<task><p>Use algebra to answer the questions:
+  <ol>
+  <li><p>What is the largest area the farmer can enclose?</p></li>  
+  <li><p>What are the dimensions of the largest area?</p></li></ol></p></task>
+</activity>
+
+
+
+

@@ -1,0 +1,17 @@
+WARNING : Using CLI version 2.55.0 but project's `requirements.txt`
+WARNING : is configured to use 1.0.3. Consider either installing
+WARNING : CLI version 1.0.3 or running `pretext update-project`
+WARNING : to update `requirements.txt` and other managed files to match 2.55.0.
+INFO    : Building target subset-instructor
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\test-section.ptx by C:\Users\kyosh\.ptx\2.55.0\core\xsl\utilities\pretext-enhanced-source.xsl
+ERROR   : Error loading file:///C:/Users/kyosh/pretext/mfg-act/source/sec-8-5.ptx: Opening and ending tag mismatch: p line 6 and subsection, line 15, column 23 (file:///C:/Users/kyosh/pretext/mfg-act/source/sec-8-5.ptx, line 15)
+ERROR   : Error assembling source file: Opening and ending tag mismatch: p line 6 and subsection, line 15, column 23 (file:///C:/Users/kyosh/pretext/mfg-act/source/sec-8-5.ptx, line 15)
+FATAL   : XML syntax for source file is invalid
+INFO    : ------------------------
+exit    : Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

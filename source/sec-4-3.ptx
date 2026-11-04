@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logarithms</title>
+
+<assemblage component="instructor">
+<p>In this Lesson we introduce logarithms as a tool for solving exponential equations. Note that we do not yet consider logarithmic functions. Instead, we make an analogy between using radicals to solve power equations and using logarithms to solve exponential equations.</p> 
+<p>You might want to begin class with the problem posed in the reading assignment, namely "Suppose that a colony of bacteria doubles in size every day. If the colony starts with 50 bacteria, how long will it be before there are 800 bacteria?"</p>
+
+<p>GOALS</p>
+<p><ul>
+  <li><p>Compute logarithms using the definition</p></li>    
+  <li><p>Convert between exponential and logarithmic form</p></li>    
+  <li><p>Solve exponential equations with base 10</p></li>  
+  <li><p>Approximate logarithms graphically</p></li>
+</ul></p></assemblage>
+
+<activity xml:id="act-4-3-1"><title>Solving Equations</title>
+
+<p><ol marker="a.">
+<li><p>Compare the two equations below. The first is a quadratic equation, and the second is an exponential equation. You can probably solve both of these equations in your head.
+    <md>~~~~\text{(1)}~~~x^2 = 25 ~~~~~~~~~~~~~~~~~~~~~~~\text{(2)}~~~2^x = 8</md>
+Solutions:</p>
+
+<p>Let's analyze how we get the solutions. In the first equation, <m>x</m> is squared, so we perform the opposite operation to solve, or take the square root of both sides:
+  <md><mrow>\sqrt{x^2} \amp = \pm \sqrt{25}</mrow>
+      <mrow> x \amp = \pm 5</mrow></md></p>
+
+      <aside component="instructor"><p>1(a) Students are often confused because the symbol for logarithm, "log" looks like a word, instead of a mathematical symbol like <m>\sqrt{\hphantom{0}}</m>. Explain that <m>\log_2{x}</m> means "find an exponent on base 2 that gives <m>x</m>," just as <m>\sqrt{x}</m> means "find a number that when squared gives <m>x</m>." It may help to do several examples mentally before turning to the calculator.</p></aside>
+
+<p>In the second equation, <m>x</m> is an exponent. We ask ourselves "What power do we need on base 2 to get 8?" Finding a power is called taking a logarithm.
+    <md><mrow>\log_2 {2^x} \amp = \log_2{8}</mrow>
+      <mrow> x \amp = 3</mrow></md></p></li>
+
+<li><p>Now compare the two equations below. One is cubic and one is exponential:
+    <md>~~~~\text{(1)}~~~x^3 = 17 ~~~~~~~~~~~~~~~~~~~~~~~\text{(2)}~~~10^x = 135</md> 
+These are not so easy to solve in your head. But we use the same techniques as before:                                    
+    <md>~~~~\sqrt[3]{x^3} = \sqrt[3]{17} ~~~~~~~~~~~~~~~~~~~~~~~\log_{10}{10^x} = \log_{10}{135}</md>  
+
+    <aside component="instructor"><p>1(b) Explain that the log button on the calculator finds exponents on base 10 that aren't easy to guess, just as the square root button finds square roots that aren't easy to guess. Students will probably ask how to use the calculator to find logs with other bases. Tell them that that information is coming later, and for now any logs that aren't base 10 will be easy enough to guess.</p></aside>
+
+But this time, we use a calculator to evaluate the answers. Locate the log button on your calculator.
+    <md>~~~~~x = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~x = </md>  
+
+(You can check both of these solutions by plugging them into the original equations.)</p>
+<p>The solution of the first equation answers the question "What number must I cube to get 17?"</p>
+<p>The solution of the second equation answers the question "To what power must I raise 10 to get 135?"</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-3-2"><title>Definition of Logarithm</title>
+
+<introduction><p>We use logarithms to solve exponential equations.</p>  
+
+    <p><m>\log_b {x}</m>  means "to what power must I raise <m>b</m> to get <m>x</m>?"</p>
+
+  <p>For example, <m>~\log_4 {64} = \alert{3}~</m>  because  <m>~4^\alert{3} = 64</m></p>
+
+    <aside component="instructor"><p>Here we define a logarithm as an unknown exponent on a given base.</p></aside></introduction>
+
+<p><ol>
+  <li><p>Fill in the blanks.</p>
+  <p><ol>
+    <li><p><m>~\log_2 {32} = <fillin/> ~</m>  because  <m><fillin/></m></p></li>
+    <li><p><m>~\log_5 {\sqrt{5}} = <fillin/>~</m>  because  <m><fillin/></m></p></li>
+    <li><p><m>~\log_{10} {0.001} = <fillin/>~</m>  because  <m><fillin/></m></p></li>
+  </ol></p></li>
+
+<li><p>From the examples, we see that a logarithm is just an exponent. In fact,
+    <me>  \log_b {x} = y ~~~~~~ \text{if and only if} ~~~~~~ b^y = x</me>          
+Convert each exponential equation to logarithmic form.</p>
+
+        <aside component="instructor"><p>2(2) We reinforce the definition of logarithm as an exponent by converting equations from exponential form to logarithmic form. In each example, emphasize that "the logarithm is the exponent."</p></aside>
+
+<p><ol cols="2">
+  <li><p><m>10^x = 1000</m></p></li>
+  <li><p><m>3^x = 243</m></p></li>
+  <li><p><m>8^x = 1526</m></p></li>
+  <li><p><m>v^{5/3} = 12</m></p></li>
+  <li><p><m>10^{1.3t} = 3M_0</m></p></li>
+  <li><p><m>z^{-3t} = P</m></p></li>
+</ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-3-3"><title>Logarithms and Inverse Operations</title>
+
+<introduction><p>We use inverse operations to solve equations. For example, cubing and taking cube roots are inverse operations. Each operation undoes the effect of the other.</p>
+<p>Start with any number, say 5, cube it, and then take the cube root. We get back to the original number:                     
+  <me>5 \rightarrow \text{cube} \rightarrow 5^3 = 125 \rightarrow \text{take cube root} \rightarrow \sqrt[3]{125} = 5</me>             
+We can write the two operations in one step, like this:  <m>~~\sqrt[3]{5^3} = 5~~</m>. The same thing works for any number <m>x</m>, so <m>~~\sqrt[3]{x^3} = x~~</m>.</p></introduction>    
+
+<p><ol marker="a.">
+<li><p>Here are some more examples of inverse operations. Fill in the blanks.</p>
+      <p><m>(25 + 3,489) - 3,489 = <fillin/></m></p>
+      <p><m>(42 \times 13.76) \div 13.76 =  <fillin/></m></p>
+      <p><m>(\sqrt{5936})^2 = <fillin/></m></p>
+      <p><m>\dfrac{1}{1/6.97} = <fillin/></m></p></li>
+
+<li><p>Logarithms and exponentials are inverse operations. Taking a logarithm base <m>b</m> is the opposite of evaluating an exponential function with base <m>b</m>.</p>
+<p>For example, let <m>b=3</m>, and start by start by evaluating <m>b^x</m> with <m>x=4</m>. Then take the log base 3 of the result:
+      <me>x=\alert{4} \rightarrow \text{exponential function} \rightarrow 3^4 = 81 \rightarrow \text{logarithm} \rightarrow \log_3{81} = \alert{4}</me>
+Or, <m>~\log_3 {3^4} = 4</m>.  So we have the rule:  <me>~\log_b {b^x} = x</me></p>
+
+        <aside component="instructor"><p>3(b) The notion that taking a logarithm is the inverse operation for exponential functions is quite hard for students at this level (never mind trying to introduce inverse functions!). They may need time to understand the identity <m>~\log_b {b^x} = x</m>.</p></aside>
+
+  <p>Fill in the blanks.</p>
+      <p><m>\log_5 {5^2} = <fillin/></m></p>
+      <p><m>\log_6 {6^8} =  <fillin/></m></p>
+      <p><m>\log_2 {2^{3.56}} = <fillin/></m></p>
+      <p><m>\log_8 {8^{x+4}} = <fillin/></m></p></li>
+
+<li><p>We use logarithms to solve exponential equations.
+  <md><mrow>5^x \amp = 125~~~~~~~~\text{Take the log of both sides.}</mrow>
+      <mrow>\log_5 {5^x} \amp = \log_5 {125}~~~~~~~\text{Simplify each side.}</mrow>
+      <mrow> <fillin/> \amp = <fillin/>~~~~~~\text{Check the solution.}</mrow></md>
+
+Notice that the solution, <m>\log_5 {125} = 3</m>, is the exponent in the original equation. Once again, we see that a logarithm is just an exponent; in this case it is the exponent on base 5 that will give us 125.</p>
+
+<p>You can think of taking a logarithm as a command that says "find me the exponent!"</p></li>
+
+<li><p>Logarithms base 10 are called common logarithms, because they are used more often in applications than logs to other bases. We often omit the base on common logs, so that
+      <me>\log {x}~~~~\text{means}~~~~\log_{10}{x}</me></p>
+<p>Evaluate the logs:</p>
+      <p><m>\log {100} = <fillin/></m></p>
+      <p><m>\log {100,000} = <fillin/></m></p>
+      <p><m>\log {0.01} = <fillin/></m></p>
+      <p><m>\log {1} = <fillin/></m></p></li>
+
+<li><p>Estimate each log between two integers. Then use a calculator to evaluate the log.</p>
+
+        <aside><p>3(e) It may help to list powers of 10 on the board and locate numbers between powers of 10.</p></aside>
+
+    <p><ol marker="i.">
+      <li><p><m><fillin/> \lt \log {1476} \lt <fillin/>,~~~~\log {1476} = <fillin/></m></p></li>
+      <li><p><m><fillin/> \lt \log {27.9} \lt <fillin/>,~~~~\log {27.9} = <fillin/></m></p></li>
+      <li><p><m><fillin/> \lt \log {0.694} \lt <fillin/>,~~~~\log {0.694} = <fillin/></m></p></li>
+      <li><p><m><fillin/> \lt \log {0.0104} \lt <fillin/>,~~~~\log {0.0104} = <fillin/></m></p></li>
+    </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-3-4"><title>Solving Base 10 Equations</title>
+
+ <aside component="instructor"><p>Now we can solve exponential equations with base 10. Once again, students may ask how to solve equations with other bases, and you can tell them that's coming up in the next Lesson.</p></aside>
+
+<introduction><p>We can now solve exponential equations that have base 10, using the fact that <m>~\log_b {b^x} = x</m>. Here is an example.
+  <md><mrow>10^x \amp = 150~~~~~~~~~~~~\text{Take the log base 10 of both sides.}</mrow>
+      <mrow>\log {10^x} \amp = \log {150}~~~~~~~~~~~~\text{Simplify each side.}</mrow>
+      <mrow>x \amp = 2.1761~~~~~~~~~~~~\text{Check:}~10^{2.1761} = 150.003</mrow></md>
+  Logarithms are very sensitive to round-off error. You should keep four places of accuracy in your answers.</p></introduction>
+
+<p><ol>
+  <li><p>Follow the steps to solve each equation.</p> 
+
+      <aside component="instructor"><p>4(1) Help students enter the steps of the solution into their calculators, reminding them frequently not to round off intermediate results.</p></aside> 
+  
+    <p><ol marker="a.">
+      <li><m>~~10^{-5x} = 76</m>
+          <p>Take logs of both sides:</p>
+
+          <p>Simplify each side:</p>
+
+          <p>Solve for <m>x</m>:</p>
+
+          <aside component="instructor"><p>4(2) From their work with power functions, most students will have learned to start solving by "isolating the power."  However, you will have to explain several times why taking the log of both sides eliminates the base. Try to steer them away from saying that we "cancel" the base, instead using language such as "undoing" the exponential function.</p></aside></li>
+
+      <li><m>~~163 = 3(10^{0.7x} - 49.3)</m>
+
+          <p>Isolate the power:</p>
+
+          <p>Take logs of both sides:</p>
+
+          <p>Simplify each side:</p>
+
+          <p>Solve for <m>x</m>:</p></li>
+  </ol></p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-4-3-5"><title>Atmospheric Pressure</title>
+
+<introduction><p>The atmospheric pressure decreases with altitude above the surface of the earth, according to the formula 
+        <md>P(h) = 30(10^{-0.09h})</md>   
+  where <m>h</m> is altitude in miles and <m>P</m> is atmospheric pressure in inches of mercury.</p></introduction>
+
+  <p><ol marker="a.">
+      <li><p>Use technology to graph this function for  <m>0 \le h \le 10</m>.</p>
+
+        <aside component="instructor"><p>Emphasize the difference between part (b), where we evaluate the exponential function, and part (c), where we solve an exponential equation. Point out that many application problems are really asking for one or the other of these operations.</p></aside></li>
+
+    <li><p>Use algebra to answer the question, then verify on your graph:</p>
+        <p>The elevation of Mount McKinley, the highest mountain in the United Sates, is 20,320  feet. What is the atmospheric pressure at the top? (Hint:  1 mile = 5280 feet.)</p></li>
+
+    <li><p>Use algebra to answer the question, then verify on your graph:</p>
+        <p>How high above sea level is the atmospheric pressure 16.1 inches of mercury?</p></li>
+</ol></p>
+</activity>
+ 
+<subsection><title>Checkpoint</title>
+<p><ol>
+<li><p>What is the only difference in the steps for solving the two equations: 
+    <me>5x^{10} - 8 = 496~~~~~~\text{and}~~~~~~5(10^x)-8 = 496</me></p></li>      
+<li><p>Compute <m>\dfrac{\log{8}}{\log{3}}</m> and <m>\log{\dfrac\left{8}{3}}\right</m>. Are they the same?</p></li>
+<li><p>What happens when you apply an operation to a number, then apply the inverse operation?</p></li>
+<li><p>Explain how to use the graph of <m>y=3^x</m>  to estimate the value of <m>\log_3 {12}</m>.</p></li>
+</ol></p></subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain how to estimate <m>\log_{10}{x}</m> between two integers.</p></li>
+    <li><p>Explain how to use a graph of <m>y=3^x</m> to estimate <m>\log_3{12}</m>.</p></li>
+    <li><p>Explain why <m>\log_b{1} = 0</m>.</p></li>
+    <li><p>If <m>\log_2{x}</m> is negative, what can you say about <m>x</m>?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>A logarithm is the same as</p>
+    <p><ol marker="a.">
+        <li>an exponent.</li> 
+        <li>a coefficient.</li>
+        <li>a quotient.</li>  
+        <li>a radical.</li>
+    </ol></p></li>
+    <li><p><m>\log_b{b} = 1</m> because</p>
+    <p><ol marker="a.">
+        <li><m>\dfrac{b}{b} = 1</m></li>
+        <li><m>\sqrt[b]{b}=1</m></li>
+        <li><m>b^1=b</m></li>
+        <li><m>1^b=1</m></li>
+    </ol></p></li>
+    <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+        <li>The log of a number is never negative.</li>
+        <li>We cannot take the log of a negative number.</li>
+        <li>The log of a fraction is called a common log.</li>
+        <li>The log of 0 is 1.</li>
+    </ol></p></li>
+    <li><p>What is the first step in solving the equation <m>~5(10)^x = 12</m>?</p>
+    <p><ol marker="a.">
+        <li>Multiply 5 times 10.</li>
+        <li>Take the log of both sides.</li>
+        <li>Get zero on one side of the equation.</li>
+        <li>Divide both sides by 5.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+
+</section>

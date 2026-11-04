@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Systems of Linear Equations in Two Variables</title>
+
+<assemblage component="instructor">
+<p>This Lesson reviews linear systems in two variables. We solve systems graphically — algebraic solutions are treated in the next Lesson. Part of the purpose of this Lesson is to practice the graphing techniques presented in Chapter 1, both on paper and using a graphing utility.</p>
+
+ <p> Students should learn to recognize inconsistent and dependent systems by writing both equations in the same form, either general linear or slope-intercept. For example, point out that two lines with the same slope but different <m>y</m>-intercepts must be parallel.</p>
+    
+<p>The application to supply and demand may be new to students. It is also a good idea to review the formula  Profit = Revenue - Cost, and to remind students that profit can be positive or negative, and that breaking even means to make zero profit.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Verify a solution of a system.</p></li>
+    <li><p>Solve a linear system graphically.</p></li>
+    <li><p>Identify inconsistent and dependent systems.</p></li>
+    <li><p>Model applications in two variables.</p></li>
+</ul></p>
+</assemblage> 
+
+<activity xml:id="act-8-1-1"><title>Solving a System by Graphing</title>
+
+
+<introduction><p>Delbert and Francine are buying appliances for their new home. They have a choice of two different refrigerators: a standard model that sells for $1000 and an energy-efficient model at a price of $1200. The standard model costs $6 per month to run, and the energy-efficient model costs $2 per month.</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Write an equation for <m>S</m>, the total cost of purchasing and running the standard model for <m>t</m> months.</p></li> 
+    <li><p>Write an equation for <m>E</m>, the total cost of purchasing and running the energy-efficient model for <m>t</m> months.</p>
+
+        <aside component="instructor"><p>1e. Explain that the intersection point is the point at which <m>S=E</m>, so by setting the expressions for <m>S</m> and <m>E</m> equal and solving the equation, we are finding the value of <m>t</m> that makes <m>S</m> and <m>E</m> equal, that is, the month in which the total operating costs are equal.</p></aside></li>   
+    
+    <li><sidebyside widths="50% 40%"><stack><p>Complete the table of values and graph both equations on the grid.</p>
+            <aside component="instructor"><p>1c. After practicing the intercept method of graphing, many students have forgotten that we can also graph a line by plotting points.</p></aside>
+
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell>20</cell>
+                    <cell>40</cell>
+                    <cell>60</cell></row>
+                <row><cell><m>S</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>E</m></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+            </tabular></stack>
+        <image source="act-2-2-1.png"><description>Grid [0,100]x[800,1600]</description></image></sidebyside></li>
+    
+    <li><p>Read your graph: What is the intersection point of the two graphs? What do the coordinates of the point tell us?</p></li>
+    <li><p>Use algebra to find the answer to part (d).</p></li>
+</ol></p> 
+</activity>
+
+<activity xml:id="act-8-1-2"><title>Using Technology</title>
+
+<introduction><p>Francine wants to combine oats and wheat to make a cereal with 10 grams of protein per cup. Oat flakes provide 11 grams of protein per cup. Wheat flakes provide 8.5 grams of protein per cup. How many cups of each grain will she need for a box of cereal containing 3 cups?</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Describe the two unknown quantities:</p>
+        <aside component="instructor"><p>2a. Make sure students write down exactly what <m>x</m> and <m>y</m> represent.</p></aside>
+
+    <p><m>\hphantom{00000} x:</m></p>
+    <p><m>\hphantom{00000} y:</m></p></li>
+
+    <li><p>Complete the table.</p>
+            <aside component="instructor"><p>2b. This is a typical "mixture" problem. Point out that once they have filled in the first two columns with information from the problem, they can multiply across to fill in the last column.</p></aside>
+        
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>Cups</cell>
+                    <cell>Grams of protein per cup</cell>
+                    <cell>Grams of protein</cell></row>
+                <row><cell>Oats</cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>Wheat</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+                <row><cell>Mixture</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular>
+            <aside component="instructor"><p>2c. And to write the equations, they can add down the first and third columns.</p></aside></li>
+
+    <li><p>Write two equations, one about the amount of each grain in the mixture, and one about the amount of protein in the mixture.</p>
+        </li>
+
+    <li><p>Solve each equation for <m>y</m>, and graph them using technology. (Hint: What are the largest and smallest possible values for <m>x</m> and <m>y</m>? Use these values to choose a window.)</p></li>
+
+    <li><p>Use technology to find the intersection point. What do the coordinates of the intersection point tell us?</p>
+            <aside component="instructor"><p>2d. You may need to remind students how to solve for <m>y</m>. Choosing a window is difficult for students. Suggest that they read the problem again, thinking about what <m>x</m> and <m>y</m> represent.</p></aside></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-8-1-3"><title>How Many Solutions?</title>
+
+<p><ol marker="a.">
+    <li><p>Graph each system on the grid.</p>
+    <sidebyside widths="45% 45%">
+    <stack><p>System I
+        <md><mrow>3x - 2y = 9</mrow>
+            <mrow>x = \frac{2}{3} y + 3</mrow></md></p>
+    <image source="act-2-2-2.png"><description>10x10 grid</description></image></stack>    
+    <stack><p>System II
+        <md><mrow>y = -3x + 6</mrow>
+            <mrow>6x + 2y = 15</mrow></md></p>
+    <image source="act-2-2-2.png"><description>10x10 grid</description></image></stack></sidebyside>
+
+            <aside component="instructor"><p>3a. Use this task to review the two graphing methods: the intercept method and the slope-intercept method.  Ask students which method is more efficient on each equation.</p></aside></li>
+
+    <li><p>How many solutions are there?</p> 
+        <p><m>\hphantom{00000}</m>System I:    <m>\hphantom{00000000000000000000000000}</m> System II:</p></li>
+  
+    <li><p>Write each equation in slope-intercept form.  What do you notice?</p>
+        <p><m>\hphantom{00000}</m>System I:    <m>\hphantom{00000000000000000000000000}</m> System II:</p></li>
+
+    <li><p>Without graphing its equations, how can you tell how many solutions a system has?</p></li>
+
+    <li><p>There are three possible forms for a system of two linear equations in two variables. List the names of these three forms, and how many solutions each form has.</p></li>
+
+    <li><p>Is it possible for a system of two linear equations in two variables to have exactly two solutions? Why or why not?</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-8-1-4"><title>Motion Problems</title>
+
+<introduction><p>Because of prevailing winds a flight from Detroit to Denver, a distance of 1120 miles, takes 4 hours on Econoflite, while the return trip takes 3.5 hours.  What were the speed of the airplane and the speed of the wind?</p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Choose variables for the two unknown quantities, and fill in the table.</p>
+        <p><m>\hphantom{0000} x</m>:</p>
+        <p><m>\hphantom{0000} y</m>:</p>
+
+                <aside component="instructor"><p>3a. Explain how to add or subtract the speed of the wind (or the current in a river) to the speed of the airplane.</p>
+                <p> Point out explicitly that <m>x</m> and <m>y</m> are NOT the entries in the Rate column.</p></aside>
+
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>Rate</cell>
+                    <cell>Time</cell>
+                    <cell>Distance</cell></row>
+                <row><cell>Detroit to Denver</cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>Denver to Detroit</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+            </tabular></li>
+
+    <li><p>Write one equation about the trip from Detroit to Denver.</p></li>
+    <li><p>Write a second equation about the return trip.</p></li>
+    <li><p>Solve the system and answer the question in the problem.</p></li>
+</ol></p>
+</activity>
+
+<activity xml:id="act-8-1-5"><title>Mixture Problems</title>
+
+<introduction><p>Amal plans to make 10 liters of a 17% acid solution by mixing a 20% acid solution with a 15% acid solution. How much of each should she use?</p>
+
+            <aside component="instructor"><p>2a. Many students still believe that we can add percents, even of different amounts. Try this example: If you have two jars of red and blue marbles, each of which is 50% red marbles, and you pour both jars into a larger jar, will the result be 100% red marbles?</p></aside></introduction>
+
+<p><ol marker="a.">
+    <li><p>Choose variables for the two unknown quantities, and fill in the table.</p>
+        <p><m>\hphantom{0000} x</m>:</p>
+        <p><m>\hphantom{0000} y</m>:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>Liters</cell>
+                    <cell>% Acid</cell>
+                    <cell>Amount of Acid</cell></row>
+                <row><cell>First Solution</cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>Second Solution</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+                <row><cell>Mixture</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+        </tabular>
+                <aside component="instructor">2b. <p>Point out that mixture problems are actually easy: after we fill in the first two columns of the table with information from the problem, we multiply across to get the third column and add down columns 1 and 3 to get the equations.</p></aside></li> 
+
+    <li><p>Write one equation about the amount of solution Amal needs.</p></li>
+    <li><p>Write a second equation about the amount of acid in the solutions.</p></li>
+    <li><p>Solve the system and answer the question in the problem.</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title><ol>
+    <li><p>How did you solve the system in Activity 1 algebraically?</p></li>
+    <li><p>How does elimination identify an inconsistent system?</p></li>  
+    <li><p>In Activity 2, each equation corresponds to one of the columns of the table. Which column goes with each equation?</p></li>
+    <li><p>For the mixture problem in Activity 5, we wrote one equation about <fillin/> and a second equation about <fillin/>.</p></li></ol>
+</subsection>
+
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+    <li><p>Explain how to use linear combinations to identify inconsistent and dependent systems.</p></li>
+    <li><p>What is true about the lines in an inconsistent system?</p></li>
+    <li><p>Is it possible for a linear system to have more than one solution?</p></li>
+    <li><p>When is the substitution method easier to use than the elimination method. Why?</p></li>
+</ol></p>
+</assemblage> 
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which points on the graphs satisfy both equations in a system?</p>
+    <p><ol marker="a.">
+        <li>Their <m>x</m>-intercepts</li>    
+        <li>Their <m>y</m>-intercepts</li>
+        <li>Their intersection points</li>  
+        <li>None of the points</li>
+    </ol></p></li>
+    <li><p>If you mix equal amounts of a 30% solution of insecticide and a 60% solution, what will be the strength of the mixture?</p>
+    <p><ol marker="a.">
+        <li>90%</li>    
+        <li>45%</li>
+        <li>50%</li>  
+        <li>Need more information</li>
+    </ol></p></li>
+    <li><p>Delbert has 4 test grades of 50%, and then got 100% on the fifth test. What is his test average now?</p>
+    <p><ol marker="a.">
+        <li>75%</li>   
+        <li>60%</li>
+        <li>90%</li>
+        <li>55%</li>
+    </ol></p></li>
+    <li><p>What is an equilibrium price?</p>
+    <p><ol marker="a.">
+        <li>A fair and balanced price</li>   
+        <li>The price that yields maximum profit</li>
+        <li>The price at which supply equals demand</li>
+        <li>The price at which revenue equals costs</li>
+    </ol></p></li>
+</ol></p>
+</assemblage>
+
+</section>
+
