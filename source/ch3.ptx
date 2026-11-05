@@ -17,7 +17,6 @@
   <xi:include href="./sec-3-3.ptx" />
   <xi:include href="./sec-3-4.ptx" />
   <xi:include href="./sec-3-5.ptx" />
-  <xi:include href="./sec-3-6.ptx" />
 
   <!-- One or more of the sections of a chapter might be exercises-->
 </chapter>

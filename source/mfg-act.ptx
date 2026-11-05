@@ -21,12 +21,12 @@
     
     <xi:include href="./ch1.ptx" />
     <xi:include href="./ch2.ptx" />
-    <xi:include href="./ch3.ptx" />
+<!--     <xi:include href="./ch3.ptx" />
     <xi:include href="./ch4.ptx" />
     <xi:include href="./ch5.ptx" />
     <xi:include href="./ch6.ptx" />
     <xi:include href="./ch7.ptx" />
-    <xi:include href="./ch8.ptx" />
+    <xi:include href="./ch8.ptx" /> -->
     <!-- <xi:include href="./ch9.ptx" />
     <xi:include href="./ch10.ptx" /> -->
 
