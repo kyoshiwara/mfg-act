@@ -9,8 +9,8 @@
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
-<!--*  Theme: denver                         *-->
-<!--*  Palette: primaries                    *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -21,6 +21,9 @@
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
 <style>
 @counter-style ptx-marker-1 { system: extends lower-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-2 { system: extends decimal; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-3 { system: extends lower-roman; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-4 { system: extends decimal; prefix: '('; suffix: ') '; }
 @counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
 </style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
@@ -60,15 +63,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.3.6';
+eBookConfig.runestone_version = '8.4.0';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.4beca1fdeed766a2.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.ebd33f6a21eed414.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.9963089870a016c8.css">
+<script src="_static/prefix-runtime.7e2ee203f2ecd6c8.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -139,7 +141,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul id="ptx-toc-group-meta_frontmatter" class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="meta_frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
@@ -200,6 +202,162 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-6.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Domain and Range</span></a></div>
 <ul id="ptx-toc-group-sec-2-6" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-6.html#sec-2-6-6" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch3.html" class="internal"><span class="codenumber">3</span> <span class="title">Power Functions</span></a></div>
+<ul id="ptx-toc-group-ch3" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch3-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Variation</span></a></div>
+<ul id="ptx-toc-group-sec-3-1" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1.html#sec-3-1-13" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Integer Exponents</span></a></div>
+<ul id="ptx-toc-group-sec-3-2" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2.html#sec-3-2-7" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Roots and Radicals</span></a></div>
+<ul id="ptx-toc-group-sec-3-3" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3.html#sec-3-3-6" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Rational Exponents</span></a></div>
+<ul id="ptx-toc-group-sec-3-4" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4.html#sec-3-4-6" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Joint Variation</span></a></div>
+<ul id="ptx-toc-group-sec-3-5" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5.html#sec-3-5-6" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch4.html" class="internal"><span class="codenumber">4</span> <span class="title">Exponential Functions</span></a></div>
+<ul id="ptx-toc-group-ch4" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch4-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Exponential Growth and Decay</span></a></div>
+<ul id="ptx-toc-group-sec-4-1" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1.html#sec-4-1-8" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Exponential Functions</span></a></div>
+<ul id="ptx-toc-group-sec-4-2" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2.html#sec-4-2-7" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Logarithms</span></a></div>
+<ul id="ptx-toc-group-sec-4-3" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3.html#sec-4-3-8" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Properties of Logarithms</span></a></div>
+<ul id="ptx-toc-group-sec-4-4" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4.html#sec-4-4-7" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Exponential Models</span></a></div>
+<ul id="ptx-toc-group-sec-4-5" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5.html#sec-4-5-6" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch5.html" class="internal"><span class="codenumber">5</span> <span class="title">Logarithmic Functions</span></a></div>
+<ul id="ptx-toc-group-ch5" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch5-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Inverse Functions</span></a></div>
+<ul id="ptx-toc-group-sec-5-1" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1.html#sec-5-1-6" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Logarithmic Functions</span></a></div>
+<ul id="ptx-toc-group-sec-5-2" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2.html#sec-5-2-6" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Natural Base</span></a></div>
+<ul id="ptx-toc-group-sec-5-3" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3.html#sec-5-3-6" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Logarithmic Scales</span></a></div>
+<ul id="ptx-toc-group-sec-5-4" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4.html#sec-5-4-5" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch6.html" class="internal"><span class="codenumber">6</span> <span class="title">Quadratic Functions</span></a></div>
+<ul id="ptx-toc-group-ch6" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch6-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Intercepts, Solutions, and Factors</span></a></div>
+<ul id="ptx-toc-group-sec-6-1" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-1.html#sec-6-1-6" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Solving Quadratic Equations</span></a></div>
+<ul id="ptx-toc-group-sec-6-2" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-2.html#sec-6-2-9" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Graphing Parabolas</span></a></div>
+<ul id="ptx-toc-group-sec-6-3" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-3.html#sec-6-3-8" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Problem Solving</span></a></div>
+<ul id="ptx-toc-group-sec-6-4" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-4.html#sec-6-4-7" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Quadratic Inequalities</span></a></div>
+<ul id="ptx-toc-group-sec-6-5" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-5.html#sec-6-5-6" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-6.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Curve Fitting</span></a></div>
+<ul id="ptx-toc-group-sec-6-6" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-6-6.html#sec-6-6-6" class="internal"><span class="codenumber">6.6.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch7.html" class="internal"><span class="codenumber">7</span> <span class="title">Polynomial and Rational Functions</span></a></div>
+<ul id="ptx-toc-group-ch7" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch7-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-7-1.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Polynomial Functions</span></a></div>
+<ul id="ptx-toc-group-sec-7-1" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-1.html#sec-7-1-6" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-7-2.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Graphs of Polynomial Functions</span></a></div>
+<ul id="ptx-toc-group-sec-7-2" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-2.html#sec-7-2-6" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-7-3.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Complex Numbers</span></a></div>
+<ul id="ptx-toc-group-sec-7-3" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-3.html#sec-7-3-8" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-7-4.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Graphing Rational Functions</span></a></div>
+<ul id="ptx-toc-group-sec-7-4" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-4.html#sec-7-4-6" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-7-5.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Equations with Algebraic Fractions</span></a></div>
+<ul id="ptx-toc-group-sec-7-5" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-7-5.html#sec-7-5-8" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch8.html" class="internal"><span class="codenumber">8</span> <span class="title">Linear Systems</span></a></div>
+<ul id="ptx-toc-group-ch8" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch8-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-8-1.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Systems of Linear Equations in Two Variables</span></a></div>
+<ul id="ptx-toc-group-sec-8-1" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-8-1.html#sec-8-1-8" class="internal"><span class="codenumber">8.1.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-8-2.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Systems of Linear Equations in Three Variables</span></a></div>
+<ul id="ptx-toc-group-sec-8-2" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-8-2.html#sec-8-2-7" class="internal"><span class="codenumber">8.2.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-8-3.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Solving Linear Systems Using Matrices</span></a></div>
+<ul id="ptx-toc-group-sec-8-3" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-8-3.html#sec-8-3-6" class="internal"><span class="codenumber">8.3.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-8-4.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Inequalities in Two Variables</span></a></div>
+<ul id="ptx-toc-group-sec-8-4" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-8-4.html#sec-8-4-6" class="internal"><span class="codenumber">8.4.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-8-5.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Linear Programming</span></a></div>
+<ul id="ptx-toc-group-sec-8-5" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-8-5.html#sec-8-5-6" class="internal"><span class="codenumber">8.5.1</span> <span class="title">Checkpoint</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -332,9 +490,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para logical" id="sec-1-3-5-2-1">
 <div class="para">Each figure shows a graph of</div>
 <div class="displaymath process-math" id="sec-1-3-5-2-1-1">
-\begin{equation*}
+\begin{gather*}
 B = f(p)= \dfrac{1}{3}p^3 - 3p + 2
-\end{equation*}
+\end{gather*}
 </div>
 <div class="para">Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-1-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
