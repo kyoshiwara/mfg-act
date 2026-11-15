@@ -41,7 +41,7 @@
             <aside component="instructor"><p>1b. Remind students that <m>\Delta H</m> can be negative. Also, explain the difference between total change and average yearly change.</p></aside></li>
 
     <li><p>Calculate the average yearly change in thickness, <m>\dfrac{\Delta H}{\Delta t}</m> over that time interval. Give units with your answers.
-        <me>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></li>
+        <md><mrow>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow></md></p></li>
 
     <li><sidebyside widths="50% 40%"><stack><p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table.</p>
        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              

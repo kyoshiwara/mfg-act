@@ -17,7 +17,7 @@
 <p><ul>
     <li><p>Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</p></li> 
     <li><p>Write an equation for a linear model described in words, in the form:
-        <me>y=\text{(starting value)} + \text{(rate)} \times t</me></p></li>
+        <md><mrow>y=\text{(starting value)} + \text{(rate)} \times t</mrow></md></p></li>
     <li><p>Interpret an ordered pair of values for a linear model.</p></li> 
     <li><p>Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</p></li>
     <li><p>Evaluate an algebraic expression.</p></li>
@@ -80,7 +80,7 @@
         <aside component="instructor"><p>1f. Emphasize the difference between evaluating an expression and solving an equation.</p></aside>
 
 <p>g.  Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation
-      <me>T = 13.9 + 0.13t</me> 
+      <md><mrow>T = 13.9 + 0.13t</mrow></md> 
 where <m>t</m> is the number of years since 1950. What do the constants in this equation tell us about global temperature?</p>
 
     <p><m>13.9</m> tells us:</p>

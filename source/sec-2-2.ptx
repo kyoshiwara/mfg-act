@@ -22,7 +22,7 @@
 
 <p><ol marker="a.">
 <li><p>Complete the table of values for the two functions 
-    <me>f(x)=x^2~~~\text{and}~~~g(x)=x^3</me></p>
+    <md><mrow>f(x)=x^2~~~\text{and}~~~g(x)=x^3</mrow></md></p>
             <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>

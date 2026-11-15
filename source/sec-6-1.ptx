@@ -33,7 +33,7 @@
             <aside component="instructor"><p>1c. Ask the class how they can verify algebraically that 3.5 is indeed the intercept.</p></aside></li>    
 
     <li><p>Solve the equation
-          <me>(2x-7)(x+1)=0</me></p></li>
+          <md><mrow>(2x-7)(x+1)=0</mrow></md></p></li>
     <li><p>Explain how your answers to parts (c) and part (d) are related.</p></li>
 </ol></p>
 </activity>

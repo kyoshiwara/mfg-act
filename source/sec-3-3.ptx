@@ -77,7 +77,7 @@ where <m>L</m> is the length of the vessel in feet.</p></introduction>
 <activity xml:id="act-3-3-2"><title>Heart Rate</title>
 
 <introduction><p>An animal's heart rate is related to its size or mass, with smaller animals generally having faster heart rates. The heart rates of mammals are given approximately by the power function 
-        <me>H=f(m)=k m^{-1/4}</me>
+        <md><mrow>H=f(m)=k m^{-1/4}</mrow></md>
 where <m>m</m> is the animal's mass in kilograms and <m>k</m> is a constant.</p>
 
             <aside component="instructor"><p>Ask students whether they expect smaller animals to have slower or faster heart rates than larger ones, and what that means for the function <m>H=f(m)</m>. Then ask them how they know that <m>H=k m^{-1/4}</m> is a decreasing function.</p></aside></introduction>
@@ -168,7 +168,7 @@ where <m>m</m> is the animal's mass in kilograms and <m>k</m> is a constant.</p>
 <li><p>Delbert says his calculator told him that <m>5^{1/2}</m> is equal to 2.5. What did he do wrong?</p></li>
 <li><p>What does the notation <m>a^{0.125}</m> mean? How is it evaluated?</p></li>
 <li><p>Express each of the following algebraic notations in words, and evaluate each for <m>x=16</m>:
-      <me>4x,~x^4,~\dfrac{x}{4},~\dfrac{1}{4}x,~x^{1/4},~x-4,~x^{-4},~x^{-1/4}</me></p></li>
+      <md><mrow>4x,~x^4,~\dfrac{x}{4},~\dfrac{1}{4}x,~x^{1/4},~x-4,~x^{-4},~x^{-1/4}</mrow></md></p></li>
 <li><p>In Activity 2, explain why the graph of <m>~H=k m^{-1/4}~</m> is decreasing.</p></li>
 </ol></p></subsection>
 

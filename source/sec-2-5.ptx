@@ -48,7 +48,7 @@
               <md><mrow>\abs{x-3} = \begin{cases} x-3 \amp \text{if } x-3\ge 0</mrow>
                   <mrow>-(x-3) \amp \text{if } x-3\lt 0 \end{cases}</mrow></md></p></li>
           <li><p>Thus, the equation <m>\abs{x-3} = 5</m> has two parts: 
-            <me>x-3=5~~~~~~~~~~~~~ \text{and} ~~~~~~~~~~~~~~~~~ -(x-3)=5</me></p>
+            <md><mrow>x-3=5~~~~~~~~~~~~~ \text{and} ~~~~~~~~~~~~~~~~~ -(x-3)=5</mrow></md></p>
 
               <aside component="instructor"><p>2(3) Get students to see that we can replace <m>-(x-3) = 5</m> by <m>x-3=-5</m>. This will be useful when we solve inequalities.</p></aside></li>
 

@@ -95,7 +95,7 @@
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
             </tabular>
-        <image source="act-10-1-8.png"></image><description>grid 0 to 20 by -2 to 5</description></sidebyside></li>
+        <image source="act-10-1-8.png"><description>grid 0 to 20 by -2 to 5</description></image></sidebyside></li>
 
 <li><p>Plot both functions on the grid.</p>
 

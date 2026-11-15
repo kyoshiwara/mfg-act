@@ -4,31 +4,30 @@
 <!-- works.                                                        -->
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="meta_frontmatter">
-  <titlepage>
-    <author>
-      <personname>Katherine Yoshiwara</personname>
+    <bibinfo>
+        <author>
+            <personname>Katherine Yoshiwara</personname>
             <department>Department of Mathematics</department>
             <institution>Los Angeles Pierce College</institution>
-    </author>
-    <date><today/></date>
-  </titlepage>
+<!--            <email>kyoshiwara@hotmail.com</email>  -->
+        </author>
 
-  <colophon>
-
-    <website>
-      <name><c>Yoshiwara Books</c></name>
-      <address>https://yoshiwarabooks.org</address>
-    </website>
-
-    <copyright>
-      
-            <year>2020</year>
+        <date><today /></date>
+        <copyright>
+            <year>2024</year>
             <holder>Katherine Yoshiwara</holder>
             <minilicense>GFDL License</minilicense>
             <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
-    </copyright>
+        </copyright>
+    </bibinfo>
 
-  </colophon>
+    <titlepage>
+        <titlepage-items/>
+    </titlepage>
+
+    <colophon>
+        <colophon-items/>
+    </colophon>
 
   
   <preface xml:id="meta_frontmatter-preface">

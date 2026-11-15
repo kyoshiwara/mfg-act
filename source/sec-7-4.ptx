@@ -56,7 +56,7 @@ on the grids below.</p>
             <md><mrow>\text{Total Cost} \amp = \text{Startup Cost} + \text{Cost of}~x~\text{Filters}</mrow>
                 <mrow>  \amp = </mrow></md></p>
     <p>Divide the total cost by the number of filters produced.
-            <me>\text{Average Cost} = \dfrac{\text{Total Cost}}{\text{Number of Filters}} = </me></p></li>
+            <md><mrow>\text{Average Cost} = \dfrac{\text{Total Cost}}{\text{Number of Filters}} = </mrow></md></p></li>
 
 <li><p>Sketch a graph of the average cost, <m>A</m>.</p>
   <sidebyside widths="30% 70%">

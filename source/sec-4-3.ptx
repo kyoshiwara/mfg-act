@@ -67,7 +67,7 @@ But this time, we use a calculator to evaluate the answers. Locate the log butto
   </ol></p></li>
 
 <li><p>From the examples, we see that a logarithm is just an exponent. In fact,
-    <me>  \log_b {x} = y ~~~~~~ \text{if and only if} ~~~~~~ b^y = x</me>          
+    <md><mrow> \log_b {x} = y ~~~~~~ \text{if and only if} ~~~~~~ b^y = x</mrow></md>          
 Convert each exponential equation to logarithmic form.</p>
 
         <aside component="instructor"><p>2(2) We reinforce the definition of logarithm as an exponent by converting equations from exponential form to logarithmic form. In each example, emphasize that "the logarithm is the exponent."</p></aside>
@@ -87,7 +87,7 @@ Convert each exponential equation to logarithmic form.</p>
 
 <introduction><p>We use inverse operations to solve equations. For example, cubing and taking cube roots are inverse operations. Each operation undoes the effect of the other.</p>
 <p>Start with any number, say 5, cube it, and then take the cube root. We get back to the original number:                     
-  <me>5 \rightarrow \text{cube} \rightarrow 5^3 = 125 \rightarrow \text{take cube root} \rightarrow \sqrt[3]{125} = 5</me>             
+  <md><mrow>5 \rightarrow \text{cube} \rightarrow 5^3 = 125 \rightarrow \text{take cube root} \rightarrow \sqrt[3]{125} = 5</mrow></md>             
 We can write the two operations in one step, like this:  <m>~~\sqrt[3]{5^3} = 5~~</m>. The same thing works for any number <m>x</m>, so <m>~~\sqrt[3]{x^3} = x~~</m>.</p></introduction>    
 
 <p><ol marker="a.">
@@ -99,8 +99,8 @@ We can write the two operations in one step, like this:  <m>~~\sqrt[3]{5^3} = 5~
 
 <li><p>Logarithms and exponentials are inverse operations. Taking a logarithm base <m>b</m> is the opposite of evaluating an exponential function with base <m>b</m>.</p>
 <p>For example, let <m>b=3</m>, and start by start by evaluating <m>b^x</m> with <m>x=4</m>. Then take the log base 3 of the result:
-      <me>x=\alert{4} \rightarrow \text{exponential function} \rightarrow 3^4 = 81 \rightarrow \text{logarithm} \rightarrow \log_3{81} = \alert{4}</me>
-Or, <m>~\log_3 {3^4} = 4</m>.  So we have the rule:  <me>~\log_b {b^x} = x</me></p>
+      <md><mrow>x=\alert{4} \rightarrow \text{exponential function} \rightarrow 3^4 = 81 \rightarrow \text{logarithm} \rightarrow \log_3{81} = \alert{4}</mrow></md>
+Or, <m>~\log_3 {3^4} = 4</m>.  So we have the rule:  <md><mrow>~\log_b {b^x} = x</mrow></md></p>
 
         <aside component="instructor"><p>3(b) The notion that taking a logarithm is the inverse operation for exponential functions is quite hard for students at this level (never mind trying to introduce inverse functions!). They may need time to understand the identity <m>~\log_b {b^x} = x</m>.</p></aside>
 
@@ -120,7 +120,7 @@ Notice that the solution, <m>\log_5 {125} = 3</m>, is the exponent in the origin
 <p>You can think of taking a logarithm as a command that says "find me the exponent!"</p></li>
 
 <li><p>Logarithms base 10 are called common logarithms, because they are used more often in applications than logs to other bases. We often omit the base on common logs, so that
-      <me>\log {x}~~~~\text{means}~~~~\log_{10}{x}</me></p>
+      <md><mrow>\log {x}~~~~\text{means}~~~~\log_{10}{x}</mrow></md></p>
 <p>Evaluate the logs:</p>
       <p><m>\log {100} = <fillin/></m></p>
       <p><m>\log {100,000} = <fillin/></m></p>
@@ -200,7 +200,7 @@ Notice that the solution, <m>\log_5 {125} = 3</m>, is the exponent in the origin
 <subsection><title>Checkpoint</title>
 <p><ol>
 <li><p>What is the only difference in the steps for solving the two equations: 
-    <me>5x^{10} - 8 = 496~~~~~~\text{and}~~~~~~5(10^x)-8 = 496</me></p></li>      
+    <md><mrow>5x^{10} - 8 = 496~~~~~~\text{and}~~~~~~5(10^x)-8 = 496</mrow></md></p></li>      
 <li><p>Compute <m>\dfrac{\log{8}}{\log{3}}</m> and <m>\log{\dfrac\left{8}{3}}\right</m>. Are they the same?</p></li>
 <li><p>What happens when you apply an operation to a number, then apply the inverse operation?</p></li>
 <li><p>Explain how to use the graph of <m>y=3^x</m>  to estimate the value of <m>\log_3 {12}</m>.</p></li>

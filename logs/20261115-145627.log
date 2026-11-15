@@ -1,0 +1,128 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\mfg-act.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\mfg-act\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\mfg-act\assets
+INFO    : Generating any needed assets.
+WARNING : Now generating latex images
+INFO    : converting latex-image pictures from C:\Users\kyosh\pretext\mfg-act\source\mfg-act.ptx to svg graphics for placement in C:\Users\kyosh\pretext\mfg-act\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\kyosh\pretext\mfg-act\source\mfg-act.ptx
+INFO    : string parameters passed to extraction stylesheet: {'cli.version': '2.56', 'publisher': 'C:/Users/kyosh/pretext/mfg-act/publication/publication.ptx'}
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\mfg-act\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\mfg-act\assets
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\mfg-act.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\extract-latex-image.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+ERROR   : * PTX:ERROR: the @xml:id value "ch3" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Power Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Exponential Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Logarithmic Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Quadratic Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Polynomial and Rational Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Linear Systems" (title)
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\extract-latex-image.xsl
+INFO    : Removing temporary directory C:\Users\kyosh\AppData\Local\Temp\ptx-1c6rstmq
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into C:\Users\kyosh\pretext\mfg-act\output\web.
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\mfg-act\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\mfg-act\assets
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\mfg-act\source
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\mfg-act.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.4.0
+INFO    : Downloading Runestone Services, version 8.4.0
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting C:\Users\kyosh\pretext\mfg-act\source\mfg-act.ptx to HTML in C:\Users\kyosh\AppData\Local\Temp\ptx-88eozvdk
+INFO    : XSL conversion of C:\Users\kyosh\pretext\mfg-act\source\mfg-act.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+ERROR   : * PTX:ERROR: the @xml:id value "ch3" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Power Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Exponential Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Logarithmic Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Quadratic Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Polynomial and Rational Functions" (title)
+INFO    : *              located at: pretext/book/chapter
+INFO    : *              located within: "ch3" (xml:id), "Linear Systems" (title)
+INFO    : * PTX:INFO:   checking all deprecated elements.
+WARNING : * PTX:DEPRECATE: (2022-04-25) a "@label" attribute (on a "ul" or "ol" element) has been deprecated and should be replaced by the functionally equivalent "@marker".  We will attempt to honor your request (1 time)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/@label
+INFO    : *              located within: "act-5-1-1" (xml:id), "Graphing the Inverse Function" (title)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2023-08-08) a "website" element with "address" and "name" children has changed.  Continue to use the "website" element as before, but replace the "address" and "name" children with a single "url" element, which is more flexible and reliable.  We will try to honor your intent, but you may prefer your own adjustments. (1 time)
+INFO    : *              located at: pretext/book/frontmatter/colophon/website
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "titlepage" element inside the "frontmatter" (author, editor, credit, date, and event) should now be placed in "frontmatter/bibinfo".  To ensure a title page is created, put only the empty element "titlepage-items" inside "titlepage".  Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located at: pretext/book/frontmatter/titlepage
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "colophon" element inside the "frontmatter" (credit, copyright, edition, and website) should now be placed in "frontmatter/bibinfo". To produce a "colophon", include only the empty element "colophon-items" inside "colophon" Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located at: pretext/book/frontmatter/colophon
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2026-05-11) the "me" and "men" elements have been deprecated.  The replacement is an "md" with no "mrow" children, and numbering is controlled by the "@number" attribute, or a global setting in "docinfo". (19 times)
+INFO    : *              located at: pretext/book/chapter/section/assemblage/p/ul/li/p/me
+INFO    : *              located within: "sec-1-1" (xml:id), "Linear Models" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/me
+INFO    : *              located within: "act-1-1-1" (xml:id), " Making and Reading a Graph" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/introduction/p/me
+INFO    : *              located within: "Solving Equations and Inequalities" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/p/me
+INFO    : *              located within: "act-1-4-1" (xml:id), "Calculating Rate of Change" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/p/me
+INFO    : *              located within: "Some Powers and Roots" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/p/ol/li/p/me
+INFO    : *              located within: "act-2-5-1" (xml:id), "Solving Absolute Value Equations" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/introduction/p/me
+INFO    : *              located within: "act-3-3-2" (xml:id), "Heart Rate" (title)
+INFO    : *              located at: pretext/book/chapter/section/subsection/p/ol/li/p/me
+INFO    : *              located within: "Checkpoint" (title)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2026-07-31) the document-wide style of cross-reference text is now a "text" attribute on an "xrefs" element within "docinfo/defaults", replacing the "cross-references" element.  We will honor your intent, but please convert to the new form. (1 time)
+INFO    : *              located at: pretext/docinfo/cross-references
+INFO    : * --------------
+FATAL   : * PTX:FATAL:   a <sidebyside> or <sbsgroup> does not have enough "@valigns" (maybe you did not specify enough?)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/sidebyside
+INFO    : *              located within: "act-5-2-2" (xml:id), "A Log Function" (title)
+FATAL   : * PTX:FATAL:   Quitting...
+ERROR   : processing with C:\Users\kyosh\.ptx\2.56.2\core\xsl\pretext-html.xsl has failed
+
+FATAL   : PTX:FATAL:   Quitting...
+INFO    : ------------------------
+exit    : Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

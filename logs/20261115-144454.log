@@ -1,0 +1,16 @@
+WARNING : Using CLI version 2.56.2 but project's `requirements.txt`
+WARNING : is configured to use 1.0.3. Consider either installing
+WARNING : CLI version 1.0.3 or running `pretext update-project`
+WARNING : to update `requirements.txt` and other managed files to match 2.56.2.
+WARNING : Resource project.ptx has been modified since created by PreTeXt and will not be updated.
+
+WARNING : Resource .gitignore has been modified since created by PreTeXt and will not be updated.
+
+INFO    : Generated resource file devcontainer.json.
+WARNING : Resource requirements.txt has been modified since created by PreTeXt and will not be updated.
+
+INFO    : Generated resource file pretext-cli.yml.
+INFO    : Generated resource file pretext-deploy.yml.
+INFO    : Generated resource file installPandoc.sh.
+INFO    : Project updated successfully.
+INFO    : 

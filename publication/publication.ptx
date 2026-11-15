@@ -2,7 +2,7 @@
 <publication>
     <!-- directories are relative to the main source PreTeXt file -->
     <source>
-        <directories external="../assets" generated="../generated-assets"/>
+        
     </source>
     <numbering>
     <!-- the divisions element describes the numbering of divisions.  -->
@@ -36,6 +36,7 @@
     <!-- Whether to knowl a particular elements is set here    -->
     <!-- Lots of elements have this possibility; see the guide -->
     <knowl remark="no" example="no" proof="no"  exercise-inline="no"/>
-    <css theme="denver" color-meta="#ffcccc" palette="primaries" color-fact="#009999" color-do="#9966ff" color-main="#006699"/>  <!-- denver sets off inline exercises -->
+<!--     <css theme="denver" color-meta="#ffcccc" palette="primaries" color-fact="#009999" color-do="#9966ff" color-main="#006699"/>  Denver sets off inline exercises -->
+    <css theme="default-modern"/>  <!-- denver sets off inline exercises -->
      </html>
 </publication>

@@ -16,7 +16,7 @@
 <activity><title> Graphing a Linear Inequality</title>
 
 <introduction><p>Graph the solutions to the linear inequality    
-      <me>3x - y \le -2</me></p>
+      <md><mrow>3x - y \le -2</mrow></md></p>
       
       <aside component="instructor"><p>Begin by asking the class:  How is an inequality in two variables different from an equation? How are the solutions different? How are their graphs different? (Remember that a graph is just a picture of all the solutions.)</p></aside>
   

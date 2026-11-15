@@ -22,7 +22,7 @@
 
       <aside component="instructor"><p>Students can sketch the inverse graphs either by interchanging the coordinates of points on the graph or by working out the formula for the inverse first. They can use one method to check the other.</p></aside>
 
-<p><ol label="a" cols="2">
+<p><ol marker="a." cols="2">
 <li><p><m>y=x^2</m></p>
     <image source="actMFG-5-1-1.png" width="100%"><description>graph of y=x^2</description></image></li>
 

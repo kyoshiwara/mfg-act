@@ -61,23 +61,23 @@
 
 <p><ol>
 <li><p><ol marker="a.">
-    <li><p>Follow the steps to solve <m>~~x^2-6x-16=0</m></p>.
+    <li><p>Follow the steps to solve <m>~~x^2-6x-16=0</m></p>
 
         <p>Move the constant term to the other side of the equation:
-            <md>x^2-6x~~~~~~~~~~~~~~~~~=16</md></p>
+            <md><mrow>x^2-6x~~~~~~~~~~~~~~~~~=16</mrow></md></p>
         <p>Complete the square on the left side:   
-            <md>p=\frac{1}{2}(-6)=<fillin/>~~~~\text{and}~~~~~p^2=(-3)^2=<fillin/></md></p>              
+            <md><mrow>p=\frac{1}{2}(-6)=<fillin/>~~~~\text{and}~~~~~p^2=(-3)^2=<fillin/></mrow></md></p>              
         <p>Add 9 to both sides of the equation:
-            <md>x^2-6x+\alert{9} = 16+\alert{9}</md></p>
+            <md><mrow>x^2-6x+\alert{9} = 16+\alert{9}</mrow></md></p>
         <p>Write the left side as the square of a binomial: 
-            <md>(<fillin/>)^2 = 25</md></p>                  
+            <md><mrow>(<fillin/>)^2 = 25</mrow></md></p>                  
         <p>Use extraction of roots to find the solutions: take the square root of both sides.                   
             <md><mrow>x-3 \amp = <fillin/>~~~~\text{or}~~~~ x-3 = <fillin/></mrow>
                 <mrow>  x \amp = <fillin/>~~~~\text{or}~~~~~~~~~~~ x = <fillin/></mrow></md></p>                                   
         <p>The solutions are <fillin/> and <fillin/>.</p></li>
 
     <li><sidebyside widths="50% 40%"><p>Graph the parabola 
-          <md>y=x^2-6x-16</md>  
+          <md><mrow>y=x^2-6x-16</mrow></md>  
         with technology, and copy the graph onto the grid.  What are the <m>x</m>-intercepts of the graph?</p>
           <image source="act-3-4-5.png"><description>Grid [-4,8]x[-18,6]</description></image></sidebyside></li>
       </ol></p></li>
@@ -86,7 +86,7 @@
 
         <p>Move the constant term to the right side:</p>
         <p>Complete the square on the left side:  
-            <md>p=\frac{1}{2}(-8)=<fillin/>~~~~\text{and}~~~~~p^2=<fillin/></md></p>                                            
+            <md><mrow>p=\frac{1}{2}(-8)=<fillin/>~~~~\text{and}~~~~~p^2=<fillin/></mrow></md></p>                                            
         <p>Add <m>p^2</m> to both sides:</p>
         <p>Write the left side as the square of a binomial, and simplify the right side:</p>
         <p>Extract roots to obtain two solutions: </p>
@@ -112,7 +112,7 @@
       <p>Use a calculator to find decimal approximations for each solution. Round to thousandths:</p></li>
 
 <li><sidebyside widths="50% 35%"><p>Graph the parabola 
-        <md>y=4x^2-12x-1</md> 
+        <md><mrow>y=4x^2-12x-1</mrow></md> 
     in the standard window, and copy the graph onto the grid. What are the <m>x</m>-intercepts of the graph?</p>
         <image source="act-3-4-6.png"><description>Grid [-5,5]x[-10,10]</description></image></sidebyside></li>
 </ol></p>

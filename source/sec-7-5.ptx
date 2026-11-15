@@ -112,13 +112,13 @@
 
 <activity xml:id="act-7-5-5"><title>Solving Formulas</title>
 
-<p>Follow the steps to solve for <m>B</m>: <me>\dfrac{1}{R} = \dfrac{1}{A} +\dfrac{1}{B}</me> </p>
+<p>Follow the steps to solve for <m>B</m>: <md><mrow>\dfrac{1}{R} = \dfrac{1}{A} +\dfrac{1}{B}</mrow></md> </p>
 
           <aside component="instructor"><p>Emphasize that we should "get the variable out of the denominator" before we can isolate it. (Students sometimes mistakenly solve for <m>\dfrac{1}{B}</m>, somehow thinking they can ignore the 1 in the numerator.)</p></aside>
     <p><ol marker="1.">
         <li><p>Find the LCD of all the fractions in the equation.    <m>LCD = </m></p></li>
         <li><p>Multiply each term by the LCD:    
-                <me>~~\blert{\dfrac{<fillin/>}{1}} \cdot  \dfrac{1}{R} = \dfrac{1}{A} \cdot \blert{\dfrac{<fillin/>}{1}} +\dfrac{1}{B} \cdot \blert{\dfrac{<fillin/>}{1}}</me></p></li>    
+                <md><mrow>~~\blert{\dfrac{<fillin/>}{1}} \cdot  \dfrac{1}{R} = \dfrac{1}{A} \cdot \blert{\dfrac{<fillin/>}{1}} +\dfrac{1}{B} \cdot \blert{\dfrac{<fillin/>}{1}}</mrow></md></p></li>    
         <li><p>Simplify. </p></li>  
         <li><p>Get all terms with <m>B</m> on one side.</p></li>
         <li><p>Now here is the new part:  If you have two terms containing the variable (<m>B</m> in this case), you should factor out the variable:</p></li>
