@@ -2,7 +2,8 @@
 <publication>
     <!-- directories are relative to the main source PreTeXt file -->
     <source>
-        
+     <version include="main"/> <!-- instructor asides -->
+       
     </source>
     <numbering>
     <!-- the divisions element describes the numbering of divisions.  -->
