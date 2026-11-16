@@ -11,6 +11,7 @@
     <target name="print" format="pdf" source="mfg-act.ptx" publication="publication.ptx" />
     <target name="subset" format="html" source="test-section.ptx" publication="publication-test.ptx" />
     <target name="subset-instructor" format="html" source="test-section.ptx" publication="publication-instructor.ptx" />
+    <target name="instructor" format="html" source="mfg-act.ptx" publication="publication-instructor.ptx" />
   </targets>
 </project>
 

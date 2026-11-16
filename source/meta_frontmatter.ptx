@@ -31,9 +31,14 @@
 
   
   <preface xml:id="meta_frontmatter-preface">
-    <p>This Activities Workbook provides a Lesson for each section in the book, consisting of Activities for students to complete in groups or with guidance from the instructor; or they can be used as support for a lecture format. The Lessons are designed to show students how the mathematical techniques they are learning can be applied to study and understand new situations. Each Lesson ends with a Wrap-Up and a set of "Check Your Understanding" questions for discussion.</p>
+    <p>This Activities Workbook provides a Lesson for each section in the book, consisting of Activities for students to complete in groups or with guidance from the instructor; or they can be used as support for a lecture format. The Lessons are designed to show students how the mathematical techniques they are learning can be applied to study and understand new situations.</p>
 
-    <p>The Instructor's version of the Workbook contains an overview and teaching notes for each Lesson, including suggestions for using the Workbook and how to structure class time. There are also suggested questions for writing or discussion.</p>
+    <p>The Instructor's version of the Workbook contains an overview and teaching notes for each Lesson, including suggestions for using the Workbook and how to structure class time. We hope to point out areas where students run into problems and some of the errors they fall into. Experienced teachers will already be aware of these pitfalls, but perhaps a preview will help newer instructors prepare for the inevitable.</p>
+
+    <p>We also list the objectives for the Lesson, some suggested Concept Questions, and Questions for Writing or Discussion.  As their name implies, you can ask students to turn in written responses to these questions, or they can be used to initiate class discussion. Concept Questions are multiple choice and can be delivered via a personal response system ("clickers"), or you can issue each student a set of colored index cards for answering the questions.  Alternatively, any of these questions can be used on quizzes or tests. </p>
+
+    <p>If you wish, class time can be spent primarily on the Activities.  You may want to give a brief introduction, but should start on the Activities as soon as possible to allow students sufficient time. Usually, students should work on the Activities in groups of three or four, while you circulate to answer questions and provide support.  For some Lessons it is more effective to lead the class as a whole in a guided inquiry.  Allow time at the end of class for a summary and wrap-up.</p>
+
   </preface>
 
 </frontmatter>
